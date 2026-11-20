@@ -1,0 +1,53 @@
+name: transcrever
+# De hora em hora: transcreve as lives novas dos canais autorizados (canais.json) para a Produção GTA VI escolher os momentos.
+on:
+  schedule:
+    - cron: "40 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: transcrever
+  cancel-in-progress: false
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - name: Escolher lives
+        id: lista
+        run: |
+          python3 - <<'PY' > fila.txt
+          import json, os
+          c = json.load(open("canais.json"))
+          ok = {x["nome"] for x in c["canais"] if x.get("autorizado")}
+          for l in open("lives.md", encoding="utf8"):
+              p = [x.strip() for x in l.split("|")]
+              if len(p) > 3 and p[1].endswith(".mp4") and p[2] in ok:
+                  if not os.path.exists(f"transcricoes/{p[1][:-4]}.json"):
+                      print(p[1])
+          PY
+          cat fila.txt; echo "n=$(wc -l < fila.txt)" >> $GITHUB_OUTPUT
+      - name: Ferramentas
+        if: steps.lista.outputs.n != '0'
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          pip install -q faster-whisper
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - name: Transcrever (uma live por vez)
+        if: steps.lista.outputs.n != '0'
+        run: |
+          mkdir -p transcricoes trab
+          while read -r F; do
+            [ -n "$F" ] || continue
+            rclone copyto "drive:Direto de Vice/01-Brutos/Lives/$F" "trab/$F" || { echo "não está no Drive: $F"; continue; }
+            python3 edicao/transcrever.py "trab/$F" "transcricoes/${F%.mp4}.json" || echo "falhou: $F"
+            rm -f trab/*
+            git config user.name "editor" && git config user.email "editor@users.noreply.github.com"
+            git add transcricoes && git commit -qm "transcrição: $F" || true
+            for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 7; done
+          done < fila.txt
