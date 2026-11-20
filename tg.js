@@ -1,6 +1,6 @@
-// Arquivo do Direto de Vice no Telegram (grupo privado com pastas = tópicos).
+// Arquivo da StudioTube no Telegram (grupo privado com pastas = tópicos).
 // node tg.js login                      → no PC do Victor, uma vez: gera a autorização (fica em %APPDATA%\direto-de-vice\telegram.json)
-// node tg.js criar                      → cria o grupo "Direto de Vice · Arquivo" com as pastas e grava tg.json
+// node tg.js criar                      → cria o grupo "StudioTube" com as pastas e grava tg.json
 // node tg.js enviar <arquivo> <pasta> "<legenda>"   → pasta = lives | cortes | postados | material
 // Na nuvem a autorização vem do segredo TG_CONF (o mesmo JSON), nunca de arquivo do repositório.
 const fs = require("fs"), path = require("path"), os = require("os");
@@ -40,7 +40,7 @@ async function login() {
 
 async function criar() {
   const cli = await cliente(conf()); await cli.connect();
-  const r = await cli.invoke(new Api.channels.CreateChannel({ title: "Direto de Vice · Arquivo", about: "Arquivo do canal: lives brutas, cortes, vídeos postados e material.", megagroup: true, forum: true }));
+  const r = await cli.invoke(new Api.channels.CreateChannel({ title: "StudioTube", about: "Arquivo da StudioTube: lives brutas, cortes, vídeos postados e material de todos os canais.", megagroup: true, forum: true }));
   const canal = r.chats[0];
   const out = { channelId: canal.id.toString(), accessHash: canal.accessHash.toString(), pastas: {} };
   const peer = new Api.InputChannel({ channelId: canal.id, accessHash: canal.accessHash });
