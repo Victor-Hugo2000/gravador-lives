@@ -6,6 +6,7 @@ on:
       canal: { required: true }
       url: { required: true }
       titulo: { required: true }
+      minutos: { required: false, default: "350" }
 permissions:
   contents: write
 concurrency:
@@ -36,7 +37,7 @@ jobs:
           NOME="$(date +%Y-%m-%d-%H%M)-$CANAL-${SLUG:-live}.mp4"
           echo "NOME=$NOME" >> $GITHUB_ENV
           echo "INICIO=$(date +%s)" >> $GITHUB_ENV
-          timeout -s INT 350m yt-dlp --js-runtimes node --hls-use-mpegts --no-part --no-warnings \
+          timeout -s INT ${{ inputs.minutos }}m yt-dlp --js-runtimes node --hls-use-mpegts --no-part --no-warnings \
             -f "best[height<=720]/bv*[height<=720]+ba/best" --merge-output-format mp4 -o "$NOME" "$URL" || true
           ls -la
       - name: Mandar para o Drive e anotar no índice
