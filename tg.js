@@ -2,6 +2,7 @@
 // node tg.js login                      → no PC do Victor, uma vez: gera a autorização (fica em %APPDATA%\direto-de-vice\telegram.json)
 // node tg.js criar                      → cria o grupo "StudioTube" com as pastas e grava tg.json
 // node tg.js enviar <arquivo> <pasta> "<legenda>"   → pasta = lives | cortes | postados | material
+// node tg.js avisar <pasta> "<texto>"               → mensagem de texto numa pasta (avisos da Agenda e da Produção)
 // Na nuvem a autorização vem do segredo TG_CONF (o mesmo JSON), nunca de arquivo do repositório.
 const fs = require("fs"), path = require("path"), os = require("os");
 const { TelegramClient, Api } = require("telegram");
@@ -68,5 +69,15 @@ async function enviar(arquivo, pasta, legenda) {
   await cli.disconnect(); process.exit(0);
 }
 
+async function avisar(pasta, texto) {
+  const g = JSON.parse(fs.readFileSync(TGJSON, "utf8"));
+  if (!g.pastas[pasta]) throw new Error("pasta desconhecida: " + pasta);
+  const cli = await cliente(conf()); await cli.connect();
+  const peer = new Api.InputPeerChannel({ channelId: BigInt(g.channelId), accessHash: BigInt(g.accessHash) });
+  for (let i = 0; i < texto.length; i += 3900) await cli.sendMessage(peer, { message: texto.slice(i, i + 3900), replyTo: g.pastas[pasta], linkPreview: false });
+  console.log("AVISO ENVIADO →", PASTAS[pasta]);
+  await cli.disconnect(); process.exit(0);
+}
+
 const [cmd, ...a] = process.argv.slice(2);
-({ login, criar, enviar: () => enviar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar <arquivo> <pasta> <legenda>");
+({ login, criar, enviar: () => enviar(...a), avisar: () => avisar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar <arquivo> <pasta> <legenda>");

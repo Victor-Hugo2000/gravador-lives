@@ -1,0 +1,31 @@
+name: avisar
+# Manda para o grupo StudioTube no Telegram cada aviso novo em avisos/*.md (Agenda do dia, Produção, Balanço).
+# Primeira linha do arquivo pode ser "pasta: cortes|material|lives|postados" (padrão: cortes).
+on:
+  push:
+    paths: ["avisos/*.md"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: avisar
+  cancel-in-progress: false
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci --silent
+      - env:
+          TG_CONF: ${{ secrets.TG_CONF }}
+        run: |
+          git config user.name "avisos" && git config user.email "avisos@users.noreply.github.com"
+          for F in avisos/*.md; do
+            [ -f "$F" ] || continue
+            PASTA=$(head -1 "$F" | sed -n 's/^pasta: *//p'); PASTA=${PASTA:-cortes}
+            TXT=$(grep -v '^pasta:' "$F")
+            node tg.js avisar "$PASTA" "$TXT" && git mv "$F" "avisos/enviados/$(basename "$F")"
+          done
+          git commit -qm "avisos enviados" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
