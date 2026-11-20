@@ -67,6 +67,30 @@ def duracao_de(v):
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", v], capture_output=True, text=True)
     return float(r.stdout.strip() or 0)
 
+def conferir(video):
+    """Conferência técnica: tamanho, duração, som e tela preta. Devolve a lista de problemas (vazia = ok)."""
+    problemas = []
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                        "-of", "csv=p=0", video], capture_output=True, text=True).stdout.strip()
+    if r != "1080,1920":
+        problemas.append(f"tamanho {r}, esperado 1080x1920")
+    d = duracao_de(video)
+    if not 15 <= d <= 60:
+        problemas.append(f"duração {d:.0f} s, fora de 15 a 60 s")
+    a = subprocess.run(["ffmpeg", "-v", "info", "-i", video, "-af", "volumedetect", "-vn", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    import re
+    m = re.search(r"mean_volume: (-?[\d.]+) dB", a)
+    if not m:
+        problemas.append("sem som")
+    elif float(m.group(1)) < -35:
+        problemas.append(f"som muito baixo ({m.group(1)} dB)")
+    b = subprocess.run(["ffmpeg", "-v", "info", "-i", video, "-vf", "blackdetect=d=1.5:pix_th=0.1", "-an", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    for x in re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", b):
+        problemas.append(f"tela preta de {float(x[0]):.0f} a {float(x[1]):.0f} s")
+    return problemas
+
 def main(pedido_json, pasta):
     p = json.load(open(pedido_json, encoding="utf8"))
     os.makedirs(pasta, exist_ok=True)
@@ -100,7 +124,10 @@ def main(pedido_json, pasta):
     final = os.path.join(pasta, p["saida"])
     sh("ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"ass={ass}", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
        "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", final)
-    print("PRONTO", final, f"{dur:.1f}s", flush=True)
+    problemas = conferir(final)
+    json.dump({"video": p["saida"], "duracao": round(duracao_de(final), 1), "problemas": problemas},
+              open(os.path.join(pasta, "conferencia.json"), "w", encoding="utf8"), ensure_ascii=False)
+    print("PRONTO", final, f"{dur:.1f}s", "| conferência:", "; ".join(problemas) or "ok", flush=True)
 
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])

@@ -23,3 +23,19 @@ Os robôs do GitHub editam; o Claude escolhe o que editar.
 GTA VI: `"fonte": {"drive": "Direto de Vice/01-Brutos/Lives/<arquivo>.mp4"}` e `"legendas"` com a tradução em português escrita pelo Claude, com tempos relativos ao vídeo montado (`[{"inicio","fim","texto"}]`), ou `"auto"`.
 
 Vídeo pronto **não é vídeo postado**: postar continua com o ok do Victor.
+
+## Postagem (robô `publicar`, desligado até ter as credenciais)
+Um arquivo por vídeo em `publicar/AAAA-MM-DD-nome.json`. Só posta se `aprovadoPeloVictor` for `true`.
+```json
+{
+  "projeto": "darks-clips",
+  "arquivo": "Direto de Vice/Darks Clips/02-Prontos/2026-11-21-nome.mp4",
+  "titulo": "Ninguém cresce no conforto #shorts #disciplina",
+  "descricao": "Fala: Flávio Augusto. #disciplina #mentalidade",
+  "tags": ["disciplina", "motivação"],
+  "quando": "2026-11-21T18:00:00-03:00",
+  "feitoComIA": false,
+  "aprovadoPeloVictor": true
+}
+```
+Segredos do GitHub necessários: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN_GTA`, `YT_REFRESH_TOKEN_DARKS`. Depois de postar, o vídeo vai para "✅ Vídeos postados" no Telegram e sai do Drive (`arquivar.yml`). TikTok: entra quando o app de desenvolvedor for aprovado.

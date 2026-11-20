@@ -43,8 +43,11 @@ jobs:
             PROJ=${PROJ//_/ }
             if python3 edicao/editar.py "$P" "trab"; then
               rclone copy "trab/$SAIDA" "drive:Direto de Vice/$PROJ/02-Prontos" && echo "no Drive: $PROJ/02-Prontos/$SAIDA"
+              CONF=$(python3 -c "import json;c=json.load(open('trab/conferencia.json'));print('✅ conferência técnica ok' if not c['problemas'] else '⚠️ conferir: '+'; '.join(c['problemas']))")
+              mkdir -p conferencias && cp trab/conferencia.json "conferencias/${NOME%.json}.json"
               if [ -n "$TG_CONF" ] && [ -f tg.json ]; then node tg.js enviar "trab/$SAIDA" cortes "🎬 Pronto para revisar · $PROJ
           $TITULO
+          $CONF
           Drive: Direto de Vice/$PROJ/02-Prontos/$SAIDA" || true; fi
               git mv "$P" "pedidos/feitos/$NOME"
               # a live só vira "usada" (e sai do Drive na faxina) quando não sobra pedido dela na fila
@@ -53,6 +56,6 @@ jobs:
               mkdir -p pedidos/erros && git mv "$P" "pedidos/erros/$NOME"
             fi
             rm -rf trab
-            git add -A pedidos usadas.txt && git commit -qm "edição: $NOME" || true
+            git add -A pedidos usadas.txt conferencias && git commit -qm "edição: $NOME" || true
             for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 7; done
           done

@@ -1,0 +1,51 @@
+name: publicar
+# Posta no YouTube os vídeos APROVADOS PELO VICTOR (publicar/*.json). Ver edicao/LEIA.md.
+# Fica desligado (não posta nada) enquanto faltarem as credenciais do YouTube nos segredos.
+on:
+  push:
+    paths: ["publicar/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ferramentas
+        run: |
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - name: Postar
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_GTA: ${{ secrets.YT_REFRESH_TOKEN_GTA }}
+          YT_REFRESH_TOKEN_DARKS: ${{ secrets.YT_REFRESH_TOKEN_DARKS }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "postador" && git config user.email "postador@users.noreply.github.com"
+          for P in publicar/*.json; do
+            [ -f "$P" ] || continue
+            ARQ=$(python3 -c "import json;print(json.load(open('$P'))['arquivo'])")
+            python3 -c "import json,sys;p=json.load(open('$P'));sys.exit(0 if p.get('aprovadoPeloVictor') else 1)" || { echo "sem aprovação do Victor: $P"; continue; }
+            rclone copyto "drive:$ARQ" video.mp4 || { echo "não achei no Drive: $ARQ"; continue; }
+            set +e; python3 edicao/publicar_youtube.py "$P" video.mp4 | tee saida.txt; R=${PIPESTATUS[0]}; set -e
+            [ "$R" = "3" ] && { echo "Postagem desligada: faltam credenciais."; break; }
+            if grep -q "^POSTADO" saida.txt; then
+              LINK=$(grep "^POSTADO" saida.txt | cut -d' ' -f2)
+              python3 -c "import json;p=json.load(open('$P'));p['link']='$LINK';json.dump(p,open('$P','w'),ensure_ascii=False,indent=1)"
+              git mv "$P" "publicar/feitos/$(basename "$P")"
+              gh workflow run arquivar.yml -f "arquivo=$ARQ" -f pasta=postados -f "legenda=✅ Postado: $LINK" -f tirar_do_drive=sim || true
+            fi
+            rm -f video.mp4
+          done
+          git add -A publicar && git commit -qm "postagens" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
