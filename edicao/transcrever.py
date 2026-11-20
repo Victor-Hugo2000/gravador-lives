@@ -17,7 +17,9 @@ for i in range(0, len(dados), janela):
 media = sorted(volume)[len(volume) // 2] or 1
 picos = sorted(((v / media, i * 10) for i, v in enumerate(volume)), reverse=True)[:40]
 modelo = WhisperModel("base", device="cpu", compute_type="int8")
-segs, info = modelo.transcribe(video, vad_filter=True, beam_size=1)
+import numpy as np
+audio = (np.frombuffer(open(wav, "rb").read(), np.int16).astype(np.float32) / 32768.0)
+segs, info = modelo.transcribe(audio, vad_filter=True, beam_size=1)
 frases = [[round(s.start, 1), round(s.end, 1), s.text.strip()] for s in segs]
 json.dump({"video": video, "idioma": info.language, "duracao": round(info.duration),
            "picosDeVolume": [{"segundo": s, "vezesAcimaDaMediana": round(x, 1)} for x, s in sorted(picos, key=lambda z: z[1])],

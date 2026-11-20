@@ -15,11 +15,18 @@ def tempo_ass(s):
 def limpar(t):
     return t.replace("{", "(").replace("}", ")").replace("\n", " ").strip()
 
+def audio_de(video):
+    """Lê o áudio com o ffmpeg (16 kHz mono) para a transcrição, sem depender da biblioteca 'av'."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", video, "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    return np.frombuffer(raw, np.float32)
+
 def blocos_auto(video, idioma):
     """Transcreve o vídeo montado e devolve legendas de até 3 palavras."""
     from faster_whisper import WhisperModel
     modelo = WhisperModel(os.environ.get("WHISPER", "small"), device="cpu", compute_type="int8")
-    segs, _ = modelo.transcribe(video, language=idioma or None, word_timestamps=True, vad_filter=True)
+    segs, _ = modelo.transcribe(audio_de(video), language=idioma or None, word_timestamps=True, vad_filter=True)
     palavras = [w for s in segs for w in (s.words or [])]
     out, grupo = [], []
     for w in palavras:
