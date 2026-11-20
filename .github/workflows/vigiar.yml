@@ -1,0 +1,21 @@
+name: vigiar
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: vigiar
+  cancel-in-progress: false
+jobs:
+  vigiar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q -U "yt-dlp[default]"
+      - run: node vigiar.js
+        env:
+          GH_TOKEN: ${{ github.token }}

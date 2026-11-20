@@ -1,0 +1,55 @@
+name: gravar
+run-name: gravar ${{ inputs.canal }}
+on:
+  workflow_dispatch:
+    inputs:
+      canal: { required: true }
+      url: { required: true }
+      titulo: { required: true }
+permissions:
+  contents: write
+concurrency:
+  group: gravar-${{ inputs.canal }}
+  cancel-in-progress: false
+jobs:
+  gravar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      TZ: America/Sao_Paulo
+      CANAL: ${{ inputs.canal }}
+      URL: ${{ inputs.url }}
+      TITULO: ${{ inputs.titulo }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ferramentas
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          pip install -q -U "yt-dlp[default]"
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - name: Gravar (até 5 h 50; live maior continua no robô seguinte)
+        run: |
+          SLUG=$(echo "$TITULO" | iconv -f utf8 -t ascii//TRANSLIT | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9]\+/-/g; s/^-//; s/-$//' | cut -c1-40)
+          NOME="$(date +%Y-%m-%d-%H%M)-$CANAL-${SLUG:-live}.mp4"
+          echo "NOME=$NOME" >> $GITHUB_ENV
+          echo "INICIO=$(date +%s)" >> $GITHUB_ENV
+          timeout -s INT 350m yt-dlp --js-runtimes node --hls-use-mpegts --no-part --no-warnings \
+            -f "best[height<=720]/bv*[height<=720]+ba/best" --merge-output-format mp4 -o "$NOME" "$URL" || true
+          ls -la
+      - name: Mandar para o Drive e anotar no índice
+        run: |
+          [ -f "$NOME" ] || { echo "nada gravado"; exit 0; }
+          TAM=$(stat -c %s "$NOME")
+          [ "$TAM" -gt 5000000 ] || { echo "gravação curta, descartada"; exit 0; }
+          rclone copy "$NOME" "drive:Direto de Vice/01-Brutos/Lives" --drive-chunk-size 64M
+          MIN=$(( ( $(date +%s) - INICIO ) / 60 ))
+          git config user.name "gravador" && git config user.email "gravador@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase
+            echo "| $NOME | $CANAL | $(date +%Y-%m-%d) | ${TITULO//|//} | $URL | ~$MIN min | $((TAM/1000000)) MB |" >> lives.md
+            git add lives.md && git commit -qm "live gravada: $NOME" && git push -q && break
+            git reset -q --hard origin/main; sleep $((RANDOM % 20))
+          done

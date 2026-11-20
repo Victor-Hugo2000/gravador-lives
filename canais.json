@@ -1,0 +1,26 @@
+{
+  "_leia": "Canais vigiados pelo gravador de lives. autorizado=true só quando a autorização estiver guardada em H:\\Meu Drive\\Direto de Vice\\04-Autorizacoes (ou liberado em regra pública). Gravar não é publicar: o fluxo de edição para sem autorização.",
+  "filtroTitulo": "gta|\\brp\\b|roleplay|vice|los santos|leonida|cidade alta|complexo|nopixel",
+  "canais": [
+    { "nome": "xqc", "urls": ["https://www.twitch.tv/xqc", "https://kick.com/xqc"], "autorizado": true, "condicao": "esperar 24 h depois da live; não repetir o que o canal oficial postou" },
+    { "nome": "paulinholoko", "urls": ["https://www.twitch.tv/paulinholoko", "https://www.youtube.com/@PaulinhoLOKOoficial/live"], "autorizado": false },
+    { "nome": "coringa", "urls": ["https://www.twitch.tv/coringa", "https://www.youtube.com/@LOUDCoringa/live"], "autorizado": false },
+    { "nome": "piuzinho", "urls": ["https://www.twitch.tv/piuzinho", "https://www.youtube.com/@piuzinho/live"], "autorizado": false },
+    { "nome": "brunoplayhard", "urls": ["https://www.twitch.tv/brunoplayhard", "https://www.youtube.com/@bruno.playhard/live"], "autorizado": false },
+    { "nome": "cellbit", "urls": ["https://www.twitch.tv/cellbit", "https://www.youtube.com/@CellbitLives/live"], "autorizado": false },
+    { "nome": "felps", "urls": ["https://www.twitch.tv/felps", "https://www.youtube.com/@FelpsLIVE/live"], "autorizado": false },
+    { "nome": "casimiro", "urls": ["https://www.twitch.tv/casimito"], "autorizado": false },
+    { "nome": "gaules", "urls": ["https://www.twitch.tv/gaules"], "autorizado": false },
+    { "nome": "kaicenat", "urls": ["https://www.twitch.tv/kaicenat"], "autorizado": false },
+    { "nome": "funkyblackcat", "urls": ["https://www.youtube.com/@funkyblackcat/live"], "autorizado": false },
+    { "nome": "davyjones", "urls": ["https://www.youtube.com/@DavyJonesGTA6/live"], "autorizado": false },
+    { "nome": "flowgames", "urls": ["https://www.youtube.com/@FlowGamesPodcast/live"], "autorizado": false },
+    { "nome": "gamercosta", "urls": ["https://www.youtube.com/@GamerCosta/live"], "autorizado": false },
+    { "nome": "lipaogamer", "urls": ["https://www.youtube.com/@LipaoGamer/live"], "autorizado": false },
+    { "nome": "skorpion", "urls": ["https://www.youtube.com/@SkorpionOFICIAL/live"], "autorizado": false },
+    { "nome": "marlonxgamer", "urls": ["https://www.youtube.com/@CanalMarlonXGamer/live"], "autorizado": false },
+    { "nome": "vitaogta", "urls": ["https://www.youtube.com/@VitorRossignolli/live"], "autorizado": false },
+    { "nome": "nobertogamer", "urls": ["https://www.youtube.com/@NobertoGamer/live"], "autorizado": false },
+    { "nome": "gigaton", "urls": ["https://www.youtube.com/@gigatongames/live"], "autorizado": false }
+  ]
+}
