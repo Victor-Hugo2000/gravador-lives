@@ -1,0 +1,35 @@
+name: arquivar
+run-name: arquivar ${{ inputs.arquivo }}
+# Leva um arquivo do Drive para uma pasta do Telegram e, se pedido, tira do Drive.
+# A postagem automática chama este robô depois de postar (pasta "postados", tirar_do_drive=sim).
+# Exemplo: gh workflow run arquivar.yml -f "arquivo=Direto de Vice/02-Prontos/Shorts/c001-x.mp4" -f pasta=postados -f "legenda=..." -f tirar_do_drive=sim
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo: { required: true, description: "caminho no Drive" }
+      pasta: { required: true, description: "lives | cortes | postados | material" }
+      legenda: { required: false, default: "" }
+      tirar_do_drive: { required: false, default: "nao" }
+permissions:
+  contents: read
+jobs:
+  arquivar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          npm ci --silent
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - env:
+          TG_CONF: ${{ secrets.TG_CONF }}
+          ARQ: ${{ inputs.arquivo }}
+          LEG: ${{ inputs.legenda }}
+        run: |
+          rclone copy "drive:$ARQ" .
+          F=$(basename "$ARQ")
+          node tg.js enviar "$F" "${{ inputs.pasta }}" "${LEG:-$F}"
+          if [ "${{ inputs.tirar_do_drive }}" = "sim" ]; then rclone delete "drive:$ARQ" && echo "saiu do Drive: $ARQ"; fi

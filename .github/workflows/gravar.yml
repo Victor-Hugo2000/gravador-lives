@@ -29,6 +29,7 @@ jobs:
           pip install -q -U "yt-dlp[default]"
           curl -s https://rclone.org/install.sh | sudo bash > /dev/null
           mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          npm ci --silent
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       - name: Gravar (até 5 h 50; live maior continua no robô seguinte)
@@ -40,17 +41,37 @@ jobs:
           timeout -s INT ${{ inputs.minutos }}m yt-dlp --js-runtimes node --hls-use-mpegts --no-part --no-warnings \
             -f "best[height<=720]/bv*[height<=720]+ba/best" --merge-output-format mp4 -o "$NOME" "$URL" || true
           ls -la
-      - name: Mandar para o Drive e anotar no índice
+      - name: Drive (mesa de trabalho)
         run: |
-          [ -f "$NOME" ] || { echo "nada gravado"; exit 0; }
-          TAM=$(stat -c %s "$NOME")
-          [ "$TAM" -gt 5000000 ] || { echo "gravação curta, descartada"; exit 0; }
+          [ -f "$NOME" ] || { echo "nada gravado"; echo "PULAR=1" >> $GITHUB_ENV; exit 0; }
+          TAM=$(stat -c %s "$NOME"); echo "TAM=$TAM" >> $GITHUB_ENV
+          [ "$TAM" -gt 5000000 ] || { echo "gravação curta, descartada"; echo "PULAR=1" >> $GITHUB_ENV; exit 0; }
           rclone copy "$NOME" "drive:Direto de Vice/01-Brutos/Lives" --drive-chunk-size 64M
+      - name: Telegram (arquivo para sempre, em partes de 1 h)
+        if: env.PULAR != '1'
+        env:
+          TG_CONF: ${{ secrets.TG_CONF }}
+        run: |
+          if [ -z "$TG_CONF" ] || [ ! -f tg.json ]; then echo "Telegram ainda não ligado"; echo "TG=não" >> $GITHUB_ENV; exit 0; fi
+          mkdir -p partes
+          ffmpeg -v error -i "$NOME" -c copy -map 0 -f segment -segment_time 3600 -reset_timestamps 1 "partes/${NOME%.mp4}_p%02d.mp4"
+          N=$(ls partes | wc -l); I=0; OK=sim
+          for P in partes/*.mp4; do
+            I=$((I+1))
+            node tg.js enviar "$P" lives "📼 $CANAL · $(date +%d/%m/%Y) · parte $I/$N
+          $TITULO
+          $URL
+          #$CANAL #live" || OK=não
+          done
+          echo "TG=$OK" >> $GITHUB_ENV
+      - name: Anotar no índice
+        if: env.PULAR != '1'
+        run: |
           MIN=$(( ( $(date +%s) - INICIO ) / 60 ))
           git config user.name "gravador" && git config user.email "gravador@users.noreply.github.com"
           for i in 1 2 3 4 5; do
             git pull -q --rebase
-            echo "| $NOME | $CANAL | $(date +%Y-%m-%d) | ${TITULO//|//} | $URL | ~$MIN min | $((TAM/1000000)) MB |" >> lives.md
+            echo "| $NOME | $CANAL | $(date +%Y-%m-%d) | ${TITULO//|//} | $URL | ~$MIN min | $((TAM/1000000)) MB | $TG |" >> lives.md
             git add lives.md && git commit -qm "live gravada: $NOME" && git push -q && break
             git reset -q --hard origin/main; sleep $((RANDOM % 20))
           done

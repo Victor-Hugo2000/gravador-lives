@@ -1,0 +1,32 @@
+name: faxina
+# Rodízio do Drive (todo dia às 4h de Brasília). Só apaga o que já está guardado no Telegram.
+# - Lives brutas com mais de 7 dias saem do Drive (vão para a lixeira do Drive, que guarda por 30 dias).
+#   Live que ainda vai ser trabalhada: o nome dela vai em manter.txt e ela fica.
+# - Vídeos postados saem pelo robô "arquivar", chamado pela postagem automática.
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  faxina:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - name: Lives com mais de 7 dias e já no Telegram
+        run: |
+          touch manter.txt
+          rclone lsf "drive:Direto de Vice/01-Brutos/Lives" --min-age 7d --files-only | while read -r F; do
+            if grep -qxF "$F" manter.txt; then echo "fica (em trabalho): $F"; continue; fi
+            if grep -F "| $F |" lives.md | grep -q "| sim |"; then
+              rclone delete "drive:Direto de Vice/01-Brutos/Lives/$F" && echo "saiu do Drive (está no Telegram): $F"
+            else echo "fica (ainda não está no Telegram): $F"; fi
+          done
+          rclone about drive: | head -3
