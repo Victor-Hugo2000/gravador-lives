@@ -53,7 +53,7 @@ jobs:
         run: |
           if [ -z "$TG_CONF" ] || [ ! -f tg.json ]; then echo "Telegram ainda não ligado"; echo "TG=não" >> $GITHUB_ENV; exit 0; fi
           mkdir -p partes
-          ffmpeg -v error -i "$NOME" -c copy -map 0 -f segment -segment_time 3600 -reset_timestamps 1 "partes/${NOME%.mp4}_p%02d.mp4"
+          bash dividir.sh "$NOME" partes   # cada parte no máximo 1,5 GB
           N=$(ls partes | wc -l); I=0; OK=sim
           for P in partes/*.mp4; do
             I=$((I+1))

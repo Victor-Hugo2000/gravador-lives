@@ -6,6 +6,7 @@ Regras gerais:
   - na hora de editar, o bruto desce do Telegram para o robô (e para o Drive, se precisar);
   - depois que o bruto foi 100% aproveitado, sai do Drive e fica só no Telegram;
   - o vídeo pronto fica no Drive até ser postado; depois vai para "✅ Vídeos postados" no Telegram e sai do Drive.
+- **Limite de arquivo no Telegram: no máximo 1,5 GB por arquivo** (o Telegram aceita 2 GB; a folga evita erro). Toda live, podcast ou vídeo grande é dividido com `bash dividir.sh <video> <pasta>` antes de subir; na edição, `tg.js pegar` junta as partes.
 - **Nada roda no PC** do Victor. Nada precisa de conversa aberta.
 - **Aprovações vão para a Mesa do Escritório.**
 - **Postagem:** Social Echo é a principal, e já foi testada no YouTube em 21/11. O Metricool é a reserva e traz os números.

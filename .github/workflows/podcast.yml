@@ -44,7 +44,7 @@ jobs:
           # Telegram aceita até 2 GB por arquivo: divide se precisar
           mkdir -p partes
           TAM=$(stat -c %s "$ARQ")
-          if [ "$TAM" -gt 1900000000 ]; then ffmpeg -v error -i "$ARQ" -c copy -map 0 -f segment -segment_time 3600 -reset_timestamps 1 "partes/${ARQ%.mp4}_p%02d.mp4"; else cp "$ARQ" partes/; fi
+          bash dividir.sh "$ARQ" partes   # cada parte no máximo 1,5 GB
           for P in partes/*.mp4; do node tg.js enviar "$P" material "$ARQ
           🎙️ Podcast · $TIT
           $LINK
