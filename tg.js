@@ -3,6 +3,7 @@
 // node tg.js criar                      → cria o grupo "StudioTube" com as pastas e grava tg.json
 // node tg.js enviar <arquivo> <pasta> "<legenda>"   → pasta = lives | cortes | postados | material
 // node tg.js avisar <pasta> "<texto>"               → mensagem de texto numa pasta (avisos da Agenda e da Produção)
+// node tg.js achar <texto> | baixar <@bot> <link> <saida>  → download pelo bot do Telegram (Top Saver Bot)
 // Na nuvem a autorização vem do segredo TG_CONF (o mesmo JSON), nunca de arquivo do repositório.
 const fs = require("fs"), path = require("path"), os = require("os");
 const { TelegramClient, Api } = require("telegram");
@@ -79,5 +80,46 @@ async function avisar(pasta, texto) {
   await cli.disconnect(); process.exit(0);
 }
 
+
+// node tg.js achar <texto>                 → lista conversas/bots com esse nome (ex.: achar saver)
+async function achar(txt) {
+  const cli = await cliente(conf()); await cli.connect();
+  for await (const d of cli.iterDialogs({ limit: 300 })) {
+    const e = d.entity || {}; const nome = (d.title || d.name || '') + ' @' + (e.username || '');
+    if (nome.toLowerCase().includes(String(txt).toLowerCase())) console.log((e.bot ? 'BOT ' : '') + nome);
+  }
+  await cli.disconnect(); process.exit(0);
+}
+// node tg.js baixar <@bot> <link> <arquivo-saida> [minutos=20]
+// manda o link ao bot de download, aperta o botão de melhor qualidade (até 1080p) se ele perguntar, e salva o 1º vídeo que voltar.
+async function baixar(bot, link, saida, min = 20) {
+  const cli = await cliente(conf()); await cli.connect();
+  const ent = await cli.getEntity(bot);
+  const enviada = await cli.sendMessage(ent, { message: link });
+  const fim = Date.now() + Number(min) * 60000; const vistos = new Set(); let clicou = 0;
+  while (Date.now() < fim) {
+    await new Promise((r) => setTimeout(r, 5000));
+    const msgs = await cli.getMessages(ent, { limit: 15, minId: enviada.id });
+    for (const m of [...msgs].reverse()) {
+      if (m.out || vistos.has(m.id + ':' + (m.editDate || 0))) continue;
+      vistos.add(m.id + ':' + (m.editDate || 0));
+      if (m.message) console.log('BOT:', m.message.slice(0, 300).replace(/\n/g, ' | '));
+      const doc = m.media && (m.video || m.document);
+      if (doc) {
+        console.log('baixando arquivo do bot...');
+        await cli.downloadMedia(m, { outputFile: saida, progressCallback: (a, t) => process.stdout.write(' ' + Math.round(Number(a) * 100 / Number(t || 1)) + '%') });
+        console.log('\nSALVO', saida); await cli.disconnect(); process.exit(0);
+      }
+      if (m.buttons && clicou < 3) {
+        const todos = m.buttons.flat(); const pref = ['1080', '720', 'mp4', 'vídeo', 'video', 'download', 'baixar'];
+        let b = null; for (const p of pref) { b = todos.find((x) => (x.text || '').toLowerCase().includes(p)); if (b) break; }
+        if (b) { console.log('apertando:', b.text); await m.click({ text: b.text }); clicou++; }
+        else console.log('BOTÕES:', todos.map((x) => x.text).join(' / '));
+      }
+    }
+  }
+  console.error('ERRO: o bot não devolveu vídeo em ' + min + ' min'); await cli.disconnect(); process.exit(2);
+}
+
 const [cmd, ...a] = process.argv.slice(2);
-({ login, criar, enviar: () => enviar(...a), avisar: () => avisar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar <arquivo> <pasta> <legenda>");
+({ login, criar, enviar: () => enviar(...a), avisar: () => avisar(...a), achar: () => achar(...a), baixar: () => baixar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar | avisar | achar | baixar");
