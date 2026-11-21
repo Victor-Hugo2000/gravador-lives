@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: catalogar-cenas
+  group: cenas
   cancel-in-progress: false
 jobs:
   catalogar:
