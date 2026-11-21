@@ -1,0 +1,46 @@
+name: catalogar-cenas
+# Os arquivos do banco têm nomes sem sentido (ex.: SaveVid.Net_AQMd...mp4). Este robô gera 1 miniatura (3 quadros lado a lado)
+# por cena em cenas/miniaturas/<n>.jpg, 120 cenas por rodada, para a rotina do Claude descrever cada cena (cenas/catalogo.json).
+on:
+  schedule:
+    - cron: "50 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: catalogar-cenas
+  cancel-in-progress: false
+jobs:
+  catalogar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Miniaturas
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          mkdir -p cenas/miniaturas trab
+          python3 - <<'PY'
+          import json, os, subprocess
+          idx = json.load(open("cenas/indice.json", encoding="utf8"))["cenas"]
+          feitos = 0
+          for n, c in enumerate(idx):
+              out = f"cenas/miniaturas/{n:04d}.jpg"
+              if os.path.exists(out): continue
+              arq = "trab/c.mp4"
+              if subprocess.run(["rclone", "copyto", "drive:" + c["drive"], arq]).returncode: continue
+              d = subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",arq],capture_output=True,text=True).stdout.strip() or "6"
+              d = max(float(d), 1.0)
+              subprocess.run(["ffmpeg","-v","error","-y","-i",arq,"-vf",f"fps=3/{d},scale=240:-2,tile=3x1","-frames:v","1","-q:v","6",out])
+              c["duracao"] = round(d, 1); os.remove(arq); feitos += 1
+              if feitos >= 120: break
+          json.dump({"total": len(idx), "cenas": idx}, open("cenas/indice.json","w",encoding="utf8"), ensure_ascii=False, indent=1)
+          print("miniaturas novas:", feitos)
+          PY
+          git config user.name "cenas" && git config user.email "cenas@users.noreply.github.com"
+          git add cenas && git commit -qm "miniaturas do banco de cenas" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done

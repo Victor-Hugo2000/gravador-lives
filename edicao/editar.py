@@ -45,34 +45,66 @@ def blocos_auto(video, idioma):
 ESTILOS = {
     "gta-vi": ("Style: Legenda,Montserrat ExtraBold,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,8,3,2,70,70,560,1\n"
                "Style: Gancho,Montserrat ExtraBold,66,&H00000000,&H00000000,&H0000E5FF,&H0000E5FF,-1,0,0,0,100,100,0,0,3,20,0,8,70,70,200,1\n"),
-    "darks-clips": ("Style: Legenda,Anton,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,6,4,2,70,70,600,1\n"
-                    "Style: Gancho,Anton,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,7,4,8,70,70,220,1\n"),
+    # Padrão MESA DE MILIONÁRIO (referência caverna-flavio_v03 e missao-cadar_v02, Victor 21/11):
+    # legenda pequena Anton branca, 1 a 3 palavras, sem caixa; a palavra de impacto ganha linha própria e um de 4 estilos;
+    # gancho no topo em 2 linhas (pequena branca + Anton dourada); "gigante" = palavra enorme dourada no topo.
+    "darks-clips": ("Style: Legenda,Anton,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,2.5,2,2,80,80,560,1\n"
+                    "Style: Gancho,Montserrat SemiBold,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,2,0,1,1.5,1,8,80,80,150,1\n"
+                    "Style: Gancho2,Anton,86,&H0037AFD4,&H0037AFD4,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,2,2,8,80,80,200,1\n"
+                    "Style: Gigante,Anton,250,&H0037AFD4,&H0037AFD4,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,3,8,20,20,150,1\n"),
 }
 DOURADO = "&H0037AFD4&"
+# tipos de ênfase (pedido "enfase": ["PALAVRA"] ou [{"palavra": "FOME", "tipo": "vermelho"}])
+ENFASE = {
+    "ouro-serifa": "{\\fnDM Serif Display\\i1\\c&H0037AFD4&\\fs112\\bord2}",
+    "vermelho": "{\\c&H2B2BE8&\\fs128}",
+    "script": "{\\fnGreat Vibes\\c&H0037AFD4&\\fs150\\bord1}",
+    "ouro": "{\\c&H0037AFD4&\\fs118}",
+}
 
 def escrever_ass(caminho, legendas, gancho, duracao, projeto="gta-vi", enfase=()):
     cab = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\nWrapStyle: 0\n\n[V4+ Styles]\n"
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
            + ESTILOS.get(projeto, ESTILOS["gta-vi"]) +
            "\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
-    imp = {limpar(x).upper().strip(".,!?") for x in enfase}
+    imp = {}
+    for x in enfase:
+        if isinstance(x, dict):
+            imp[limpar(x["palavra"]).upper().strip(".,!?")] = x.get("tipo", "ouro-serifa")
+        else:
+            imp[limpar(x).upper().strip(".,!?")] = "ouro-serifa"
     linhas = []
     if gancho:
         g = limpar(gancho).upper()
-        efeito = "{\\fad(0,250)}" if projeto == "darks-clips" else "{\\fscx70\\fscy70\\t(0,120,\\fscx104\\fscy104)\\t(120,200,\\fscx100\\fscy100)}"
-        linhas.append(f"Dialogue: 1,{tempo_ass(0)},{tempo_ass(min(duracao, 3.5 if projeto == 'darks-clips' else duracao))},Gancho,,0,0,0,,{efeito}{g}")
+        if projeto == "darks-clips":
+            # "CERTEZA OU TALVEZ?" ou "ESCOLHEU? | VAI ATÉ O FIM." (2ª parte em Anton dourada)
+            p1, _, p2 = g.partition("|")
+            fim_g = tempo_ass(min(duracao, 3.5))
+            linhas.append(f"Dialogue: 2,{tempo_ass(0)},{fim_g},Gancho,,0,0,0,,{{\\fad(0,250)}}{p1.strip()}")
+            if p2.strip():
+                linhas.append(f"Dialogue: 2,{tempo_ass(0)},{fim_g},Gancho2,,0,0,0,,{{\\fad(0,250)}}{p2.strip()}")
+        else:
+            efeito = "{\\fscx70\\fscy70\\t(0,120,\\fscx104\\fscy104)\\t(120,200,\\fscx100\\fscy100)}"
+            linhas.append(f"Dialogue: 1,{tempo_ass(0)},{tempo_ass(duracao)},Gancho,,0,0,0,,{efeito}{g}")
     for l in legendas:
         txt = limpar(l["texto"]).upper()
         if not txt:
             continue
         if projeto == "darks-clips":
-            pal = []
+            partes, atual = [], []
             for w in txt.split():
-                if w.strip(".,!?") in imp:
-                    pal.append(f"{{\\c{DOURADO}\\fscx118\\fscy118}}{w}{{\\r}}")
+                tipo = imp.get(w.strip(".,!?"))
+                if tipo == "gigante":
+                    linhas.append(f"Dialogue: 0,{tempo_ass(l['inicio'])},{tempo_ass(l['fim'] + 0.05)},Gigante,,0,0,0,,"
+                                  f"{{\\fad(80,80)\\fscx94\\fscy94\\t(0,400,\\fscx100\\fscy100)}}{w.strip('.,!?')}")
+                    atual.append(w)
+                elif tipo:
+                    if atual: partes.append(" ".join(atual)); atual = []
+                    partes.append(ENFASE.get(tipo, ENFASE["ouro-serifa"]) + (w.title() if tipo == "script" else w) + "{\\r}")
                 else:
-                    pal.append(w)
-            corpo = "{\\fad(60,0)\\fscx92\\fscy92\\t(0,100,\\fscx100\\fscy100)}" + " ".join(pal)
+                    atual.append(w)
+            if atual: partes.append(" ".join(atual))
+            corpo = "{\\fad(90,60)}" + "\\N".join(partes)
         else:
             corpo = "{\\fscx78\\fscy78\\t(0,90,\\fscx110\\fscy110)\\t(90,170,\\fscx100\\fscy100)}" + txt
         linhas.append(f"Dialogue: 0,{tempo_ass(l['inicio'])},{tempo_ass(l['fim'] + 0.05)},Legenda,,0,0,0,,{corpo}")
@@ -145,15 +177,20 @@ def main(pedido_json, pasta):
     # MESA DE MILIONÁRIO: mantém o ÁUDIO da referência e troca a imagem por cenas do banco em trechos marcados.
     # "cenas": [{"em": 3.2, "dur": 2.5, "drive": "Dinheiro & Money 2.0/carro.mp4", "de": 0}]  (tempos no vídeo montado)
     cenas = p.get("cenas") or []
-    if cenas:
-        entradas, filtros, ult = ["-i", base], [], "[0:v]"
+    mesa = p.get("projeto") == "darks-clips"
+    if cenas or mesa:
+        # Padrão MESA (vídeo de referência 'caverna-flavio_v03', 20/11): quem fala em PRETO E BRANCO escurecido com vinheta;
+        # cenas do banco coloridas, escurecidas, com vinheta, entrando com fusão curta.
+        grade_fala = "hue=s=0,eq=contrast=1.12:brightness=-0.05,vignette=PI/4.5" if mesa else "null"
+        grade_cena = "eq=brightness=-0.06:saturation=0.9:contrast=1.05,vignette=PI/4.5" if mesa else "null"
+        entradas, filtros, ult = ["-i", base], [f"[0:v]{grade_fala}[g0]"], "[g0]"
         for i, c in enumerate(cenas, start=1):
             arq = os.path.join(pasta, f"cena{i:02d}.mp4")
             sh("rclone", "copyto", "drive:" + c["drive"], arq)
             entradas += ["-ss", c.get("de", 0), "-t", c["dur"], "-i", arq]
             em, fim = float(c["em"]), float(c["em"]) + float(c["dur"])
-            filtros.append(f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,"
-                           f"setpts=PTS-STARTPTS+{em}/TB[c{i}]")
+            filtros.append(f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,{grade_cena},"
+                           f"format=yuva420p,fade=in:st=0:d=0.18:alpha=1,setpts=PTS-STARTPTS+{em}/TB[c{i}]")
             filtros.append(f"{ult}[c{i}]overlay=0:0:eof_action=pass:enable='between(t,{em},{fim})'[v{i}]")
             ult = f"[v{i}]"
         mesclado = os.path.join(pasta, "mesclado.mp4")
