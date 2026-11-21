@@ -31,5 +31,13 @@ jobs:
         run: |
           rclone copy "drive:$ARQ" .
           F=$(basename "$ARQ")
-          node tg.js enviar "$F" "${{ inputs.pasta }}" "${LEG:-$F}"
+          # Telegram aceita até ~2 GB por arquivo: o que passar disso vai em partes de 1 h (como o gravar.yml)
+          if [ $(stat -c%s "$F") -gt 1900000000 ]; then
+            sudo apt-get install -y -qq ffmpeg > /dev/null
+            mkdir -p partes && ffmpeg -v error -i "$F" -c copy -map 0 -f segment -segment_time 3600 -reset_timestamps 1 "partes/${F%.mp4}_p%02d.mp4"
+            N=$(ls partes | wc -l); I=0
+            for P in partes/*.mp4; do I=$((I+1)); node tg.js enviar "$P" "${{ inputs.pasta }}" "${LEG:-$F} · parte $I/$N"; done
+          else
+            node tg.js enviar "$F" "${{ inputs.pasta }}" "${LEG:-$F}"
+          fi
           if [ "${{ inputs.tirar_do_drive }}" = "sim" ]; then rclone delete "drive:$ARQ" && echo "saiu do Drive: $ARQ"; fi

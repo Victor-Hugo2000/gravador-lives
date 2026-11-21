@@ -4,6 +4,7 @@
 // node tg.js enviar <arquivo> <pasta> "<legenda>"   → pasta = lives | cortes | postados | material
 // node tg.js avisar <pasta> "<texto>"               → mensagem de texto numa pasta (avisos da Agenda e da Produção)
 // node tg.js achar <texto> | baixar <@bot> <link> <saida>  → download pelo bot do Telegram (Top Saver Bot)
+// node tg.js pegar <pasta> "<texto>" <saida>      → baixa do grupo as partes de uma live/vídeo (edição na nuvem lê daqui)
 // Na nuvem a autorização vem do segredo TG_CONF (o mesmo JSON), nunca de arquivo do repositório.
 const fs = require("fs"), path = require("path"), os = require("os");
 const { TelegramClient, Api } = require("telegram");
@@ -121,5 +122,27 @@ async function baixar(bot, link, saida, min = 20) {
   console.error('ERRO: o bot não devolveu vídeo em ' + min + ' min'); await cli.disconnect(); process.exit(2);
 }
 
+// node tg.js pegar <pasta> "<texto da legenda>" <pasta-saida>
+// baixa do grupo StudioTube todos os vídeos daquela pasta cuja legenda tem o texto (ex.: o nome da live), em ordem: parte01.mp4, parte02.mp4...
+async function pegar(pasta, texto, dir) {
+  const g = JSON.parse(fs.readFileSync(TGJSON, "utf8"));
+  if (!g.pastas[pasta]) throw new Error("pasta desconhecida: " + pasta);
+  const cli = await cliente(conf()); await cli.connect();
+  const peer = new Api.InputPeerChannel({ channelId: BigInt(g.channelId), accessHash: BigInt(g.accessHash) });
+  const achadas = [];
+  for await (const m of cli.iterMessages(peer, { replyTo: g.pastas[pasta], search: texto, limit: 200 })) if (m.media && (m.video || m.document)) achadas.push(m);
+  if (!achadas.length) { console.error("ERRO: nada no Telegram com: " + texto); await cli.disconnect(); process.exit(2); }
+  achadas.sort((a, b) => a.id - b.id);
+  fs.mkdirSync(dir, { recursive: true });
+  let i = 0;
+  for (const m of achadas) {
+    i++; const out = path.join(dir, `parte${String(i).padStart(2, "0")}.mp4`);
+    console.log(`baixando ${i}/${achadas.length} (msg ${m.id})`);
+    await cli.downloadMedia(m, { outputFile: out, workers: 4 });
+  }
+  console.log("PEGUEI", achadas.length, "parte(s) em", dir);
+  await cli.disconnect(); process.exit(0);
+}
+
 const [cmd, ...a] = process.argv.slice(2);
-({ login, criar, enviar: () => enviar(...a), avisar: () => avisar(...a), achar: () => achar(...a), baixar: () => baixar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar | avisar | achar | baixar");
+({ login, criar, enviar: () => enviar(...a), avisar: () => avisar(...a), achar: () => achar(...a), baixar: () => baixar(...a), pegar: () => pegar(...a) })[cmd]?.().catch((e) => { console.error("ERRO:", e.message); process.exit(1); }) ?? console.log("uso: login | criar | enviar | avisar | achar | baixar");
