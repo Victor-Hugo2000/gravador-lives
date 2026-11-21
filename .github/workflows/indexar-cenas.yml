@@ -1,0 +1,35 @@
+name: indexar-cenas
+# Lista o banco de cenas da MESA DE MILIONÁRIO (Drive vichatori) em cenas/indice.json para a produção 24 h escolher cenas.
+on:
+  schedule:
+    - cron: "10 9 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  indexar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Listar
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          python3 - <<'PY'
+          import json, subprocess
+          pastas = ["Dinheiro & Money 2.0", "Lifestyle Variado 2.0", "Filmes 2.0"]
+          itens = []
+          for p in pastas:
+              r = subprocess.run(["rclone", "lsjson", "-R", "--files-only", "drive:" + p], capture_output=True, text=True)
+              for f in json.loads(r.stdout or "[]"):
+                  if f["Name"].lower().endswith((".mp4", ".mov", ".webm", ".mkv")):
+                      itens.append({"drive": p + "/" + f["Path"], "pasta": p, "nome": f["Name"], "mb": round(f["Size"] / 1e6, 1)})
+          json.dump({"total": len(itens), "cenas": itens}, open("cenas/indice.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
+          print(len(itens), "cenas")
+          PY
+          git config user.name "cenas" && git config user.email "cenas@users.noreply.github.com"
+          git add cenas && git commit -qm "índice do banco de cenas" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
