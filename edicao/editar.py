@@ -127,6 +127,24 @@ def main(pedido_json, pasta):
     open(lista, "w").write("".join(f"file '{os.path.abspath(x)}'\n" for x in partes))
     base = os.path.join(pasta, "base.mp4")
     sh("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", base)
+    # MESA DE MILIONÁRIO: mantém o ÁUDIO da referência e troca a imagem por cenas do banco em trechos marcados.
+    # "cenas": [{"em": 3.2, "dur": 2.5, "drive": "Dinheiro & Money 2.0/carro.mp4", "de": 0}]  (tempos no vídeo montado)
+    cenas = p.get("cenas") or []
+    if cenas:
+        entradas, filtros, ult = ["-i", base], [], "[0:v]"
+        for i, c in enumerate(cenas, start=1):
+            arq = os.path.join(pasta, f"cena{i:02d}.mp4")
+            sh("rclone", "copyto", "drive:" + c["drive"], arq)
+            entradas += ["-ss", c.get("de", 0), "-t", c["dur"], "-i", arq]
+            em, fim = float(c["em"]), float(c["em"]) + float(c["dur"])
+            filtros.append(f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,"
+                           f"setpts=PTS-STARTPTS+{em}/TB[c{i}]")
+            filtros.append(f"{ult}[c{i}]overlay=0:0:eof_action=pass:enable='between(t,{em},{fim})'[v{i}]")
+            ult = f"[v{i}]"
+        mesclado = os.path.join(pasta, "mesclado.mp4")
+        sh("ffmpeg", "-v", "error", "-y", *entradas, "-filter_complex", ";".join(filtros), "-map", ult, "-map", "0:a:0?",
+           "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "copy", mesclado)
+        base = mesclado
     dur = duracao_de(base)
     leg = p.get("legendas", "auto")
     if leg == "auto":
