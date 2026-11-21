@@ -1,15 +1,15 @@
-name: editar
-# Renderiza os pedidos de edição (pedidos/*.json) e salva no Drive. Ver edicao/LEIA.md.
+name: editar-mesa
+# OPERAÇÃO mesa · renderiza os pedidos (pedidos/mesa/*.json) e salva no Drive. Ver edicao/LEIA.md.
 on:
   push:
-    paths: ["pedidos/*.json"]
+    paths: ["pedidos/mesa/*.json"]
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: editar
+  group: editar-mesa
   cancel-in-progress: false
 jobs:
   editar:
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Há pedidos?
         id: fila
-        run: echo "n=$(ls pedidos/*.json 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
+        run: echo "n=$(ls pedidos/mesa/*.json 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
       - name: Ferramentas
         if: steps.fila.outputs.n != '0'
         run: |
@@ -34,10 +34,13 @@ jobs:
         if: steps.fila.outputs.n != '0'
         env:
           TG_CONF: ${{ secrets.TG_CONF }}
+          ESCRITORIO_API: ${{ secrets.ESCRITORIO_API }}
+          ESCRITORIO_TOKEN: ${{ secrets.ESCRITORIO_TOKEN }}
+          FONTES: fontes
         run: |
           git config user.name "editor" && git config user.email "editor@users.noreply.github.com"
-          mkdir -p pedidos/feitos
-          for P in pedidos/*.json; do
+          mkdir -p pedidos/mesa/feitos
+          for P in pedidos/mesa/*.json; do
             NOME=$(basename "$P")
             read -r PROJ SAIDA LIVE TITULO < <(python3 -c "import json,sys;p=json.load(open('$P'));d={'gta-vi':'GTA VI','darks-clips':'Darks Clips'}[p['projeto']];f=p['fonte'].get('drive','').split('/')[-1];print(d.replace(' ','_'),p['saida'],f or '-',p.get('titulo','').replace(chr(10),' '))")
             PROJ=${PROJ//_/ }
@@ -45,15 +48,20 @@ jobs:
               rclone copy "trab/$SAIDA" "drive:Direto de Vice/$PROJ/02-Prontos" && echo "no Drive: $PROJ/02-Prontos/$SAIDA"
               CONF=$(python3 -c "import json;c=json.load(open('trab/conferencia.json'));print('✅ conferência técnica ok' if not c['problemas'] else '⚠️ conferir: '+'; '.join(c['problemas']))")
               mkdir -p conferencias && cp trab/conferencia.json "conferencias/${NOME%.json}.json"
-              if [ -n "$TG_CONF" ] && [ -f tg.json ]; then node tg.js enviar "trab/$SAIDA" cortes "🎬 Pronto para revisar · $PROJ
+              if [ -n "$TG_CONF" ] && [ -f tg.json ]; then node tg.js enviar "trab/$SAIDA" cortes "🧪 TESTE (mesa) · revisar · $PROJ
           $TITULO
           $CONF
           Drive: Direto de Vice/$PROJ/02-Prontos/$SAIDA" || true; fi
-              git mv "$P" "pedidos/feitos/$NOME"
+              # revisão de modelagem na Mesa do Escritório (link do Drive)
+              if [ -n "$ESCRITORIO_API" ]; then
+                ID=$(rclone lsjson "drive:Direto de Vice/$PROJ/02-Prontos/$SAIDA" | python3 -c "import json,sys;print(json.load(sys.stdin)[0]['ID'])" 2>/dev/null)
+                [ -n "$ID" ] && node mesa.mjs pedir --projeto "${NOME%.json}" --setor edicao --etapa modelagem --titulo "🧪 Modelagem mesa: o que mudar neste vídeo?" --resumo "$TITULO | $CONF" --link "https://drive.google.com/file/d/$ID/view" || echo "Mesa não respondeu"
+              fi
+              git mv "$P" "pedidos/mesa/feitos/$NOME"
               # a live só vira "usada" (e sai do Drive na faxina) quando não sobra pedido dela na fila
-              if [ "$LIVE" != "-" ] && ! grep -lF "$LIVE" pedidos/*.json >/dev/null 2>&1; then grep -qxF "$LIVE" usadas.txt 2>/dev/null || echo "$LIVE" >> usadas.txt; fi
+              if [ "$LIVE" != "-" ] && ! grep -lF "$LIVE" pedidos/mesa/*.json >/dev/null 2>&1; then grep -qxF "$LIVE" usadas.txt 2>/dev/null || echo "$LIVE" >> usadas.txt; fi
             else
-              mkdir -p pedidos/erros && git mv "$P" "pedidos/erros/$NOME"
+              mkdir -p pedidos/mesa/erros && git mv "$P" "pedidos/mesa/erros/$NOME"
             fi
             rm -rf trab
             git add -A pedidos usadas.txt conferencias && git commit -qm "edição: $NOME" || true

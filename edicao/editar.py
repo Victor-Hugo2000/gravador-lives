@@ -39,28 +39,43 @@ def blocos_auto(video, idioma):
         out.append({"inicio": grupo[0].start, "fim": grupo[-1].end, "texto": "".join(x.word for x in grupo)})
     return out
 
-def escrever_ass(caminho, legendas, gancho, duracao):
-    cab = """[Script Info]
-ScriptType: v4.00+
-PlayResX: 1080
-PlayResY: 1920
-WrapStyle: 0
+# Acabamento por operação (21/11/2026):
+#  GTA VI  → Montserrat ExtraBold branca com contorno, palavra com "salto"; gancho em tarja amarela.
+#  MESA DE MILIONÁRIO → Anton caixa alta, palavras de impacto em DOURADO (#D4AF37) maiores; gancho Anton branco.
+ESTILOS = {
+    "gta-vi": ("Style: Legenda,Montserrat ExtraBold,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,8,3,2,70,70,560,1\n"
+               "Style: Gancho,Montserrat ExtraBold,66,&H00000000,&H00000000,&H0000E5FF,&H0000E5FF,-1,0,0,0,100,100,0,0,3,20,0,8,70,70,200,1\n"),
+    "darks-clips": ("Style: Legenda,Anton,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,6,4,2,70,70,600,1\n"
+                    "Style: Gancho,Anton,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,7,4,8,70,70,220,1\n"),
+}
+DOURADO = "&H0037AFD4&"
 
-[V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Legenda,DejaVu Sans,86,&H00FFFFFF,&H0000FFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,3,2,70,70,520,1
-Style: Gancho,DejaVu Sans,68,&H0000F0FF,&H0000F0FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,18,0,8,60,60,190,1
-
-[Events]
-Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-"""
+def escrever_ass(caminho, legendas, gancho, duracao, projeto="gta-vi", enfase=()):
+    cab = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\nWrapStyle: 0\n\n[V4+ Styles]\n"
+           "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
+           + ESTILOS.get(projeto, ESTILOS["gta-vi"]) +
+           "\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
+    imp = {limpar(x).upper().strip(".,!?") for x in enfase}
     linhas = []
     if gancho:
-        linhas.append(f"Dialogue: 1,{tempo_ass(0)},{tempo_ass(duracao)},Gancho,,0,0,0,,{limpar(gancho).upper()}")
+        g = limpar(gancho).upper()
+        efeito = "{\\fad(0,250)}" if projeto == "darks-clips" else "{\\fscx70\\fscy70\\t(0,120,\\fscx104\\fscy104)\\t(120,200,\\fscx100\\fscy100)}"
+        linhas.append(f"Dialogue: 1,{tempo_ass(0)},{tempo_ass(min(duracao, 3.5 if projeto == 'darks-clips' else duracao))},Gancho,,0,0,0,,{efeito}{g}")
     for l in legendas:
         txt = limpar(l["texto"]).upper()
-        if txt:
-            linhas.append(f"Dialogue: 0,{tempo_ass(l['inicio'])},{tempo_ass(l['fim'] + 0.05)},Legenda,,0,0,0,,{{\\fad(40,0)}}{txt}")
+        if not txt:
+            continue
+        if projeto == "darks-clips":
+            pal = []
+            for w in txt.split():
+                if w.strip(".,!?") in imp:
+                    pal.append(f"{{\\c{DOURADO}\\fscx118\\fscy118}}{w}{{\\r}}")
+                else:
+                    pal.append(w)
+            corpo = "{\\fad(60,0)\\fscx92\\fscy92\\t(0,100,\\fscx100\\fscy100)}" + " ".join(pal)
+        else:
+            corpo = "{\\fscx78\\fscy78\\t(0,90,\\fscx110\\fscy110)\\t(90,170,\\fscx100\\fscy100)}" + txt
+        linhas.append(f"Dialogue: 0,{tempo_ass(l['inicio'])},{tempo_ass(l['fim'] + 0.05)},Legenda,,0,0,0,,{corpo}")
     open(caminho, "w", encoding="utf8").write(cab + "\n".join(linhas) + "\n")
 
 def duracao_de(v):
@@ -75,8 +90,8 @@ def conferir(video):
     if r != "1080,1920":
         problemas.append(f"tamanho {r}, esperado 1080x1920")
     d = duracao_de(video)
-    if not 15 <= d <= 60:
-        problemas.append(f"duração {d:.0f} s, fora de 15 a 60 s")
+    if not 15 <= d <= 70:
+        problemas.append(f"duração {d:.0f} s, fora de 15 s a 1 min 10 s")
     a = subprocess.run(["ffmpeg", "-v", "info", "-i", video, "-af", "volumedetect", "-vn", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
     import re
@@ -150,9 +165,9 @@ def main(pedido_json, pasta):
     if leg == "auto":
         leg = blocos_auto(base, p.get("idioma", "pt"))
     ass = os.path.join(pasta, "legenda.ass")
-    escrever_ass(ass, leg or [], p.get("gancho", ""), dur)
+    escrever_ass(ass, leg or [], p.get("gancho", ""), dur, p.get("projeto", "gta-vi"), p.get("enfase", []))
     final = os.path.join(pasta, p["saida"])
-    sh("ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"ass={ass}", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+    sh("ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"ass={ass}:fontsdir={os.environ.get('FONTES', 'fontes')}", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
        "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", final)
     problemas = conferir(final)
     json.dump({"video": p["saida"], "duracao": round(duracao_de(final), 1), "problemas": problemas},

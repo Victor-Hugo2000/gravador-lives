@@ -23,8 +23,8 @@ Ferramentas: `tg.js` (`enviar` | `pegar` | `baixar` | `avisar`), robôs do GitHu
 | A2 | Gravar | robô `gravar` | live ao vivo | partes de 1 h no Telegram 📼 Lives brutas; a legenda começa com o NOME do arquivo; linha no `lives.md`. Se o Telegram falhar, a reserva vai para o Drive |
 | A3 | Transcrever | robô `transcrever` (a cada hora) | `tg.js pegar lives NOME` | `transcricoes/NOME.json` (frases com tempo + picos de volume) |
 | A4 | Escolher momentos | rotina do Claude "Produção GTA VI" | transcrição + temas outliers + `studiotube/gta-vi/` | 5–10 candidatos (cortes de 30 s–1 min 10 s; longos de 10–30 min) → **Mesa** (parada 1) |
-| A5 | Montar o pedido | rotina do Claude | momentos aprovados na Mesa + Receita do campeão (`squad-outliers/ferramentas/receita.py montar --fluxo gta-vertical`) | `pedidos/AAAA-MM-DD-nome.json` com `"fonte": {"telegram": {"pasta":"lives","texto":"NOME"}}`, trechos, gancho, legendas em PT |
-| A6 | Editar | robô `editar` (a cada 30 min) | pedido | vídeo 1080×1920 + conferência técnica → Drive `02-Prontos` + Telegram ✂️ Cortes |
+| A5 | Montar o pedido (fila `pedidos/gta-vi/`) | rotina do Claude | momentos aprovados na Mesa + Receita do campeão (`squad-outliers/ferramentas/receita.py montar --fluxo gta-vertical`) | `pedidos/AAAA-MM-DD-nome.json` com `"fonte": {"telegram": {"pasta":"lives","texto":"NOME"}}`, trechos, gancho, legendas em PT |
+| A6 | Editar | robô `editar-gta-vi` (operação GTA) (a cada 30 min) | pedido | vídeo 1080×1920 + conferência técnica → Drive `02-Prontos` + Telegram ✂️ Cortes |
 | A7 | Conferir | rotina do Claude + fiscal de conteúdo | vídeo pronto + `receita.py conferir` | ficha do post (título, legenda, crédito ao creator, código GV-…) → **Mesa** (parada 2) |
 | A8 | Postar | rotina do Claude (Social Echo) | aprovado na Mesa | post no YouTube Shorts, TikTok, Instagram e Pinterest; `publicado GV-… link` gravado sozinho |
 | A9 | Guardar | robô | post feito | o vídeo vai para ✅ Vídeos postados no Telegram e sai do Drive; a live usada entra em `usadas.txt` |
@@ -37,8 +37,8 @@ Ferramentas: `tg.js` (`enviar` | `pegar` | `baixar` | `avisar`), robôs do GitHu
 | B1 | Garimpar | rotinas "Outliers diários" e "Garimpo Darks" | criadores confirmados + 7 assuntos (`criterios-de-busca.md`) | listas no Telegram → Victor responde "ok 1 3 5" → base aprovada |
 | B2 | Podcasts inteiros | robô `podcast` (a cada 2 h, 1 por vez) | `podcasts/fila.txt` | vídeo no Telegram 🧰 Material + `podcasts/transcricoes/ID.json` |
 | B3 | Momentos dos podcasts | rotina do Claude "Podcasts: melhores momentos" | transcrição + 5 critérios de momento | lista de momentos → **Mesa** |
-| B4 | Montar o pedido | rotina do Claude "Produção Darks Clips" | corte aprovado (base) ou momento do podcast + Receita (`--fluxo dark`) | `pedidos/...json` com `"fonte": {"youtube": link}` (baixa pelo @TopSaverBot) ou `{"url": tiktok}`; trechos de 15 s–1 min 10 s; gancho; palavras de impacto |
-| B5 | Editar | robô `editar` | pedido | vídeo 1080×1920 → Drive + Telegram |
+| B4 | Montar o pedido (fila `pedidos/mesa/`, com `enfase` = palavras de impacto em dourado e `cenas` do banco) | rotina do Claude "Produção Darks Clips" | corte aprovado (base) ou momento do podcast + Receita (`--fluxo dark`) | `pedidos/...json` com `"fonte": {"youtube": link}` (baixa pelo @TopSaverBot) ou `{"url": tiktok}`; trechos de 15 s–1 min 10 s; gancho; palavras de impacto |
+| B5 | Editar | robô `editar-mesa` (operação MESA) | pedido | vídeo 1080×1920 → Drive + Telegram |
 | B6 | Conferir | rotina do Claude + fiscal | vídeo + `receita.py conferir` | ficha (código DC-…) → **Mesa** |
 | B7 | Postar | Social Echo | aprovado | contas da MESA DE MILIONÁRIO (a criar), com o Metricool de reserva |
 | B8 | Guardar e aprender | igual a A9 e A10 | | |
