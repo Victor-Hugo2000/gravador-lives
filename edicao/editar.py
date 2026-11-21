@@ -40,11 +40,13 @@ def blocos_auto(video, idioma):
     return out
 
 # Acabamento por operação (21/11/2026):
-#  GTA VI  → Montserrat ExtraBold branca com contorno, palavra com "salto"; gancho em tarja amarela.
-#  MESA DE MILIONÁRIO → Anton caixa alta, palavras de impacto em DOURADO (#D4AF37) maiores; gancho Anton branco.
+#  GTA VI (referência c004-assalto-policia v05, Victor 21/11): tela cheia, legenda Anton CIANO com contorno escuro e "salto",
+#     selo rosa "• AO VIVO DE VICE" no canto nos primeiros 10 s, abertura com o momento forte, SFX e cartela "CÂMBIO, DESLIGO!".
+#  MESA DE MILIONÁRIO → ver PADRAO-EDICAO.md.
 ESTILOS = {
-    "gta-vi": ("Style: Legenda,Montserrat ExtraBold,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,8,3,2,70,70,560,1\n"
-               "Style: Gancho,Montserrat ExtraBold,66,&H00000000,&H00000000,&H0000E5FF,&H0000E5FF,-1,0,0,0,100,100,0,0,3,20,0,8,70,70,200,1\n"),
+    "gta-vi": ("Style: Legenda,Anton,112,&H00F5E31E,&H00F5E31E,&H00140A0A,&H64000000,0,0,0,0,100,100,0,0,1,6,0,2,70,70,520,1\n"
+               "Style: Gancho,Anton,112,&H00F5E31E,&H00F5E31E,&H00140A0A,&H64000000,0,0,0,0,100,100,0,0,1,6,0,2,70,70,520,1\n"
+               "Style: Selo,Anton,54,&H00FFFFFF,&H00FFFFFF,&H007E2EFF,&H007E2EFF,0,0,0,0,100,100,0,0,3,14,0,7,112,70,258,1\n"),
     # Padrão MESA DE MILIONÁRIO (referência caverna-flavio_v03 e missao-cadar_v02, Victor 21/11):
     # legenda pequena Anton branca, 1 a 3 palavras, sem caixa; a palavra de impacto ganha linha própria e um de 4 estilos;
     # gancho no topo em 2 linhas (pequena branca + Anton dourada); "gigante" = palavra enorme dourada no topo.
@@ -84,8 +86,11 @@ def escrever_ass(caminho, legendas, gancho, duracao, projeto="gta-vi", enfase=()
             if p2.strip():
                 linhas.append(f"Dialogue: 2,{tempo_ass(0)},{fim_g},Gancho2,,0,0,0,,{{\\fad(0,250)}}{p2.strip()}")
         else:
-            efeito = "{\\fscx70\\fscy70\\t(0,120,\\fscx104\\fscy104)\\t(120,200,\\fscx100\\fscy100)}"
-            linhas.append(f"Dialogue: 1,{tempo_ass(0)},{tempo_ass(duracao)},Gancho,,0,0,0,,{efeito}{g}")
+            # o gancho do GTA é a frase forte da abertura (como "POLÍCIA EM CIMA!"), no mesmo estilo da legenda, nos 2,6 s iniciais
+            efeito = "{\\fscx78\\fscy78\\t(0,90,\\fscx110\\fscy110)\\t(90,170,\\fscx100\\fscy100)}"
+            linhas.append(f"Dialogue: 1,{tempo_ass(0.15)},{tempo_ass(min(duracao, 2.6))},Gancho,,0,0,0,,{efeito}{g}")
+    if projeto == "gta-vi":
+        linhas.append(f"Dialogue: 3,{tempo_ass(0)},{tempo_ass(min(duracao, 10))},Selo,,0,0,0,,•  AO VIVO DE VICE")
     for l in legendas:
         txt = limpar(l["texto"]).upper()
         if not txt:
@@ -135,6 +140,8 @@ def conferir(video):
     b = subprocess.run(["ffmpeg", "-v", "info", "-i", video, "-vf", "blackdetect=d=1.5:pix_th=0.1", "-an", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
     for x in re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", b):
+        if float(x[0]) >= d - 2.7:  # cartela final azul-marinho do GTA não é tela preta
+            continue
         problemas.append(f"tela preta de {float(x[0]):.0f} a {float(x[1]):.0f} s")
     return problemas
 
@@ -144,7 +151,9 @@ def main(pedido_json, pasta):
     src = os.path.join(pasta, "fonte.mp4")
     f = p["fonte"]
     raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    if "telegram" in f:
+    if "arquivo" in f:  # teste local
+        import shutil; shutil.copy(f["arquivo"], src)
+    elif "telegram" in f:
         # bruto no grupo StudioTube: {"telegram": {"pasta": "lives", "texto": "<nome da live>"}}; junta as partes
         t = f["telegram"]; dp = os.path.join(pasta, "partes")
         sh("node", os.path.join(raiz, "tg.js"), "pegar", t.get("pasta", "lives"), t["texto"], dp)
@@ -162,12 +171,18 @@ def main(pedido_json, pasta):
     vertical = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=25:2,setsar=1[bg];"
                 "[0:v]scale=1080:1920:force_original_aspect_ratio=decrease,setsar=1[fg];"
                 "[bg][fg]overlay=(W-w)/2:(H-h)/2,fps=30,format=yuv420p[v]")
+    gta = p.get("projeto", "gta-vi") == "gta-vi"
     partes = []
     trechos = p.get("trechos") or [{"inicio": 0, "fim": duracao_de(src)}]
     for i, t in enumerate(trechos):
         parte = os.path.join(pasta, f"parte{i:02d}.mp4")
+        filtro = vertical
+        if gta and p.get("enquadramento", "cheio") == "cheio":
+            # GTA (referência c004 v05): tela CHEIA 9:16 cortando o jogo; "x" (0 a 1) escolhe a parte da tela que fica, por trecho.
+            x = float(t.get("x", p.get("x", 0.5)))
+            filtro = (f"[0:v]scale=-2:1920,crop=1080:1920:(iw-1080)*{x}:0,setsar=1,fps=30,format=yuv420p[v]")
         sh("ffmpeg", "-v", "error", "-y", "-ss", t["inicio"], "-i", src, "-t", float(t["fim"]) - float(t["inicio"]),
-           "-filter_complex", vertical, "-map", "[v]", "-map", "0:a:0?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+           "-filter_complex", filtro, "-map", "[v]", "-map", "0:a:0?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
            "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k", parte)
         partes.append(parte)
     lista = os.path.join(pasta, "lista.txt")
@@ -204,8 +219,50 @@ def main(pedido_json, pasta):
     ass = os.path.join(pasta, "legenda.ass")
     escrever_ass(ass, leg or [], p.get("gancho", ""), dur, p.get("projeto", "gta-vi"), p.get("enfase", []))
     final = os.path.join(pasta, p["saida"])
-    sh("ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"ass={ass}:fontsdir={os.environ.get('FONTES', 'fontes')}", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
-       "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", final)
+    fontes = os.environ.get('FONTES', 'fontes')
+    raiz_sfx = os.path.join(raiz, "sfx")
+    # SFX (referência c004 v05): impacto no começo, whoosh em cada emenda de trecho; o pedido pode mandar a lista própria.
+    sfx = p.get("sfx")
+    if sfx is None and gta:
+        sfx, acc = [{"arq": "hit.wav", "em": 0.15, "vol": 0.7}], 0.0
+        for i, t in enumerate(trechos[:-1]):
+            acc += float(t["fim"]) - float(t["inicio"])
+            sfx.append({"arq": "woosh1.wav" if i % 2 == 0 else "woosh2.wav", "em": max(acc - 0.25, 0), "vol": 0.6})
+    entradas, amix = ["-i", base], []
+    for j, s in enumerate(sfx or [], start=1):
+        entradas += ["-i", os.path.join(raiz_sfx, s["arq"])]
+        ms = int(float(s["em"]) * 1000)
+        amix.append(f"[{j}:a]adelay={ms}|{ms},volume={s.get('vol', 0.6)}[s{j}]")
+    if amix:
+        filtro_a = ";".join(amix) + ";[0:a]" + "".join(f"[s{j}]" for j in range(1, len(amix) + 1)) + \
+                   f"amix=inputs={len(amix) + 1}:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+    else:
+        filtro_a = "[0:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+    sh("ffmpeg", "-v", "error", "-y", *entradas, "-filter_complex", f"[0:v]ass={ass.replace(chr(92), chr(47))}:fontsdir={fontes}[v];{filtro_a}",
+       "-map", "[v]", "-map", "[a]", "-r", "30",
+       "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k", "-movflags", "+faststart", final)
+    if gta and p.get("encerramento", True):
+        # cartela final "CÂMBIO, DESLIGO!" (2,5 s, fundo azul-marinho) com whoosh, como no c004 v05
+        cart_ass = os.path.join(pasta, "cartela.ass")
+        open(cart_ass, "w", encoding="utf8").write(
+            "[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
+            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
+            "Style: C,Anton,150,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,40,40,0,1\n"
+            "Style: A,Montserrat ExtraBold,52,&H00F5E31E,&H00F5E31E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,40,40,0,1\n\n"
+            "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"
+            "Dialogue: 0,0:00:00.00,0:00:02.50,C,,0,0,0,,{\\pos(540,900)\\fscx70\\fscy70\\t(0,150,\\fscx104\\fscy104)\\t(150,250,\\fscx100\\fscy100)}CÂMBIO,\\N{\\c&H007E2EFF&}DESLIGO!\n"
+            "Dialogue: 0,0:00:00.20,0:00:02.50,A,,0,0,0,,{\\pos(540,1130)\\fad(150,0)}" + p.get("arroba", "@diretodevicebr") + "\n")
+        cart = os.path.join(pasta, "cartela.mp4")
+        sh("ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "color=c=0x12133A:s=1080x1920:r=30:d=2.5",
+           "-i", os.path.join(raiz_sfx, "woosh2.wav"), "-filter_complex",
+           f"[0:v]ass={cart_ass.replace(chr(92), chr(47))}:fontsdir={fontes},format=yuv420p[v];[1:a]apad,atrim=0:2.5,volume=0.6[a]",
+           "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "19",
+           "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k", cart)
+        com = final + ".tmp.mp4"
+        sh("ffmpeg", "-v", "error", "-y", "-i", final, "-i", cart, "-filter_complex", "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]",
+           "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "192k",
+           "-movflags", "+faststart", com)
+        os.replace(com, final)
     problemas = conferir(final)
     json.dump({"video": p["saida"], "duracao": round(duracao_de(final), 1), "problemas": problemas},
               open(os.path.join(pasta, "conferencia.json"), "w", encoding="utf8"), ensure_ascii=False)
