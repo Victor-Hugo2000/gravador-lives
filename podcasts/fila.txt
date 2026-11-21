@@ -1,0 +1,5 @@
+# fila dos podcasts (yt:ID|link|título); o robô podcast pega 1 a cada 2 h
+yt:v5XOQiPvOL4|https://www.youtube.com/watch?v=v5XOQiPvOL4|podcast 1
+yt:YuKDrfWrFO4|https://www.youtube.com/watch?v=YuKDrfWrFO4|podcast 2
+yt:HdvKjpjlI-0|https://www.youtube.com/watch?v=HdvKjpjlI-0|podcast 3
+yt:GMIi6glhHU4|https://www.youtube.com/watch?v=GMIi6glhHU4|podcast 4

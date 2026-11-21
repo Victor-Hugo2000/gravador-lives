@@ -130,7 +130,7 @@ async function pegar(pasta, texto, dir) {
   const cli = await cliente(conf()); await cli.connect();
   const peer = new Api.InputPeerChannel({ channelId: BigInt(g.channelId), accessHash: BigInt(g.accessHash) });
   const achadas = [];
-  for await (const m of cli.iterMessages(peer, { replyTo: g.pastas[pasta], search: texto, limit: 200 })) if (m.media && (m.video || m.document)) achadas.push(m);
+  for await (const m of cli.iterMessages(peer, { replyTo: g.pastas[pasta], limit: 3000 })) if (m.media && (m.video || m.document) && (m.message || "").includes(texto)) achadas.push(m);
   if (!achadas.length) { console.error("ERRO: nada no Telegram com: " + texto); await cli.disconnect(); process.exit(2); }
   achadas.sort((a, b) => a.id - b.id);
   fs.mkdirSync(dir, { recursive: true });

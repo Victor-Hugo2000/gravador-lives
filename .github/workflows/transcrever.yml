@@ -36,15 +36,24 @@ jobs:
           pip install -q faster-whisper
           curl -s https://rclone.org/install.sh | sudo bash > /dev/null
           mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          npm ci --silent
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       - name: Transcrever (uma live por vez)
         if: steps.lista.outputs.n != '0'
+        env:
+          TG_CONF: ${{ secrets.TG_CONF }}
         run: |
           mkdir -p transcricoes trab
           while read -r F; do
             [ -n "$F" ] || continue
-            rclone copyto "drive:Direto de Vice/01-Brutos/Lives/$F" "trab/$F" || { echo "não está no Drive: $F"; continue; }
+            # bruto mora no Telegram (pasta Lives brutas, legenda começa com o nome do arquivo); o Drive é só reserva das lives antigas
+            if node tg.js pegar lives "$F" trab/partes; then
+              ls trab/partes/*.mp4 | sed "s/^/file '/; s/$/'/" | sed "s#file 'trab/partes/#file 'partes/#" > trab/lista.txt
+              ffmpeg -v error -f concat -safe 0 -i trab/lista.txt -c copy "trab/$F" && rm -rf trab/partes
+            else
+              rclone copyto "drive:Direto de Vice/01-Brutos/Lives/$F" "trab/$F" || { echo "não está no Telegram nem no Drive: $F"; continue; }
+            fi
             python3 edicao/transcrever.py "trab/$F" "transcricoes/${F%.mp4}.json" || echo "falhou: $F"
             rm -f trab/*
             git config user.name "editor" && git config user.email "editor@users.noreply.github.com"

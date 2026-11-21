@@ -41,13 +41,12 @@ jobs:
           timeout -s INT ${{ inputs.minutos }}m yt-dlp --js-runtimes node --hls-use-mpegts --no-part --no-warnings \
             -f "best[height<=720]/bv*[height<=720]+ba/best" --merge-output-format mp4 -o "$NOME" "$URL" || true
           ls -la
-      - name: Drive (mesa de trabalho)
+      - name: Conferir gravação (o arquivo vai SÓ para o Telegram; o Drive é só mesa de edição)
         run: |
           [ -f "$NOME" ] || { echo "nada gravado"; echo "PULAR=1" >> $GITHUB_ENV; exit 0; }
           TAM=$(stat -c %s "$NOME"); echo "TAM=$TAM" >> $GITHUB_ENV
           [ "$TAM" -gt 5000000 ] || { echo "gravação curta, descartada"; echo "PULAR=1" >> $GITHUB_ENV; exit 0; }
-          rclone copy "$NOME" "drive:Direto de Vice/01-Brutos/Lives" --drive-chunk-size 64M
-      - name: Telegram (arquivo para sempre, em partes de 1 h)
+      - name: Telegram (único lugar do bruto, em partes de 1 h)
         if: env.PULAR != '1'
         env:
           TG_CONF: ${{ secrets.TG_CONF }}
@@ -58,12 +57,15 @@ jobs:
           N=$(ls partes | wc -l); I=0; OK=sim
           for P in partes/*.mp4; do
             I=$((I+1))
-            node tg.js enviar "$P" lives "📼 Direto de Vice · $CANAL · $(date +%d/%m/%Y) · parte $I/$N
+            node tg.js enviar "$P" lives "$NOME
+          📼 Direto de Vice · $CANAL · $(date +%d/%m/%Y) · parte $I/$N
           $TITULO
           $URL
           #$CANAL #live" || OK=não
           done
           echo "TG=$OK" >> $GITHUB_ENV
+          # reserva: se o Telegram falhar, o bruto não se perde (vai para o Drive)
+          if [ "$OK" != "sim" ]; then rclone copy "$NOME" "drive:Direto de Vice/01-Brutos/Lives" --drive-chunk-size 64M && echo "TG=não (reserva no Drive)" >> $GITHUB_ENV; fi
       - name: Anotar no índice
         if: env.PULAR != '1'
         run: |

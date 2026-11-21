@@ -96,8 +96,20 @@ def main(pedido_json, pasta):
     os.makedirs(pasta, exist_ok=True)
     src = os.path.join(pasta, "fonte.mp4")
     f = p["fonte"]
-    if "drive" in f:
+    raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if "telegram" in f:
+        # bruto no grupo StudioTube: {"telegram": {"pasta": "lives", "texto": "<nome da live>"}}; junta as partes
+        t = f["telegram"]; dp = os.path.join(pasta, "partes")
+        sh("node", os.path.join(raiz, "tg.js"), "pegar", t.get("pasta", "lives"), t["texto"], dp)
+        partes = sorted(x for x in os.listdir(dp) if x.endswith(".mp4"))
+        with open(os.path.join(pasta, "lista.txt"), "w") as L:
+            for x in partes: L.write(f"file '{os.path.join(os.path.abspath(dp), x)}'\n")
+        sh("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", os.path.join(pasta, "lista.txt"), "-c", "copy", src)
+    elif "drive" in f:
         sh("rclone", "copyto", "drive:" + f["drive"], src)
+    elif "youtube" in f or "youtube.com" in f.get("url", "") or "youtu.be" in f.get("url", ""):
+        # YouTube bloqueia robôs: baixa pelo @TopSaverBot no Telegram
+        sh("node", os.path.join(raiz, "tg.js"), "baixar", "@TopSaverBot", f.get("youtube") or f["url"], src, "30")
     else:
         sh("yt-dlp", "--no-warnings", "-f", "bv*[height<=1080]+ba/b", "--merge-output-format", "mp4", "-o", src, f["url"])
     vertical = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=25:2,setsar=1[bg];"

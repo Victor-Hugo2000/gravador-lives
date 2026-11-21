@@ -1,0 +1,60 @@
+name: podcast
+# MESA DE MILIONÁRIO · podcasts 100% na nuvem (Victor, 21/11/2026).
+# A cada 2 h (ou à mão) pega 1 podcast da fila podcasts/fila.txt (uma linha: yt:ID|link|título),
+# baixa pelo @TopSaverBot (o YouTube bloqueia robôs), guarda o vídeo no Telegram (🧰 Material),
+# transcreve com tempo e picos de volume em podcasts/transcricoes/<ID>.json e tira da fila.
+# Depois, a rotina do Claude "Podcasts: melhores momentos" lê a transcrição e leva os momentos à Mesa.
+on:
+  schedule:
+    - cron: "25 */2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: podcast
+  cancel-in-progress: false
+jobs:
+  podcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fila
+        id: fila
+        run: |
+          mkdir -p podcasts/transcricoes; touch podcasts/fila.txt
+          L=$(grep -v '^\s*$' podcasts/fila.txt | grep -v '^#' | head -1)
+          echo "linha=$L" >> $GITHUB_OUTPUT
+          [ -n "$L" ] && echo "tem=1" >> $GITHUB_OUTPUT || echo "fila vazia"
+      - name: Ferramentas
+        if: steps.fila.outputs.tem == '1'
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          pip install -q faster-whisper numpy
+          npm ci --silent
+      - name: Baixar, guardar e transcrever
+        if: steps.fila.outputs.tem == '1'
+        env:
+          TG_CONF: ${{ secrets.TG_CONF }}
+          LINHA: ${{ steps.fila.outputs.linha }}
+        run: |
+          ID=$(echo "$LINHA" | cut -d'|' -f1); LINK=$(echo "$LINHA" | cut -d'|' -f2); TIT=$(echo "$LINHA" | cut -d'|' -f3)
+          ARQ="podcast-${ID//:/-}.mp4"
+          node tg.js baixar @TopSaverBot "$LINK" "$ARQ" 40
+          # Telegram aceita até 2 GB por arquivo: divide se precisar
+          mkdir -p partes
+          TAM=$(stat -c %s "$ARQ")
+          if [ "$TAM" -gt 1900000000 ]; then ffmpeg -v error -i "$ARQ" -c copy -map 0 -f segment -segment_time 3600 -reset_timestamps 1 "partes/${ARQ%.mp4}_p%02d.mp4"; else cp "$ARQ" partes/; fi
+          for P in partes/*.mp4; do node tg.js enviar "$P" material "$ARQ
+          🎙️ Podcast · $TIT
+          $LINK
+          #podcast #mesademilionario"; done
+          python3 edicao/transcrever.py "$ARQ" "podcasts/transcricoes/${ID//:/-}.json"
+          git config user.name "podcast" && git config user.email "podcast@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase
+            grep -vxF "$LINHA" podcasts/fila.txt > f.tmp || true; mv f.tmp podcasts/fila.txt
+            echo "$LINHA|$(date +%Y-%m-%d)" >> podcasts/feitos.txt
+            git add podcasts && git commit -qm "podcast transcrito: $ID" && git push -q && break
+            git reset -q --hard origin/main; sleep $((RANDOM % 20))
+          done
