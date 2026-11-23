@@ -1,0 +1,32 @@
+name: baixar-youtube
+# StudioTube · download do YouTube 100% na nuvem (o YouTube bloqueia robôs).
+# Baixa pelo @TopSaverBot do Telegram (tg.js baixar) e salva no Drive.
+# Uso (de qualquer sessão da nuvem): gh workflow run baixar-youtube.yml -R Victor-Hugo2000/gravador-lives \
+#   -f link=https://youtu.be/ID -f destino="Darks Clips/Mesa de Milionário/Em-edicao/<pasta>/fonte/original.mp4"
+on:
+  workflow_dispatch:
+    inputs:
+      link: { description: "link do YouTube", required: true }
+      destino: { description: "caminho no Drive (com o nome do arquivo)", required: true }
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ferramentas
+        run: |
+          npm ci --silent
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+      - name: Baixar e salvar no Drive
+        env:
+          TG_CONF: ${{ secrets.TG_CONF }}
+          LINK: ${{ inputs.link }}
+          DEST: ${{ inputs.destino }}
+        run: |
+          node tg.js baixar @TopSaverBot "$LINK" video.mp4 40
+          rclone copyto video.mp4 "drive:$DEST"
+          echo "SALVO: drive:$DEST ($(stat -c %s video.mp4) bytes)"
