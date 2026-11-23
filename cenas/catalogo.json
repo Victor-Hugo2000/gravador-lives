@@ -10123,7 +10123,7 @@
   "duracao": 8.1,
   "descricao": "festa noturna com moto e fonte, homens sem camisa",
   "nome": "festa-moto-fonte-noite",
-  "pasta": "Pessoas e Lifestyle",
+  "pasta": "Não serve",
   "clima": "escuro",
   "tags": [
    "festa",
@@ -10173,7 +10173,7 @@
   "duracao": 11.1,
   "descricao": "texto na tela, avião sobre villa luxuosa e piscina ao pôr do sol",
   "nome": "aviao-piscina-luxo-por-do-sol",
-  "pasta": "Dinheiro e Luxo",
+  "pasta": "Não serve",
   "clima": "dourado",
   "tags": [
    "luxo",
@@ -10190,7 +10190,7 @@
   "duracao": 6.7,
   "descricao": "banheiro com janela para cidade à noite e texto na janela",
   "nome": "banheiro-arranha-ceu-vista-cidade",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "escuro",
   "tags": [
    "banheiro",
@@ -10205,7 +10205,7 @@
   "duracao": 10.6,
   "descricao": "imagem escura e tremida de bandeira num campo à noite, baixa qualidade",
   "nome": "bandeira-americana-noite-campo",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "escuro",
   "tags": [
    "noite",
@@ -10287,7 +10287,7 @@
   "duracao": 17.9,
   "descricao": "evento com marca d'água 1320 video",
   "nome": "salto-penhasco-lago-multidao",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "neutro",
   "tags": [
    "evento",
@@ -10437,7 +10437,7 @@
   "duracao": 13.8,
   "descricao": "texto na tela, pés na beira de prédio sobre a cidade",
   "nome": "topo-predio-cidade-vista-aerea",
-  "pasta": "Cidade e Noite",
+  "pasta": "Não serve",
   "clima": "neutro",
   "tags": [
    "predio",
@@ -10487,7 +10487,7 @@
   "duracao": 41.7,
   "descricao": "legendas grandes na tela, buggy no deserto",
   "nome": "buggy-deserto-homem-keffiyeh",
-  "pasta": "Carros",
+  "pasta": "Não serve",
   "clima": "quente",
   "tags": [
    "buggy",
@@ -10604,7 +10604,7 @@
   "duracao": 23.8,
   "descricao": "paraquedas com texto Operation grande",
   "nome": "paraquedistas-formacao-ceu-azul",
-  "pasta": "Céu e Espaço",
+  "pasta": "Não serve",
   "clima": "luz",
   "tags": [
    "paraquedas",
@@ -10923,7 +10923,7 @@
   "duracao": 90.0,
   "descricao": "Ferrari vermelha e outdoor com texto árabe, loja de luxo",
   "nome": "ferrari-vermelha-dubai-compras-luxo",
-  "pasta": "Carros",
+  "pasta": "Não serve",
   "clima": "luz",
   "tags": [
    "ferrari",
@@ -10990,7 +10990,7 @@
   "duracao": 11.3,
   "descricao": "barco sendo rebocado em rua de bairro, sem destaque visual",
   "nome": "lancha-reboque-bairro-residencial",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "neutro",
   "tags": [
    "barco",
@@ -11190,7 +11190,7 @@
   "duracao": 30.4,
   "descricao": "ambiente interno escuro com câmera girando, sem foco claro",
   "nome": "quarto-escuro-camera-torta-estudio",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "escuro",
   "tags": [
    "quarto",
@@ -11256,7 +11256,7 @@
   "duracao": 5.8,
   "descricao": "lona estendida no gramado e rampa em lago, sem destaque",
   "nome": "lago-rampa-wakeboard-lona-branca",
-  "pasta": "Outros",
+  "pasta": "Não serve",
   "clima": "luz",
   "tags": [
    "lago",
