@@ -1,0 +1,92 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@filosofiaevirtude/video/7683349524407930133"
+ },
+ "trechos": [
+  {
+   "inicio": 0.08,
+   "fim": 7.12
+  },
+  {
+   "inicio": 55.5,
+   "fim": 71.95
+  }
+ ],
+ "gancho": "A MAIOR GENTILEZA | FOI UMA POLTRONA.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "GENTILEZA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "POLTRONA",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "CONVIVÊNCIA",
+   "tipo": "script"
+  },
+  {
+   "palavra": "MATURIDADE",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "ATRAPALHAR",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "AUTORIZANDO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "COMODIDADE",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 4.9,
+   "dur": 2.1,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3645460363667029735.mp4",
+   "de": 0
+  },
+  {
+   "em": 9.5,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3644827374534970235.mp4",
+   "de": 0
+  },
+  {
+   "em": 11.9,
+   "dur": 2.3,
+   "drive": "Lifestyle Variado 2.0/Cópia de Snapins.ai_video_AQN5jb5mHw5CN6tqcvhEopSBQz30iYlbVUWo_9s53FAU5XX21e88YA3yGeY0B_KOLeTW-JeZvGk0E8kdUsO4hpY-uv_Nevxm19XNY_s.mp4",
+   "de": 0
+  },
+  {
+   "em": 14.8,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/Luxury 423.mp4",
+   "de": 0
+  },
+  {
+   "em": 17.3,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/Winvibes11.mp4",
+   "de": 0
+  },
+  {
+   "em": 19.9,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3636025611203935232.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "A maior gentileza que já fizeram por você? Às vezes é não incomodar. #reflexão #convivência #respeito | Fala: Clóvis de Barros, via @filosofiaevirtude",
+ "saida": "2026-11-23-a-maior-gentileza-foi-uma-poltrona.mp4",
+ "baseId": "tt:7683349524407930133"
+}
