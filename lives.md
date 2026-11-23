@@ -12,3 +12,4 @@ Gravadas pelo robô do GitHub e enviadas para `Meu Drive/Direto de Vice/01-Bruto
 | 2026-11-21-0446-kaicenat-beating-gta-6-right-now-finale.mp4 | kaicenat | 2026-11-21 | BEATING GTA 6 RIGHT NOW *FINALE* | https://www.twitch.tv/kaicenat | ~70 min | 1546 MB | sim |
 | 2026-11-21-2303-kaicenat-exploring-gta-6.mp4 | kaicenat | 2026-11-22 | 🗺️EXPLORING GTA 6🗺️ | https://www.twitch.tv/kaicenat | ~232 min | 5142 MB | sim |
 | 2026-11-22-0641-xqc-drops-60-fps-gta-6-finishing-game-in-one.mp4 | xqc | 2026-11-22 | 🫂DROPS🫂60 FPS🫂GTA 6🫂FINISHING GAME IN ONE GO🫂LOCK IT IN🫂YAY🫂THE BEST PLAYER🫂OF ALL TIME🫂IS HERE🫂 | https://www.twitch.tv/xqc | ~17 min | 410 MB | sim |
+| 2026-11-22-1941-cellbit-busco-padre-exorcista-para-esconjurar-jo.mp4 | cellbit | 2026-11-23 | busco padre exorcista para esconjurar jogo de video game gta 6 contato e pagamento na DM obrigado | https://www.twitch.tv/cellbit | ~352 min | 6019 MB | não (reserva no Drive) |
