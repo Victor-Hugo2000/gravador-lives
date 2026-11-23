@@ -1,0 +1,98 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@codigodaprosperidadee7/video/7690986025404992769"
+ },
+ "trechos": [
+  {
+   "inicio": 0.2,
+   "fim": 26.0
+  }
+ ],
+ "gancho": "DINHEIRO NÃO É SOBRE | TRABALHAR MUITO.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "TRABALHAR",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "DINHEIRO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "MENTE",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "MILIONÁRIA",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "RICA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "DIFERENTE",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "CADERNINHO",
+   "tipo": "script"
+  },
+  {
+   "palavra": "CONCEITO",
+   "tipo": "ouro-serifa"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.6,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3612827541631619362.mp4",
+   "de": 0
+  },
+  {
+   "em": 6.3,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3253230598142234461.mp4",
+   "de": 0
+  },
+  {
+   "em": 8.6,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3694008911578578704.mp4",
+   "de": 0
+  },
+  {
+   "em": 11.8,
+   "dur": 2.4,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_AQPbUaLo0ed2_921K608a4g0K5d3baeZI3YsHQa7W4A-jJX64nj0Fd2mwx80vjeKp0RO1607KtMp7Dt6E0A88FOU.mp4",
+   "de": 0
+  },
+  {
+   "em": 14.6,
+   "dur": 1.9,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_An-1j-APkaWQSLMDAQ3PRlc2wdKTT8c6H4VrHK83bEID7X5EACvJ2yEyL2RKG3HcDPMawLLwaD044rmRwUO6M1KF.mp4",
+   "de": 0
+  },
+  {
+   "em": 18.6,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3599884724002711174.mp4",
+   "de": 0
+  },
+  {
+   "em": 23.4,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQOWAVRyxk1bsJdQKiiD5vTlfMW_gPRrKgukKFwwwSTtPwHyczAHviVWE9p_92Ra9EcuBD_8QbkpdgD_oaLI_sGJjZ7ArWmGuUUUmro.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "Dinheiro não é sobre trabalhar muito. É sobre pensar diferente. #prosperidade #mentalidade #dinheiro | Fala: Aroldo Uchoa",
+ "saida": "2026-11-23-dinheiro-nao-e-trabalhar-muito.mp4",
+ "baseId": "tt:7690986025404992769"
+}
