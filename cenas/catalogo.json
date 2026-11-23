@@ -10065,5 +10065,1670 @@
    "lua"
   ],
   "serve": true
+ },
+ "0600": {
+  "n": "0600",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An96-GGrJQLKyAAgs5R9DM2a6cjTrtLUsWgyFAFC8nXQjNb4R_rPtl_PiohLzduOuyPh-EdZOdyqRX-PFxN36KU.mp4",
+  "duracao": 14.6,
+  "descricao": "ciclista de braço erguido numa estrada com montanhas nevadas",
+  "nome": "ciclista-estrada-montanhas-patagonia",
+  "pasta": "Estrada e Viagem",
+  "clima": "dourado",
+  "tags": [
+   "estrada",
+   "bicicleta",
+   "montanha",
+   "viagem",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0601": {
+  "n": "0601",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-PczedPOW3QWg7pQCQZT97h5PotprWu_flUGVqGWjTW6MMStqkn3h9HSmbjUqdYAttJpTMI0Zc9swWMXfklCmn.mp4",
+  "duracao": 13.4,
+  "descricao": "silhueta de duas pessoas sobre céu laranja, cais e rua colonial",
+  "nome": "silhueta-casal-por-do-sol-laranja",
+  "pasta": "Silhueta e Solidão",
+  "clima": "quente",
+  "tags": [
+   "silhueta",
+   "por do sol",
+   "casal",
+   "viagem",
+   "laranja"
+  ],
+  "serve": true
+ },
+ "0602": {
+  "n": "0602",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An93w6R1Qz2teVf16wxKo0M2Q30sJfA83PRpmdnj2LwdcmS5Y_G2VN9Or36Z_zi4GALn_3TiqlZjzj9glHw4qeg6.mp4",
+  "duracao": 11.8,
+  "descricao": "homem de máscara e óculos ao lado de lago e montanhas",
+  "nome": "homem-mascara-lago-montanha-alpes",
+  "pasta": "Natureza e Paisagem",
+  "clima": "neutro",
+  "tags": [
+   "lago",
+   "montanha",
+   "alpes",
+   "trilha",
+   "natureza"
+  ],
+  "serve": true
+ },
+ "0603": {
+  "n": "0603",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8dbu99x1J26PIS9CcIgFIH8ZJcJYiiVZ0qGjlMgEiCy0pxNMdL83mD3mRPtGyhwt1x3XlZeRsNlF43Rbt2MFi5.mp4",
+  "duracao": 8.1,
+  "descricao": "festa noturna com moto e fonte, homens sem camisa",
+  "nome": "festa-moto-fonte-noite",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "escuro",
+  "tags": [
+   "festa",
+   "noite",
+   "moto",
+   "fonte"
+  ],
+  "serve": false
+ },
+ "0604": {
+  "n": "0604",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_eCOHdo8C3-GCrYE9v2_DSdCMMRAZnuJJxMK88kKmWcpmTyOioOcP5SFZSTZw5PCeUFFX5JahX7WbqJNpicxBs.mp4",
+  "duracao": 9.0,
+  "descricao": "ponte metálica envolta em neblina com luz vermelha",
+  "nome": "ponte-nevoeiro-poste-cabos",
+  "pasta": "Cidade e Noite",
+  "clima": "frio",
+  "tags": [
+   "ponte",
+   "neblina",
+   "cabos",
+   "frio",
+   "misterio"
+  ],
+  "serve": true
+ },
+ "0605": {
+  "n": "0605",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-hqHxsoSg6BndwVt1v0odw57qVX7wTjdcLZLVIVj_xgd83cHW3M3360h0SNo4Ju-vdrdFmaD88aat3bNpe98ul.mp4",
+  "duracao": 13.3,
+  "descricao": "homem de balaclava e luvas diante de lago e montanhas verdes",
+  "nome": "homem-balaclava-lago-alpes-verde",
+  "pasta": "Natureza e Paisagem",
+  "clima": "neutro",
+  "tags": [
+   "lago",
+   "montanha",
+   "trilha",
+   "verde",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0606": {
+  "n": "0606",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An96ZfnpYjByV1UbWaAEPZWaGK4FsIo9L9fPV_xFfc6DTwBjnOwHdr5auUacBkxNnGKsrgfTyoGyOW0cl-lcvZtf.mp4",
+  "duracao": 11.1,
+  "descricao": "texto na tela, avião sobre villa luxuosa e piscina ao pôr do sol",
+  "nome": "aviao-piscina-luxo-por-do-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "luxo",
+   "aviao",
+   "piscina",
+   "villa",
+   "por do sol"
+  ],
+  "serve": false
+ },
+ "0607": {
+  "n": "0607",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_7F43B497AA7AB19F4EAAD71778E23FB3_video_dashinit.mp4",
+  "duracao": 6.7,
+  "descricao": "banheiro com janela para cidade à noite e texto na janela",
+  "nome": "banheiro-arranha-ceu-vista-cidade",
+  "pasta": "Outros",
+  "clima": "escuro",
+  "tags": [
+   "banheiro",
+   "cidade",
+   "noite"
+  ],
+  "serve": false
+ },
+ "0608": {
+  "n": "0608",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8f7MoB4OxXt1i8dMfT02dnlx5bDa0iitYy73K1lZD4b6Jrp6Yc6dWT6mZIr9VFM_uKmBAqPeP75q1D97QBDNlO.mp4",
+  "duracao": 10.6,
+  "descricao": "imagem escura e tremida de bandeira num campo à noite, baixa qualidade",
+  "nome": "bandeira-americana-noite-campo",
+  "pasta": "Outros",
+  "clima": "escuro",
+  "tags": [
+   "noite",
+   "bandeira",
+   "escuro"
+  ],
+  "serve": false
+ },
+ "0609": {
+  "n": "0609",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_2v8e9Xc7V-3d-aHUSuUN3E256c3TXTVIEwq6S7b7-FdKtdXp_e6eLEhA196pFbeh65LgIRKbLGAx8rpvTa9De.mp4",
+  "duracao": 28.7,
+  "descricao": "homem musculoso saltando em piscina infinita com vista para o mar",
+  "nome": "homem-piscina-infinita-mar-tropical",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "luz",
+  "tags": [
+   "piscina",
+   "mar",
+   "tropical",
+   "luxo",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0610": {
+  "n": "0610",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_A54CEEB3C40A8EFB00C90B76BA768C9F_video_dashinit.mp4",
+  "duracao": 8.8,
+  "descricao": "pessoa pilotando kart dentro de prédio à noite",
+  "nome": "kart-corredor-noturno-galpao",
+  "pasta": "Outros",
+  "clima": "neutro",
+  "tags": [
+   "kart",
+   "corrida",
+   "noite",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0611": {
+  "n": "0611",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_iMqtvTqb6q_6j3kwuhOmNT6z3eE2y8r-BG4KU2l9byxjeLD8XZ0R4dKXWbkJ46IouXo-bBboE6_u2mx_esqQ.mp4",
+  "duracao": 7.9,
+  "descricao": "POV de bicicleta sobre crista rochosa de montanha sob sol",
+  "nome": "bicicleta-crista-montanha-pov",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "montanha",
+   "bicicleta",
+   "pov",
+   "aventura",
+   "ceu"
+  ],
+  "serve": true
+ },
+ "0612": {
+  "n": "0612",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8MWHK3JpWqV8f1itrQObZCX4Q6iY-HSnxne6EMzs2JHSSXSMekqV3zAAekZvT9Yno3KEITvIkqOz1IRVdbMfsY.mp4",
+  "duracao": 21.0,
+  "descricao": "paraquedista saltando de avião entre nuvens",
+  "nome": "salto-paraquedas-avioes-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "neutro",
+  "tags": [
+   "paraquedas",
+   "salto",
+   "nuvens",
+   "ceu",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0613": {
+  "n": "0613",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An805qr4pmMmQXOeNXYB5xrYlTlPuLHcbefQRb3aTa_c83sXs5JHIajzUfz-3XLTrYgEwrr8OR0gURFVRLVSbg.mp4",
+  "duracao": 17.9,
+  "descricao": "evento com marca d'água 1320 video",
+  "nome": "salto-penhasco-lago-multidao",
+  "pasta": "Outros",
+  "clima": "neutro",
+  "tags": [
+   "evento",
+   "lago",
+   "marca dagua"
+  ],
+  "serve": false
+ },
+ "0614": {
+  "n": "0614",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9KdFIs2CXXwXNnEuqEgM8OchFJoSRP5MRknDfIALDTZPQvKWVzGjHdgRof6f2l6EEa8STXBM1r9NaVwIcz9Lbg.mp4",
+  "duracao": 16.0,
+  "descricao": "campos agrícolas vistos do alto por paraquedista",
+  "nome": "campos-vistos-de-cima-paraquedas",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "campos",
+   "aereo",
+   "paraquedas",
+   "agricultura",
+   "ceu"
+  ],
+  "serve": true
+ },
+ "0615": {
+  "n": "0615",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9sCSVP6qcsflN0gLWj1zgo5fOHv4lUiUulm3oj191YXeLIq6ldKjeiI-QbIhNdmk4cOfb84bnCflUDabHzkdfx.mp4",
+  "duracao": 21.6,
+  "descricao": "nuvem de tempestade gigante sobre estrada reta e campo",
+  "nome": "tempestade-nuvem-estrada-planicie",
+  "pasta": "Fogo e Tempestade",
+  "clima": "dourado",
+  "tags": [
+   "tempestade",
+   "nuvens",
+   "estrada",
+   "planicie",
+   "drama"
+  ],
+  "serve": true
+ },
+ "0616": {
+  "n": "0616",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-kqtMVk6OcckP-fDu8EmbwF38lELmASFKGIIQXNCAONuzEpgk6tUHK0PzWG0F0cixiWe5wdGI4JF5RNj0ZIKc.mp4",
+  "duracao": 6.0,
+  "descricao": "pessoa saltando de rocha em rio de água verde",
+  "nome": "salto-penhasco-rio-esmeralda",
+  "pasta": "Água e Mar",
+  "clima": "frio",
+  "tags": [
+   "salto",
+   "rio",
+   "penhasco",
+   "agua",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0617": {
+  "n": "0617",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_A547FBE872282E98C8CCF8FA6A52EC83_video_dashinit.mp4",
+  "duracao": 8.8,
+  "descricao": "homem de braços abertos sobre pá de turbina eólica no pôr do sol",
+  "nome": "homem-asa-turbina-eolica-por-do-sol",
+  "pasta": "Silhueta e Solidão",
+  "clima": "dourado",
+  "tags": [
+   "turbina",
+   "silhueta",
+   "por do sol",
+   "topo",
+   "conquista"
+  ],
+  "serve": true
+ },
+ "0618": {
+  "n": "0618",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_h5XL7PP9qht1PO-P3G8Qw6abeiM02XyO5xdERarcBxUjQVyBuAZhrTFO632JeKDPMcoX2VMhEtyz_Qx7ICq1K.mp4",
+  "duracao": 11.8,
+  "descricao": "estrutura de concreto abandonada com lixo colorido",
+  "nome": "ruinas-concreto-abandonadas-urbex",
+  "pasta": "Outros",
+  "clima": "frio",
+  "tags": [
+   "abandonado",
+   "concreto",
+   "urbex",
+   "ruina"
+  ],
+  "serve": true
+ },
+ "0619": {
+  "n": "0619",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_SDmk4SteJTVylQEwlcNy-PnpBHpyERYF4Hupz2vtcxP3H5oUJ0iqShj7BSR09dMnaqSstGfppULFP8Hg3yHhD.mp4",
+  "duracao": 6.6,
+  "descricao": "pés pendurados em torre sobre campos verdes ao pôr do sol",
+  "nome": "pes-pendurados-torre-por-do-sol-campos",
+  "pasta": "Estrada e Viagem",
+  "clima": "dourado",
+  "tags": [
+   "altura",
+   "por do sol",
+   "campos",
+   "pov",
+   "coragem"
+  ],
+  "serve": true
+ },
+ "0620": {
+  "n": "0620",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8mPwvZuTyEUNfJa5RCovnn-qcApTa-nKK3nHJAhwpIjSX-tdjS7kFUaug96_o2rEzgBhUPJTywbNxm6CW7hFs.mp4",
+  "duracao": 10.0,
+  "descricao": "homem caminhando em passarela de torre acima das nuvens",
+  "nome": "passarela-torre-acima-das-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "frio",
+  "tags": [
+   "nuvens",
+   "altura",
+   "torre",
+   "neblina",
+   "solidao"
+  ],
+  "serve": true
+ },
+ "0621": {
+  "n": "0621",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8AhVEjsDPe8mjVNagyZaZ91gTLGbd9xLE46VfOxyPxfZB8kG_zqDKGbw8fL2GTFMlQZZhDEbDHMijYCDryDfYq.mp4",
+  "duracao": 9.0,
+  "descricao": "ponte de ferro enferrujada sobre rio e vale verde",
+  "nome": "ponte-ferrea-enferrujada-rio-vale",
+  "pasta": "Natureza e Paisagem",
+  "clima": "frio",
+  "tags": [
+   "ponte",
+   "ferro",
+   "rio",
+   "vale",
+   "altura"
+  ],
+  "serve": true
+ },
+ "0622": {
+  "n": "0622",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9a5RSgFU7yM2K-Xg8c6-2jJumh1fcwR6yoquiF-SfGPn0F1YpHKirHkvLDL2gHNzGTH29ZSv3HhJgmQ6gI48kb.mp4",
+  "duracao": 13.8,
+  "descricao": "texto na tela, pés na beira de prédio sobre a cidade",
+  "nome": "topo-predio-cidade-vista-aerea",
+  "pasta": "Cidade e Noite",
+  "clima": "neutro",
+  "tags": [
+   "predio",
+   "altura",
+   "cidade",
+   "pov"
+  ],
+  "serve": false
+ },
+ "0623": {
+  "n": "0623",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9HMZLdM8Mf1U_xbTY32ZQ3Sq2f-4UwO-VTy1Xvzq7i6y8Zmv6Ld0-zWs3GyKUCMbHPA6jlzRIbAhKfsAS-1jTO.mp4",
+  "duracao": 9.4,
+  "descricao": "dois homens elegantes de terno com drinks na rua à noite",
+  "nome": "dois-homens-terno-drinks-elegantes",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "terno",
+   "elegancia",
+   "drink",
+   "luxo",
+   "homens"
+  ],
+  "serve": true
+ },
+ "0624": {
+  "n": "0624",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-wn7yy5SwakXnlK3cmJ0aYSzs5GFYrhnePdyeRM1Vir5z24J9ObnBzaulkbjwiFUqNAnZjf_sojqU2ZHEW-1FL.mp4",
+  "duracao": 12.8,
+  "descricao": "homem bebendo vinho em mesa suspensa sobre o mar ao pôr do sol",
+  "nome": "homem-bebendo-vinho-mar-por-do-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "quente",
+  "tags": [
+   "vinho",
+   "mar",
+   "por do sol",
+   "luxo",
+   "relax"
+  ],
+  "serve": true
+ },
+ "0625": {
+  "n": "0625",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-uWcRSCn3SmuGGGBCsWc-W86C8x9pdMb67_ztOLwxmtJswRT8hhnxi2MJ54qmHagvG5bKU5UVlZq0uX4TSXHKz.mp4",
+  "duracao": 41.7,
+  "descricao": "legendas grandes na tela, buggy no deserto",
+  "nome": "buggy-deserto-homem-keffiyeh",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "buggy",
+   "deserto",
+   "dunas"
+  ],
+  "serve": false
+ },
+ "0626": {
+  "n": "0626",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_ED48EDC9BAFAF6C61D1F1A7E9DD9E1A8_video_dashinit.mp4",
+  "duracao": 16.8,
+  "descricao": "homem de óculos e turbante sobre vagão de trem no deserto",
+  "nome": "selfie-vagao-trem-deserto-oculos",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "trem",
+   "deserto",
+   "aventura",
+   "viagem",
+   "africa"
+  ],
+  "serve": true
+ },
+ "0627": {
+  "n": "0627",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_NaIyeuQkjbyJ-mRqzTBYrkrcwksz2FIrxqw3c3u_1R1Z60zwX4tDEJEeiurXap4rttxnglK3_CZazOVWYok0p.mp4",
+  "duracao": 11.2,
+  "descricao": "pessoa voando com asa amarela sobre dunas e praia",
+  "nome": "wingfoil-duna-praia-voo",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "duna",
+   "praia",
+   "asa",
+   "esporte",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0628": {
+  "n": "0628",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8yudPij3-3O9UyeAH3Xolu8gGN970T2YM5-ZBsQjXyE0shCtlGXP8F_I181GlKMgRsh4lIowClNSrjXKp5GxUl.mp4",
+  "duracao": 20.9,
+  "descricao": "super iate de luxo ancorado, entardecer e noite",
+  "nome": "iate-luxo-porto-por-do-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "iate",
+   "luxo",
+   "mar",
+   "por do sol",
+   "riqueza"
+  ],
+  "serve": true
+ },
+ "0629": {
+  "n": "0629",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_rLN8tWRccOJDKK7C-Jx7BGGGGWo3xYVwAg1IpLX2rgYeocsnXrQQcJ68lDi3R81xob5ntJT0g0XVoFC5Jpp8v.mp4",
+  "duracao": 9.2,
+  "descricao": "buggies esportivos entre palmeiras na praia",
+  "nome": "buggies-esportivos-palmeiras-praia",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "buggy",
+   "palmeiras",
+   "praia",
+   "carro",
+   "californa"
+  ],
+  "serve": true
+ },
+ "0630": {
+  "n": "0630",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_434CFE4C5DB16F002C0FA4A194050D9D_video_dashinit.mp4",
+  "duracao": 19.9,
+  "descricao": "lancha esportiva em alta velocidade no mar ao entardecer",
+  "nome": "lancha-rapida-mar-entardecer",
+  "pasta": "Água e Mar",
+  "clima": "dourado",
+  "tags": [
+   "lancha",
+   "mar",
+   "entardecer",
+   "velocidade",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0631": {
+  "n": "0631",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-oqGGdkUnf_d6CHsqe1iVoT-VrsrAiHtOU0WKZcql9oCMs1EwyUxNnONbprkypuhqcGaM-b3AThNg1HJLvN3yE.mp4",
+  "duracao": 16.8,
+  "descricao": "animação de skatista numa rua com palmeiras e sol enorme",
+  "nome": "skatista-rua-palmeiras-sol-animacao",
+  "pasta": "Estrada e Viagem",
+  "clima": "dourado",
+  "tags": [
+   "skate",
+   "palmeiras",
+   "animacao",
+   "por do sol",
+   "rua"
+  ],
+  "serve": true
+ },
+ "0632": {
+  "n": "0632",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-l2E3qGWoMvA99jfb5e0qlgfT_w-iriFDsX4rRCFkbQSW8r0VBvq4k7_X_tS7bSBLpWJEeZ6MxFvcQ2GZZouYR.mp4",
+  "duracao": 23.8,
+  "descricao": "paraquedas com texto Operation grande",
+  "nome": "paraquedistas-formacao-ceu-azul",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "ceu",
+   "formacao"
+  ],
+  "serve": false
+ },
+ "0633": {
+  "n": "0633",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-HZGoXCIEjp6RY45Em6v-az5DaZvr3HEGBfFtW-pjVkwzz3yNQBnrFNyVGnCjR_fQV5s3CDLcQm-F2ySzFoxHy.mp4",
+  "duracao": 3.5,
+  "descricao": "homem de relógio de luxo sentado em hotel com SUVs e arranha-céus",
+  "nome": "homem-relogio-hotel-luxo-dubai",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "relogio",
+   "luxo",
+   "dubai",
+   "hotel",
+   "riqueza"
+  ],
+  "serve": true
+ },
+ "0634": {
+  "n": "0634",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8KMRnVGhANDyut-q6XL0q0WMMONyg5hXG8Ghx8IYGe1_zyWS8fg_Gc5mYMuPVHJ7DmlXLvusShFlJ4BB3smRWQ.mp4",
+  "duracao": 16.3,
+  "descricao": "autódromo à noite com fogos e carros na pista",
+  "nome": "autodromo-noite-fogos-corrida",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "autodromo",
+   "noite",
+   "fogos",
+   "corrida",
+   "multidao"
+  ],
+  "serve": true
+ },
+ "0635": {
+  "n": "0635",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8F6F-3HWSlW0EDNRIMRMdGMzCw0kbejXMMzJoTxrzuJfoapSZqqTTYx1A-10pRFDUYnd6qRftO4lw6Av_i3-ww.mp4",
+  "duracao": 23.1,
+  "descricao": "figuras com máscaras cromadas e capas pretas no deserto, estilo ficção científica",
+  "nome": "figuras-mascara-cromada-deserto",
+  "pasta": "Cinema e Drama",
+  "clima": "dourado",
+  "tags": [
+   "ficcao",
+   "mascara",
+   "cromado",
+   "deserto",
+   "surreal"
+  ],
+  "serve": true
+ },
+ "0636": {
+  "n": "0636",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8A_BDZb02_QC6VQDua8r4llypGVEui4hVb4hoclCt_15Hk0nUx2uIAMixMPGYbWg4gD0YTiAhBZ36XFtGcR91p.mp4",
+  "duracao": 6.7,
+  "descricao": "paraquedistas de mãos dadas em queda livre acima das nuvens",
+  "nome": "paraquedista-capacete-mao-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "queda livre",
+   "paraquedas",
+   "nuvens",
+   "ceu",
+   "ilha"
+  ],
+  "serve": true
+ },
+ "0637": {
+  "n": "0637",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_64OhdrlLQjeofjcsMduahZYGnYKVJ4BhUuOKZoQhpROU8_On4ayKLbvQ4pMuABoh1G6gC2H2V816O2JzX6VbP.mp4",
+  "duracao": 11.2,
+  "descricao": "amigos em villa com piscina, piano e veleiro, carro vermelho clássico",
+  "nome": "villa-italiana-piscina-veleiro-piano",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "villa",
+   "piscina",
+   "veleiro",
+   "piano",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0638": {
+  "n": "0638",
+  "drive": "Lifestyle Variado 2.0/video-1713193810-1.mp4",
+  "duracao": 10.6,
+  "descricao": "homem de preto ao lado de esportivo amarelo com montanhas ao fundo",
+  "nome": "homem-aston-martin-amarelo-montanha",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "carro",
+   "esportivo",
+   "amarelo",
+   "montanha",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0639": {
+  "n": "0639",
+  "drive": "Lifestyle Variado 2.0/video-1713193844-1.mp4",
+  "duracao": 7.3,
+  "descricao": "skatista descendo estrada de montanha ao pôr do sol",
+  "nome": "skatista-longboard-estrada-por-do-sol",
+  "pasta": "Estrada e Viagem",
+  "clima": "quente",
+  "tags": [
+   "longboard",
+   "estrada",
+   "por do sol",
+   "montanha",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0640": {
+  "n": "0640",
+  "drive": "Lifestyle Variado 2.0/video-1720484453-1.mp4",
+  "duracao": 11.5,
+  "descricao": "homem saindo de mansão e carro Mercedes prata na praia",
+  "nome": "mercedes-prata-mansao-praia",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "mercedes",
+   "mansao",
+   "praia",
+   "carro",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0641": {
+  "n": "0641",
+  "drive": "Lifestyle Variado 2.0/LF (210).mp4",
+  "duracao": 10.4,
+  "descricao": "amigos pulando no mar e mortal ao pôr do sol",
+  "nome": "amigos-pulando-mar-parkour-por-do-sol",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "dourado",
+  "tags": [
+   "amigos",
+   "pulo",
+   "mar",
+   "liberdade",
+   "por do sol"
+  ],
+  "serve": true
+ },
+ "0642": {
+  "n": "0642",
+  "drive": "Lifestyle Variado 2.0/LF (208).mp4",
+  "duracao": 10.6,
+  "descricao": "homem de preto ao lado de esportivo amarelo com montanhas ao fundo",
+  "nome": "homem-aston-martin-amarelo-montanha-b",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "carro",
+   "esportivo",
+   "amarelo",
+   "montanha",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0643": {
+  "n": "0643",
+  "drive": "Lifestyle Variado 2.0/LF (207).mp4",
+  "duracao": 13.7,
+  "descricao": "jogadores famosos da seleção alemã em treino com logotipos",
+  "nome": "jogadores-selecao-treino-gramado",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "futebol",
+   "treino",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0644": {
+  "n": "0644",
+  "drive": "Lifestyle Variado 2.0/LF (205).mp4",
+  "duracao": 10.8,
+  "descricao": "skatista descendo estrada de montanha em dia nublado",
+  "nome": "longboard-descida-estrada-neblina",
+  "pasta": "Estrada e Viagem",
+  "clima": "frio",
+  "tags": [
+   "longboard",
+   "descida",
+   "estrada",
+   "neblina",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0645": {
+  "n": "0645",
+  "drive": "Lifestyle Variado 2.0/LF (204).mov",
+  "duracao": 12.2,
+  "descricao": "jet ski em alta velocidade no mar ao pôr do sol",
+  "nome": "jet-ski-por-do-sol-mar-calmo",
+  "pasta": "Água e Mar",
+  "clima": "dourado",
+  "tags": [
+   "jet ski",
+   "mar",
+   "por do sol",
+   "velocidade",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0646": {
+  "n": "0646",
+  "drive": "Lifestyle Variado 2.0/LF (202).mp4",
+  "duracao": 44.8,
+  "descricao": "paraquedista em queda livre entre nuvens",
+  "nome": "paraquedista-mortal-entre-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "queda livre",
+   "nuvens",
+   "ceu",
+   "paraquedas",
+   "coragem"
+  ],
+  "serve": true
+ },
+ "0647": {
+  "n": "0647",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_45494ECB87441A411942E2F96124B8B6_video_dashinit.mp4",
+  "duracao": 13.4,
+  "descricao": "homem sem camisa trabalhando no notebook em iate",
+  "nome": "homem-trabalhando-laptop-iate",
+  "pasta": "Trabalho e Estudo",
+  "clima": "luz",
+  "tags": [
+   "iate",
+   "notebook",
+   "trabalho remoto",
+   "luxo",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0648": {
+  "n": "0648",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_HuxMBDbd7F9i6bnM9BKxrd7BurlyLDk0SerIYNAword2W4v887BwEd0KKpkMCnks51QlckN-hTNBQFw7mWNuW.mp4",
+  "duracao": 8.7,
+  "descricao": "homem de costas diante de janela com piscina e prédios de luxo",
+  "nome": "homem-janela-piscina-miami-predios",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "mansao",
+   "piscina",
+   "miami",
+   "luxo",
+   "silhueta"
+  ],
+  "serve": true
+ },
+ "0649": {
+  "n": "0649",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8vv3Q0dUOJ1jOw8KWgT_BqY0n357B2cCI1T_52S9ODhXu0XylegzwWWuML35AUDh_-VVWrEL_whI-CFR5rYhQ.mp4",
+  "duracao": 10.3,
+  "descricao": "homem de costas em jardim de villa com vista para o mar",
+  "nome": "homem-varanda-villa-vista-mar-azul",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "villa",
+   "mar",
+   "jardim",
+   "luxo",
+   "manha"
+  ],
+  "serve": true
+ },
+ "0650": {
+  "n": "0650",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-bhCb3gGAk3rWZHKSDoiG67Pm1sUOn2GAgJ-BMqgBsIeozvvTfG7hCv1HlUyUsO7_rGY1Xtk_rioxhZVrSh8hv.mp4",
+  "duracao": 11.8,
+  "descricao": "homem de terno em varanda de mansão com vista para a baía",
+  "nome": "homem-terno-varanda-baia-entardecer",
+  "pasta": "Silhueta e Solidão",
+  "clima": "quente",
+  "tags": [
+   "mansao",
+   "baia",
+   "entardecer",
+   "terno",
+   "silhueta"
+  ],
+  "serve": true
+ },
+ "0651": {
+  "n": "0651",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_02467EEB861CCA3B567ED3B5ACDA508F_video_dashinit.mp4",
+  "duracao": 90.0,
+  "descricao": "Ferrari vermelha e outdoor com texto árabe, loja de luxo",
+  "nome": "ferrari-vermelha-dubai-compras-luxo",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "ferrari",
+   "dubai",
+   "luxo",
+   "bolsa"
+  ],
+  "serve": false
+ },
+ "0652": {
+  "n": "0652",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_F04BCAD851E0C57150BA402F675183AD_video_dashinit.mp4",
+  "duracao": 13.6,
+  "descricao": "homem de branco sentado em fonte com estátua de anjo",
+  "nome": "homem-fonte-anjo-jardim-luxo",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "fonte",
+   "luxo",
+   "jardim",
+   "elegancia",
+   "riqueza"
+  ],
+  "serve": true
+ },
+ "0653": {
+  "n": "0653",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-8b8eAJEadHvfu2yHSttOzu-MV2TxCzTXZcNdAiZiVugI8KvROJq9MM7BOuEuaj6wJFay1A35ygzgl109cvhYc.mp4",
+  "duracao": 20.9,
+  "descricao": "POV de bicicleta sobre crista estreita coberta de musgo nas montanhas",
+  "nome": "bicicleta-crista-verde-dolomitas",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "montanha",
+   "bicicleta",
+   "pov",
+   "dolomitas",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0654": {
+  "n": "0654",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8foVoWnZlxS5Emk9hi4SHoIkAVJsDM_dm4t1WY8w-E3tUaSrRQT71mq-J6RqlvvAlikTyhtZ22peoxjAX1Bn58.mp4",
+  "duracao": 3.4,
+  "descricao": "buggy roxo saltando em duna do deserto com poeira",
+  "nome": "buggy-roxo-dunas-deserto-salto",
+  "pasta": "Carros",
+  "clima": "dourado",
+  "tags": [
+   "buggy",
+   "deserto",
+   "duna",
+   "poeira",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0655": {
+  "n": "0655",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-idfl3bRFIKji7EyHylcdskF3rwX4wsG8HCP0EFhx4sdzxNcuWxtvwyFuvBe3D-pycqN4qkdPV4wbi70ypn_PP.mp4",
+  "duracao": 11.3,
+  "descricao": "barco sendo rebocado em rua de bairro, sem destaque visual",
+  "nome": "lancha-reboque-bairro-residencial",
+  "pasta": "Outros",
+  "clima": "neutro",
+  "tags": [
+   "barco",
+   "bairro",
+   "reboque"
+  ],
+  "serve": false
+ },
+ "0656": {
+  "n": "0656",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9bBKy-lb_tBOjQqgfO_R4zvE3Jwl1is5TdjemaeNr9kf8g02l6l_pa2NR5S2xlLDIGLGprzMkh-dHsAnv1GkH6.mp4",
+  "duracao": 5.7,
+  "descricao": "buggy roxo derrapando em duna com areia voando",
+  "nome": "buggy-roxo-duna-areia-cinematico",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "buggy",
+   "duna",
+   "deserto",
+   "areia",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0657": {
+  "n": "0657",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_DC9Wz16so5xBUbDU3UDAfTn0zBginjlfKqnoJnDvjtICoxQVUThVFzAALQ4dNjN2I0iBBmmJyCE6h5qt-ye4.mp4",
+  "duracao": 11.4,
+  "descricao": "skatista em queda livre sobre rampa e lago visto do alto",
+  "nome": "skatista-paraquedas-queda-livre-manobra",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "skate",
+   "queda livre",
+   "ceu",
+   "manobra",
+   "coragem"
+  ],
+  "serve": true
+ },
+ "0658": {
+  "n": "0658",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9MAD4IFceDNhv9IVbEuMgQ58GdfEOLfn-VOkVquAMj8f8d3uMlU_eG9NYtENJ6Zn2qpsGcKYfqp9bK7m1TlaJe.mp4",
+  "duracao": 11.7,
+  "descricao": "homem descendo duna de areia com prancha no deserto",
+  "nome": "sandboard-duna-deserto-descida",
+  "pasta": "Natureza e Paisagem",
+  "clima": "quente",
+  "tags": [
+   "sandboard",
+   "duna",
+   "deserto",
+   "descida",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0659": {
+  "n": "0659",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8UIohZEl9-XZmVwVsX3hK2ur9PhFDhHMDbimyAHNWsXcjNXvDH7AR3N3su5G0ijOTuz5ENtxzUiWGi3wrnXcAM.mp4",
+  "duracao": 8.1,
+  "descricao": "ultraleve de motocicleta decolando de campo arado",
+  "nome": "ultraleve-triciclo-campo-voo",
+  "pasta": "Céu e Espaço",
+  "clima": "neutro",
+  "tags": [
+   "ultraleve",
+   "voo",
+   "campo",
+   "aventura",
+   "ceu"
+  ],
+  "serve": true
+ },
+ "0660": {
+  "n": "0660",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_wS_tZqrHtd08Pk227lsUQDjWCotqB_KKEATaqAjAsVy8Cp4AJAT6JHBUBpzcf107uUio9M8xUZ436ZSkns3ZS.mp4",
+  "duracao": 60.2,
+  "descricao": "astronauta flutuando entre asteroides e planeta com anéis, animação",
+  "nome": "astronauta-asteroides-planeta-anelado",
+  "pasta": "Céu e Espaço",
+  "clima": "frio",
+  "tags": [
+   "espaco",
+   "astronauta",
+   "asteroides",
+   "planeta",
+   "ficcao"
+  ],
+  "serve": true
+ },
+ "0661": {
+  "n": "0661",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-7AnOibgxXdSsfWdJa25lyATf8UNL4MEsE7Rjtdmao5yTIe7MtqAmkUEg0OBCPy_hl09zr7H7aSZKZKz_p_bix.mp4",
+  "duracao": 29.7,
+  "descricao": "carros de F1 com logotipos Pirelli e patrocinadores em destaque",
+  "nome": "formula-1-noite-patrocinadores",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "f1",
+   "corrida",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0662": {
+  "n": "0662",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-PHbRs1zETu5UPYaBhYmP5HOfOLUCmMTsPp8dzLakNGGB36jWWaGkr-Rmy4YgxJ_JslttdnOutLzvUG2k17YrZ.mp4",
+  "duracao": 7.1,
+  "descricao": "silhuetas de skatistas diante do sol sobre mar de nuvens",
+  "nome": "skatistas-por-do-sol-mar-de-nuvens",
+  "pasta": "Silhueta e Solidão",
+  "clima": "quente",
+  "tags": [
+   "silhueta",
+   "skate",
+   "por do sol",
+   "nuvens",
+   "laranja"
+  ],
+  "serve": true
+ },
+ "0663": {
+  "n": "0663",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-sMKncK9aSTA7XLdPTrQCmITSA_610vAgQDnPai_0p0mYmjWZxt-PgynnJ9v5k3_ZLCaBeNT6iNCKYxflx_I65.mp4",
+  "duracao": 8.0,
+  "descricao": "pequena chama na areia da praia com céu roxo e laranja",
+  "nome": "fogueira-praia-entardecer-cerveja",
+  "pasta": "Natureza e Paisagem",
+  "clima": "quente",
+  "tags": [
+   "praia",
+   "fogo",
+   "entardecer",
+   "areia",
+   "ceu"
+  ],
+  "serve": true
+ },
+ "0664": {
+  "n": "0664",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8zTvPsp_xlQMTIGuTxGWttXPp40P7UJdo1yUwRTY3xm2IskfDy_hJ7WukJpGaivZIyGKC4A3YJYnmdba3bRGTQ.mp4",
+  "duracao": 13.3,
+  "descricao": "homem de terno diante de janela panorâmica com vista da cidade",
+  "nome": "homem-terno-janela-central-park",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "cobertura",
+   "cidade",
+   "terno",
+   "luxo",
+   "vista"
+  ],
+  "serve": true
+ },
+ "0665": {
+  "n": "0665",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_c48Nbr7yXiQLgEdJRixRlf8D8X526MAiQVtqD0w2HEF1T9CQFBHs5EpALf49JZWxARNGL5mqSt1MRR6kKYw.mp4",
+  "duracao": 9.1,
+  "descricao": "homem com roupa em chamas saltando em lago ao anoitecer",
+  "nome": "homem-em-chamas-salto-lago-noite",
+  "pasta": "Fogo e Tempestade",
+  "clima": "escuro",
+  "tags": [
+   "fogo",
+   "lago",
+   "noite",
+   "salto",
+   "drama"
+  ],
+  "serve": true
+ },
+ "0666": {
+  "n": "0666",
+  "drive": "Lifestyle Variado 2.0/video-1716900857-1.mp4",
+  "duracao": 7.6,
+  "descricao": "skatista de longboard em alta velocidade em estrada de montanha",
+  "nome": "longboard-estrada-verde-velocidade",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "longboard",
+   "estrada",
+   "velocidade",
+   "verde",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0667": {
+  "n": "0667",
+  "drive": "Lifestyle Variado 2.0/f09def401facee16b1a8a7f4f8b89b34.mp4",
+  "duracao": 30.4,
+  "descricao": "ambiente interno escuro com câmera girando, sem foco claro",
+  "nome": "quarto-escuro-camera-torta-estudio",
+  "pasta": "Outros",
+  "clima": "escuro",
+  "tags": [
+   "quarto",
+   "escuro",
+   "estudio"
+  ],
+  "serve": false
+ },
+ "0668": {
+  "n": "0668",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9BSOENPHzMPzUsd8aRN5KgvmR3UJRYO5rbs1EyrAHigY-QSG8WDp1ReIjkZ6IOADsMHrM8sj6AuI4Vl6YCSk3s.mp4",
+  "duracao": 15.8,
+  "descricao": "mesa de jantar posta com vista para o mar ao entardecer e silhueta",
+  "nome": "mesa-jantar-vista-mar-por-do-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "quente",
+  "tags": [
+   "jantar",
+   "mar",
+   "por do sol",
+   "luxo",
+   "silhueta"
+  ],
+  "serve": true
+ },
+ "0669": {
+  "n": "0669",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8HAZPpIdl3wlXDmm4AU0XV66TQJEbCadC2VnPpVgKfKdc0psLQF0zikBT7Xga477H69lqoNgYAKAtRzLxrpsMf.mp4",
+  "duracao": 11.5,
+  "descricao": "amigos em iate pulando na água em dia nublado",
+  "nome": "amigos-iate-lago-nublado",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "iate",
+   "amigos",
+   "lago",
+   "verao",
+   "lifestyle"
+  ],
+  "serve": true
+ },
+ "0670": {
+  "n": "0670",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-kfJm9D07bueUROAZKiJ_JI_wOoe77q5vhHVN6Tw8Bb0Rw5ZAA2iQ78kfndiHfkxk_4s4UZ5ZPMIR5DO7v7pkU.mp4",
+  "duracao": 6.1,
+  "descricao": "avião passando baixo sobre rua de bairro com skatista ao pôr do sol",
+  "nome": "aviao-baixo-rua-skatista-por-do-sol",
+  "pasta": "Cidade e Noite",
+  "clima": "quente",
+  "tags": [
+   "aviao",
+   "rua",
+   "skate",
+   "por do sol",
+   "cidade"
+  ],
+  "serve": true
+ },
+ "0671": {
+  "n": "0671",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_2542B6631FF760E696ECEAFEE9BB0482_video_dashinit.mp4",
+  "duracao": 5.8,
+  "descricao": "lona estendida no gramado e rampa em lago, sem destaque",
+  "nome": "lago-rampa-wakeboard-lona-branca",
+  "pasta": "Outros",
+  "clima": "luz",
+  "tags": [
+   "lago",
+   "lona",
+   "rampa"
+  ],
+  "serve": false
+ },
+ "0672": {
+  "n": "0672",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9DvguOAts_Wi8fgt-dHcMOLDfTJTtY-xfBjULqeExQlhpIqEuj2qfDa7IQ5vzFIdGmL_M1HdgFL0-vTsC83QER.mp4",
+  "duracao": 9.2,
+  "descricao": "POV de painel de pequeno avião voando",
+  "nome": "cabine-aviao-pov-piloto",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "aviao",
+   "cabine",
+   "piloto",
+   "painel",
+   "voo"
+  ],
+  "serve": true
+ },
+ "0673": {
+  "n": "0673",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9ZvwWDFRmz8Wc4sDJFoFzvpaSz9KWEXxpRBmOPSvSyKo1sNpjA_LpH_ZYuimFUeAfpIqzU2nPwNXdoPIovSTE.mp4",
+  "duracao": 6.3,
+  "descricao": "grupo de homens de smoking em jardim com ciprestes",
+  "nome": "homens-smoking-jardim-ciprestes",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "smoking",
+   "casamento",
+   "jardim",
+   "elegancia",
+   "homens"
+  ],
+  "serve": true
+ },
+ "0674": {
+  "n": "0674",
+  "drive": "Lifestyle Variado 2.0/125256433375764820(MP4).mp4",
+  "duracao": 8.4,
+  "descricao": "balada com mulheres dançando em destaque, conteúdo sensual",
+  "nome": "balada-noite-mulheres-dancando",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "balada",
+   "festa",
+   "noite"
+  ],
+  "serve": false
+ },
+ "0675": {
+  "n": "0675",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An83wYuRDv9u-DNgSibYwyVU8yaQ4CX5Fq4u6uOkBDejZfBM02B1OZ875d3Y_s-nJMji_190JFhHQRgNvZn-vMA-.mp4",
+  "duracao": 6.3,
+  "descricao": "homem de terno de costas em terraço sobre jardim geométrico ao entardecer",
+  "nome": "homem-terraco-jardim-ingles-anoitecer",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "jardim",
+   "terraco",
+   "terno",
+   "anoitecer",
+   "solidao"
+  ],
+  "serve": true
+ },
+ "0676": {
+  "n": "0676",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_F64BBB92035D01AE0E58462E46CA888D_video_dashinit.mp4",
+  "duracao": 9.5,
+  "descricao": "paraquedista em queda livre sobre deserto e estrada",
+  "nome": "paraquedista-deserto-queda-livre",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "deserto",
+   "queda livre",
+   "ceu",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0677": {
+  "n": "0677",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9tiRDyvOWocOUHAh3m6CeSce3NJ3x9h3szvGQnRKOp_FMnwRa4EqqRR5Fm7MdrcMKRs8-NqjDowO7ASsKr2Za0.mp4",
+  "duracao": 7.6,
+  "descricao": "homem de preto descendo escadaria clássica de hotel luxuoso",
+  "nome": "homem-preto-escadaria-luxuosa",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "escadaria",
+   "hotel",
+   "luxo",
+   "elegancia",
+   "dourado"
+  ],
+  "serve": true
+ },
+ "0678": {
+  "n": "0678",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_AbhbyLbmlYKsRNg4biJ9xeRP2ZqmI_bPpyXK2MNWJo1pRCRGrA2gwwxNl2bKG3AN3zey3z3YLwj1y8YLsZG8V.mp4",
+  "duracao": 8.0,
+  "descricao": "homem balançando em corda sobre o mar ao pôr do sol",
+  "nome": "corda-balanco-mar-por-do-sol",
+  "pasta": "Água e Mar",
+  "clima": "quente",
+  "tags": [
+   "mar",
+   "corda",
+   "por do sol",
+   "veleiro",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0679": {
+  "n": "0679",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9s8etiSwzCU0Cl3AUI5GvwUj8k3dfWdtNdQGNrXudNBGq2nZDc27VkBdUn_UV8-UcUBBdfFKFwOh43U4le2yg.mp4",
+  "duracao": 14.5,
+  "descricao": "gráfico de trade, torre Burj Khalifa à noite e maço de dinheiro",
+  "nome": "trader-tela-dubai-maco-dinheiro",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "trader",
+   "dinheiro",
+   "dubai",
+   "noite",
+   "riqueza"
+  ],
+  "serve": true
+ },
+ "0680": {
+  "n": "0680",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_C940E91FCA8932B4AB0C4CC840BFA086_video_dashinit.mp4",
+  "duracao": 21.5,
+  "descricao": "paraquedista em queda livre sobre lago glacial e montanhas nevadas",
+  "nome": "wingsuit-lago-glacial-montanhas-nevadas",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "queda livre",
+   "lago",
+   "montanha",
+   "neve",
+   "ceu"
+  ],
+  "serve": true
+ },
+ "0681": {
+  "n": "0681",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8Ys-pmtoirkNvBTuXYNEoCB2LjnYoTvR1bKSZTh8qqGJ7dLDhV4ek1aIM82PfMzDLHSEKsy2QC_K2R2L_JzYQ.mp4",
+  "duracao": 28.3,
+  "descricao": "capacete com texto e logotipo Jump Off em destaque",
+  "nome": "wingsuit-helicoptero-montanhas-capacete",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "wingsuit",
+   "helicoptero",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0682": {
+  "n": "0682",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8tYLJtvEfnJq8CyqI4e8CTX6vYz3ad6BlU8Pv7Qk1WCxwahxAwIGwM7hflUqObCdBRZF_mmnjKbU-c5HQLiFFU.mp4",
+  "duracao": 11.6,
+  "descricao": "parapente pousando em lago entre montanhas verdes",
+  "nome": "parapente-lago-montanha-pouso",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "parapente",
+   "lago",
+   "montanha",
+   "alpes",
+   "voo"
+  ],
+  "serve": true
+ },
+ "0683": {
+  "n": "0683",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_8846AB13842F80264F45AAF1CEA02C9B_video_dashinit.mp4",
+  "duracao": 8.7,
+  "descricao": "amigos de linho branco em varanda sobre lago e montanhas",
+  "nome": "amigos-camisa-branca-varanda-lago",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "luz",
+  "tags": [
+   "lago",
+   "varanda",
+   "amigos",
+   "linho",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0684": {
+  "n": "0684",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An9EGzsYhGpsdPriza76ccuD91LpuC-ptDuItXrAGbHUwoejY-nLM7caIIIOzwvxkzY-PHTyEO1Tw7Eq3AVsOG5j.mp4",
+  "duracao": 5.6,
+  "descricao": "dois homens conversando em terraço sobre jardim ao entardecer nublado",
+  "nome": "dois-homens-terraco-jardim-nublado",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "terraco",
+   "jardim",
+   "conversa",
+   "anoitecer",
+   "elegancia"
+  ],
+  "serve": true
+ },
+ "0685": {
+  "n": "0685",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An91EQTxzVSBeyH6a0oloFYpmCxIXBNRIAEsnkL-ER4hQZX4BGPg_Brt6oSMDQYHuiClwaBrDiD4NV0Av8xK19SJ.mp4",
+  "duracao": 14.3,
+  "descricao": "amigos de terno em barco no rio com champanhe e jardim",
+  "nome": "amigos-barco-rio-champanhe",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "luz",
+  "tags": [
+   "barco",
+   "rio",
+   "champanhe",
+   "amigos",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0686": {
+  "n": "0686",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_7E4CDEBDFC20092E1DCD4297DE742CA4_video_dashinit.mp4",
+  "duracao": 10.4,
+  "descricao": "homem de terno dirigindo carro esportivo, vista lateral",
+  "nome": "homem-terno-dirigindo-aston-martin",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "dirigindo",
+   "carro",
+   "terno",
+   "luxo",
+   "interior"
+  ],
+  "serve": true
+ },
+ "0687": {
+  "n": "0687",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_92485C1C5FB401496DBFA1BEB8D060B0_video_dashinit.mp4",
+  "duracao": 8.1,
+  "descricao": "homem em jacuzzi sob neve à noite diante de chalé de pedra",
+  "nome": "jacuzzi-neve-noite-chale",
+  "pasta": "Natureza e Paisagem",
+  "clima": "escuro",
+  "tags": [
+   "neve",
+   "jacuzzi",
+   "chale",
+   "noite",
+   "inverno"
+  ],
+  "serve": true
+ },
+ "0688": {
+  "n": "0688",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_6B4D879541A6F9D15C0A614849E9B6A5_video_dashinit.mp4",
+  "duracao": 18.9,
+  "descricao": "piscina azul de mansão na riviera com homem de terno caminhando",
+  "nome": "piscina-azul-mansao-riviera",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "piscina",
+   "mansao",
+   "riviera",
+   "luxo",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0689": {
+  "n": "0689",
+  "drive": "Lifestyle Variado 2.0/SaveInsta.App - 3346663363262006209.mp4",
+  "duracao": 17.7,
+  "descricao": "carro esportivo preto estacionado diante de restaurante elegante",
+  "nome": "aston-martin-preto-cafe-monaco",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "carro",
+   "esportivo",
+   "preto",
+   "monaco",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0690": {
+  "n": "0690",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_nUfibC6qKGxuZ-qIIyfWgQfH4qK7uc-iYK4krLmmniqjH7d19Vm5aPTa5urHxoI1T_3sl9-67MYBC-4CkbJr6.mp4",
+  "duracao": 46.5,
+  "descricao": "texto grande Beautiful Dubai from the sky na tela",
+  "nome": "piscina-infinita-dubai-por-do-sol",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "dubai",
+   "piscina",
+   "por do sol"
+  ],
+  "serve": false
+ },
+ "0691": {
+  "n": "0691",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8LGX_xq-nnsoKNLP5ZL2Dlfg_-RrP4CLg6-R4lDYvbBdXb1Ox8QVHRLdZRrYRBl-MymCICJzyywlUvs-k497EA.mp4",
+  "duracao": 9.2,
+  "descricao": "pessoas pescando na popa de iate ao pôr do sol",
+  "nome": "pesca-iate-por-do-sol-mar",
+  "pasta": "Água e Mar",
+  "clima": "dourado",
+  "tags": [
+   "iate",
+   "pesca",
+   "mar",
+   "por do sol",
+   "lifestyle"
+  ],
+  "serve": true
+ },
+ "0692": {
+  "n": "0692",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An-tYUqCcnbASIQbOzZer5CN2MAj0TvSPUfm0CwYmdB3L7jwMYUJSQ99RAwCjRf0KI32JyXJ6ZtKkj83fFhgQ1A.mp4",
+  "duracao": 22.4,
+  "descricao": "multidão escura com celulares e fumaça, qualidade ruim",
+  "nome": "palco-festa-fumaca-celulares",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "festa",
+   "multidao",
+   "palco"
+  ],
+  "serve": false
+ },
+ "0693": {
+  "n": "0693",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_304A9DE6080DA9FF3367B8A2F28AF897_video_dashinit.mp4",
+  "duracao": 32.9,
+  "descricao": "festa ao ar livre com DJ e multidão no pôr do sol",
+  "nome": "festa-dj-por-do-sol-campo",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "quente",
+  "tags": [
+   "festa",
+   "dj",
+   "por do sol",
+   "amigos",
+   "verao"
+  ],
+  "serve": true
+ },
+ "0694": {
+  "n": "0694",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_1nnNpsF6P2bVUIKNijht_GsgfbPWFNfqfk9KnymFgPQ6taHER-l16XsfyJqbcqlyvIidnY-j5Mqp6rvRfj_Gn.mp4",
+  "duracao": 16.9,
+  "descricao": "POV de bicicleta em crista rochosa ao amanhecer",
+  "nome": "bicicleta-crista-rochosa-luz-dourada",
+  "pasta": "Natureza e Paisagem",
+  "clima": "dourado",
+  "tags": [
+   "montanha",
+   "bicicleta",
+   "pov",
+   "dourado",
+   "altura"
+  ],
+  "serve": true
+ },
+ "0695": {
+  "n": "0695",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_0B4EC088639AE1E9822439B37062A1A0_video_dashinit.mp4",
+  "duracao": 7.5,
+  "descricao": "alpinistas de vermelho em crista nevada entre nuvens",
+  "nome": "alpinistas-crista-nevada-nuvens",
+  "pasta": "Natureza e Paisagem",
+  "clima": "frio",
+  "tags": [
+   "alpinismo",
+   "neve",
+   "montanha",
+   "nuvens",
+   "conquista"
+  ],
+  "serve": true
+ },
+ "0696": {
+  "n": "0696",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_E44F942C4B200742ADB46846B7C294AE_video_dashinit.mp4",
+  "duracao": 23.5,
+  "descricao": "cena tremida e borrada, pessoa em shopping e buggy no deserto",
+  "nome": "buggy-deserto-shopping-dubai-borrado",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "dubai",
+   "buggy",
+   "shopping"
+  ],
+  "serve": false
+ },
+ "0697": {
+  "n": "0697",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An_yxcnFCSjrYiyz4QyRVaIFW5vabSja2CLWMC-opNuX74lxkBG1hb1m9lthxbabOW6_D4UlTECffgFBTiy8Smxi.mp4",
+  "duracao": 13.0,
+  "descricao": "raposa andando na neve e fotógrafo camuflado com lente",
+  "nome": "raposa-neve-fotografo-camuflado",
+  "pasta": "Animais",
+  "clima": "frio",
+  "tags": [
+   "raposa",
+   "neve",
+   "animal",
+   "inverno",
+   "fotografia"
+  ],
+  "serve": true
+ },
+ "0698": {
+  "n": "0698",
+  "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_An8pmKcyGB31HWcepG0tWW3v3pPWDf8_U6teWKeniiqK4jPLcqiS58hYYuxFb52dQCsahfCeMJxw-vQ50RgEJ95E.mp4",
+  "duracao": 3.3,
+  "descricao": "falcão pousado no ombro de homem no deserto",
+  "nome": "falcao-ombro-deserto-keffiyeh",
+  "pasta": "Animais",
+  "clima": "quente",
+  "tags": [
+   "falcao",
+   "deserto",
+   "ave",
+   "animal",
+   "dubai"
+  ],
+  "serve": true
+ },
+ "0699": {
+  "n": "0699",
+  "drive": "Lifestyle Variado 2.0/LF (164).mov",
+  "duracao": 7.3,
+  "descricao": "homem de terno de costas em cobertura com cidade ao crepúsculo",
+  "nome": "homem-terno-cobertura-janela-crepusculo",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "cobertura",
+   "cidade",
+   "terno",
+   "luxo",
+   "crepusculo"
+  ],
+  "serve": true
  }
 }
