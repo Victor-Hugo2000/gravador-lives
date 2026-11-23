@@ -1,0 +1,84 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@wize.xli/video/7661676523220667668"
+ },
+ "trechos": [
+  {
+   "inicio": 0.04,
+   "fim": 21.0
+  }
+ ],
+ "gancho": "SUCESSO TRAZ INIMIGOS | VAI ABRIR MÃO?",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "SUCESSO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "INIMIGOS",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "ALVO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "ACABAR",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "AMIGOS",
+   "tipo": "script"
+  },
+  {
+   "palavra": "ESCOLHA",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.7,
+   "dur": 1.9,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_An-1WWauWOQxdqgXvWndK1N3zNxLRkulq0nxEvtB0TiMCVYiE6pD_sZTcqG-rlWNhcDxCPiQu1xL_5JPW4dynO2b.mp4",
+   "de": 0
+  },
+  {
+   "em": 5.1,
+   "dur": 1.9,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_An8XuLRyfAvM1K8lGIxJQpe9MEaK1ScSR0xCAKhLgilhsvobzW1hoUfBc-AqsTXOO-gIpb2hCidfFcMXZt13o7vx.mp4",
+   "de": 0
+  },
+  {
+   "em": 8.8,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_2968479379060967837.mp4",
+   "de": 0
+  },
+  {
+   "em": 12.5,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQPKRKv1KVkzRqsId638lKtcy4HWlj2lSWnK3Mbv5osWGBJgupH9nPKYfRzoWCdBXs6VpgE1MmSU-jO4c3-YGxsfNBajO5ff7_ClaFU.mp4",
+   "de": 0
+  },
+  {
+   "em": 15.8,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/Copy of 321360833_1526973398120660_1282209906277158749_n.mp4",
+   "de": 0
+  },
+  {
+   "em": 19.0,
+   "dur": 1.7,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3627910237055073844.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "Sucesso traz inimigos. Ou você abre mão e fica com amigos? #motivação #crescimento #mentalidade | Fala: personagem de filme (a conferir)",
+ "saida": "2026-11-23-sucesso-traz-inimigos.mp4",
+ "baseId": "tt:7661676523220667668"
+}
