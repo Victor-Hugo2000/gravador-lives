@@ -1,0 +1,102 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@x/video/7699923526773427462"
+ },
+ "trechos": [
+  {
+   "inicio": 0.04,
+   "fim": 30.1
+  }
+ ],
+ "gancho": "QUANTO MAIS POBRE | MAIS REFÉM.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "POBRE",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "REFÉM",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "URGÊNCIA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "PREÇO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "CENTAVO",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "DOZE",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "QUINHENTOS",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "MILHÕES",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "DEPENDER",
+   "tipo": "vermelho"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 4.2,
+   "dur": 2.2,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_AQMw46K4boODvZCC2kKkY714hSA9yksHpSVVqQTM394udnjzj_7ZNhcqrFUeZyT3RRiyfulWANSmlCV0U5R6D0RR.mp4",
+   "de": 0
+  },
+  {
+   "em": 7.7,
+   "dur": 2.0,
+   "drive": "Dinheiro & Money 2.0/2.MOV",
+   "de": 0
+  },
+  {
+   "em": 10.0,
+   "dur": 2.2,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_317536241_779922333997068_9085464835823969196_n.mp4",
+   "de": 0
+  },
+  {
+   "em": 14.0,
+   "dur": 2.5,
+   "drive": "Dinheiro & Money 2.0/Snapinst.app_video_AQOik-6o_-cyhiciAxtWel_2TLMOhFT4FtYUEN0E-biTkyxuRADqw4PlYgTJ3UJIuJfNWNZj_sdcGSen21xWmMp4d7iSmJy0NNQltik.mp4",
+   "de": 0
+  },
+  {
+   "em": 21.2,
+   "dur": 2.3,
+   "drive": "Dinheiro & Money 2.0/VID-20241010-WA0032.mp4",
+   "de": 0
+  },
+  {
+   "em": 24.0,
+   "dur": 2.3,
+   "drive": "Dinheiro & Money 2.0/SaveVid.Net_AQO_VOZRgVsVJ6JzqNY-Qov1xV-4Vv6MP4pGBQJjePPUsYZU9aLO1uDOTnrV_AWsS7MxvodQ7UeJfAJfQ9HNRPeY.mp4",
+   "de": 0
+  },
+  {
+   "em": 26.6,
+   "dur": 2.4,
+   "drive": "Dinheiro & Money 2.0/SaveVid.Net_AQNI6z1UcnHGZdlzqGhSZxogm85jsbzalEshRT_4tTE-M9IZDDM5Iq05llfW-JQiIk7UhdyIgek4TJf-aSLg2BVsYp28sDKU6HUAoGw.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "Quanto mais pobre, mais refém. #prosperidade #dinheiro #mentalidade · Fala: Flávio Augusto",
+ "saida": "2026-11-23-0035-quanto-mais-pobre-mais-refem.mp4",
+ "baseId": "tt:7699923526773427462"
+}
