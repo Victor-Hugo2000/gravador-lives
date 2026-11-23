@@ -1,0 +1,84 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@frases.de.motivao45/video/7702473903901347080"
+ },
+ "trechos": [
+  {
+   "inicio": 2.2,
+   "fim": 21.0
+  }
+ ],
+ "gancho": "ESPERAR NÃO É FÁCIL | MAS É NECESSÁRIO.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "TEMPO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "ESPERAR",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "NECESSÁRIO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "SILÊNCIO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "MELHOR",
+   "tipo": "script"
+  },
+  {
+   "palavra": "VÊ",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.6,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3627310748372581236.mp4",
+   "de": 0
+  },
+  {
+   "em": 5.4,
+   "dur": 1.7,
+   "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_C24A16865C65A856D693C77AEB1276AE_video_dashinit.mp4",
+   "de": 0
+  },
+  {
+   "em": 8.8,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_4443A249416497951B6A66CFC5AE3986_video_dashinit.mp4",
+   "de": 0
+  },
+  {
+   "em": 12.2,
+   "dur": 1.9,
+   "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQP6RVAnbEuCVBkQ3gLdeOmFelyWR5EQViFBcsfLRLggPXe6UotSOhXsZGlf-BPxrhxTcz_akZ2cMtOcH4w2tnTFpc3vRbMSctgjD5w.mp4",
+   "de": 0
+  },
+  {
+   "em": 14.8,
+   "dur": 1.9,
+   "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQO9bOprs1kymVvbJbbmpjdDI56lDVbGiWEbeJLXh8HFc3q-t6icFZVIuf8ZRKX-vUO9fNGz05LjF-hAuRtuCG41ovMH8rys83ZhSt8.mp4",
+   "de": 0
+  },
+  {
+   "em": 17.0,
+   "dur": 1.6,
+   "drive": "Lifestyle Variado 2.0/Snapinsta.app_video_AQM5kdzYW89RkZDV_cUdKeBSsSbDUXki3C2qtb-bWW9qX7mK-DUIAH0RMUf9Ee6IXoncy9cshplUu6mIZFK_GYIHxO9iGH1BFIm0U4E.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "Tudo é no tempo certo. Esperar não é fácil, mas é necessário. #reflexão #motivação #mentalidade | Fala: Thomas Shelby (Peaky Blinders), a conferir",
+ "saida": "2026-11-23-tudo-e-no-tempo-de-deus.mp4",
+ "baseId": "tt:7702473903901347080"
+}
