@@ -1,0 +1,138 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@focusinthemirror/video/7678494769173089556"
+ },
+ "trechos": [
+  {
+   "inicio": 0.0,
+   "fim": 42.6
+  }
+ ],
+ "gancho": "PESOU DEMAIS? | ISSO É PROCESSO.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "CONTA",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "DEMAIS",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "ERRADA",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "MESMO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "DEUS",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "PASSARINHO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "PRAGA",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "PÃO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "AZEITE",
+   "tipo": "script"
+  },
+  {
+   "palavra": "MOÍDO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "PISADA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "PRENSADA",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.6,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQP2FTDIcQRxNnPAjz7NLSijBm8qcaL3mSFipXiCf13m1qEHyXNaNNpx_k4rkwfuSQZc3ww_F7o7WiBsAYptBYDyBLxFF4dn-YPafgU.mp4",
+   "de": 0
+  },
+  {
+   "em": 7.6,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3655370894243251376.mp4",
+   "de": 0
+  },
+  {
+   "em": 10.6,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3665096022389173144.mp4",
+   "de": 0
+  },
+  {
+   "em": 15.2,
+   "dur": 2.6,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3663565014404977665.mp4",
+   "de": 0
+  },
+  {
+   "em": 21.0,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3660541182737931097.mp4",
+   "de": 0
+  },
+  {
+   "em": 25.4,
+   "dur": 2.4,
+   "drive": "Dinheiro & Money 2.0/Snapinsta.app_video_E94FDA47F55F60B29213391B4E92C381_video_dashinit.mp4",
+   "de": 0
+  },
+  {
+   "em": 29.6,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3659953823234190611.mp4",
+   "de": 0
+  },
+  {
+   "em": 32.8,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3672842581448576699.mp4",
+   "de": 0
+  },
+  {
+   "em": 35.6,
+   "dur": 1.8,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3659175617645696588.mp4",
+   "de": 0
+  },
+  {
+   "em": 38.2,
+   "dur": 1.6,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQMkROIk6qguIt289TNQdCJSqu9lX1FEaxKebxDpe6ckRc_R8-iAZZK7HKXOT2K1CPgVtvrhiC03a3JWciKm0k9K.mp4",
+   "de": 0
+  },
+  {
+   "em": 40.4,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/Luxury 915.MP4",
+   "de": 0
+  }
+ ],
+ "titulo": "Quando você achar que não vai dar conta, lembre: o trigo vai ter que ser moído. #reflexão #mentalidade #superação | Fala: Paulo Borges Jr",
+ "saida": "2026-11-23-pesou-demais-e-processo.mp4",
+ "baseId": "tt:7678494769173089556"
+}
