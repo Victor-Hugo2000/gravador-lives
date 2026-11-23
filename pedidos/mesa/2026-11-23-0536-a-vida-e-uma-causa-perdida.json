@@ -1,0 +1,146 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@filosofiaevirtude/video/7680734288937110804"
+ },
+ "trechos": [
+  {
+   "inicio": 3.9,
+   "fim": 6.2
+  },
+  {
+   "inicio": 8.9,
+   "fim": 57.6
+  }
+ ],
+ "gancho": "A VIDA É UMA CAUSA PERDIDA? | ESCUTA ATÉ O FIM.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "PERDIDA",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "MORRER",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "DESAFIO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "AVENTURA",
+   "tipo": "script"
+  },
+  {
+   "palavra": "MARAVILHOSA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "ALEGRIA",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "DISTRAÇÃO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "GRANDES",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "MEDALHAS",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "FELICIDADE",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.6,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3657644710417167367.mp4",
+   "de": 0
+  },
+  {
+   "em": 6.4,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3646896598819396620.mp4",
+   "de": 0
+  },
+  {
+   "em": 9.4,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3689737000320284568.mp4",
+   "de": 0
+  },
+  {
+   "em": 12.6,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3685702056140990537.mp4",
+   "de": 0
+  },
+  {
+   "em": 15.4,
+   "dur": 2.6,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3651208572273399845.mp4",
+   "de": 0
+  },
+  {
+   "em": 19.0,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/Copy of V15.mp4",
+   "de": 0
+  },
+  {
+   "em": 22.2,
+   "dur": 2.5,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQPQyPLsmOVMlrzAW-TvhjVf0zhV3smKm4ZyfNOvj4zmV9E1opTqUJyM4OwmUltJmOBHSrQq6vBQJuK5cZ-bTTVzKVkVylCOhEj5Gr4.mp4",
+   "de": 0
+  },
+  {
+   "em": 26.0,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3661301370866358047.mp4",
+   "de": 0
+  },
+  {
+   "em": 29.0,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3675958833122405920.mp4",
+   "de": 0
+  },
+  {
+   "em": 34.0,
+   "dur": 2.5,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3684676095660777595.mp4",
+   "de": 0
+  },
+  {
+   "em": 38.8,
+   "dur": 2.3,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQPv5S23qImv7DpPef7gR2GDC3nkV-5q9DXJiI4pExBLtw81mmvGMuviSvWH6EbfsR6QyvrP4jCa3-NhAA_LJu6cPz8Je2hMvxP-FHU.mp4",
+   "de": 0
+  },
+  {
+   "em": 44.2,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQME9vja2BspaHydXLwkS9m0rRpyZngJ-E7QSe8Fzux60LfWpVex-azXP2-pZlj4d1iGVuLckhpMUpvuwhCHSbB5yV_SBzl5ouIQKlc.mp4",
+   "de": 0
+  },
+  {
+   "em": 47.2,
+   "dur": 2.6,
+   "drive": "Lifestyle Variado 2.0/SaveVid.Net_AQPm7shVw6VaAdGK-TskCoMZCJNRzF8O3nWrMlGS47CYBXPg5rBKUncm0GKXmGo_XJCLJP1sn5m9Qv7JItNqJ3EyBDEPJHZoOfoelSk.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "A vida é uma causa perdida? A alegria nunca vem nas coisas grandes. #reflexão #filosofia #gratidão | Fala: filósofo (a conferir), via @filosofiaevirtude",
+ "saida": "2026-11-23-a-vida-e-uma-causa-perdida.mp4",
+ "baseId": "tt:7680734288937110804"
+}
