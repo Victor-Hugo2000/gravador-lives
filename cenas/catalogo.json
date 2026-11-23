@@ -3387,5 +3387,1689 @@
    "skyline"
   ],
   "serve": true
+ },
+ "0200": {
+  "n": "0200",
+  "drive": "Lifestyle Variado 2.0/Luxury 887.mp4",
+  "duracao": 11.5,
+  "descricao": "spa de luxo com piscina e sauna dourada",
+  "nome": "piscina-spa-marmore-luxo",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "piscina",
+   "spa",
+   "luxo",
+   "marmore",
+   "sauna"
+  ],
+  "serve": true
+ },
+ "0201": {
+  "n": "0201",
+  "drive": "Lifestyle Variado 2.0/Luxury 99.mp4",
+  "duracao": 8.4,
+  "descricao": "homem de costas na sala de vidro olhando montanhas com névoa",
+  "nome": "sala-vidro-montanhas-nevoeiro",
+  "pasta": "Natureza e Paisagem",
+  "clima": "frio",
+  "tags": [
+   "montanha",
+   "nevoeiro",
+   "casa",
+   "luxo",
+   "homem"
+  ],
+  "serve": true
+ },
+ "0202": {
+  "n": "0202",
+  "drive": "Lifestyle Variado 2.0/Luxury 127.mp4",
+  "duracao": 8.1,
+  "descricao": "vista aérea de piscina à beira do mar com cabanas",
+  "nome": "piscina-borda-mar-cabanas-aerea",
+  "pasta": "Água e Mar",
+  "clima": "frio",
+  "tags": [
+   "piscina",
+   "mar",
+   "aerea",
+   "resort",
+   "cabanas"
+  ],
+  "serve": true
+ },
+ "0203": {
+  "n": "0203",
+  "drive": "Lifestyle Variado 2.0/Luxury 1179.mp4",
+  "duracao": 11.3,
+  "descricao": "homem de branco entra em Mercedes G preta ao anoitecer",
+  "nome": "homem-branco-mercedes-g-preta",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "mercedes",
+   "suv",
+   "homem",
+   "anoitecer",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0204": {
+  "n": "0204",
+  "drive": "Lifestyle Variado 2.0/Luxury 423.mp4",
+  "duracao": 6.8,
+  "descricao": "homem no escritório alto olhando arranha-céus à noite",
+  "nome": "escritorio-noturno-arranha-ceu-dubai",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "escritorio",
+   "arranha-ceu",
+   "noite",
+   "dubai",
+   "trabalho"
+  ],
+  "serve": true
+ },
+ "0205": {
+  "n": "0205",
+  "drive": "Lifestyle Variado 2.0/Luxury 33.mp4",
+  "duracao": 11.2,
+  "descricao": "pov de corrida, laptop e treino em academia escura",
+  "nome": "pov-corrida-laptop-treino-escuro",
+  "pasta": "Treino e Disciplina",
+  "clima": "escuro",
+  "tags": [
+   "corrida",
+   "treino",
+   "laptop",
+   "disciplina",
+   "academia"
+  ],
+  "serve": true
+ },
+ "0206": {
+  "n": "0206",
+  "drive": "Lifestyle Variado 2.0/Luxury 97.mp4",
+  "duracao": 11.4,
+  "descricao": "porsche branco e carros esportivos em rua à noite",
+  "nome": "porsche-branco-noite-cidade",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "porsche",
+   "noite",
+   "rua",
+   "carro esportivo"
+  ],
+  "serve": true
+ },
+ "0207": {
+  "n": "0207",
+  "drive": "Lifestyle Variado 2.0/Luxury 287.mp4",
+  "duracao": 5.5,
+  "descricao": "carros com adesivo Modball e texto em destaque",
+  "nome": "garagem-carros-esportivos-estrada",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "carro",
+   "garagem",
+   "estrada",
+   "texto"
+  ],
+  "serve": false
+ },
+ "0208": {
+  "n": "0208",
+  "drive": "Lifestyle Variado 2.0/Luxury 4521.mp4",
+  "duracao": 6.3,
+  "descricao": "vista aérea de resort tropical com raios de sol",
+  "nome": "resort-aereo-bali-nascer-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "resort",
+   "tropical",
+   "aerea",
+   "sol",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0209": {
+  "n": "0209",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3625091843654579757.mp4",
+  "duracao": 17.9,
+  "descricao": "mercedes prata em frente a mansão e jardim florido",
+  "nome": "mercedes-prata-mansao-jardim",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "mercedes",
+   "mansao",
+   "jardim",
+   "luxo",
+   "volante"
+  ],
+  "serve": true
+ },
+ "0210": {
+  "n": "0210",
+  "drive": "Lifestyle Variado 2.0/Winvibes25.mp4",
+  "duracao": 11.0,
+  "descricao": "banco traseiro e cidade à noite com tela nightshot e texto",
+  "nome": "banco-traseiro-noite-cidade",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "carro",
+   "noite",
+   "cidade",
+   "texto"
+  ],
+  "serve": false
+ },
+ "0211": {
+  "n": "0211",
+  "drive": "Lifestyle Variado 2.0/WinVibes24.mp4",
+  "duracao": 20.5,
+  "descricao": "aston martin azul conversível em estrada com ciprestes",
+  "nome": "aston-martin-azul-estrada-ciprestes",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "aston martin",
+   "conversivel",
+   "estrada",
+   "toscana",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0212": {
+  "n": "0212",
+  "drive": "Lifestyle Variado 2.0/Winvibes22.mp4",
+  "duracao": 13.6,
+  "descricao": "homem elegante com conversível preto nos alpes",
+  "nome": "conversivel-preto-alpes-homem",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "conversivel",
+   "alpes",
+   "homem",
+   "montanha",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0213": {
+  "n": "0213",
+  "drive": "Lifestyle Variado 2.0/Winvibes18.mp4",
+  "duracao": 17.3,
+  "descricao": "porsche cinza conversível em rua ensolarada",
+  "nome": "porsche-cinza-conversivel-rua-sol",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "porsche",
+   "conversivel",
+   "sol",
+   "rua",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0214": {
+  "n": "0214",
+  "drive": "Lifestyle Variado 2.0/WinVibes14.mp4",
+  "duracao": 44.1,
+  "descricao": "homem na cozinha de manhã com bananas e café",
+  "nome": "rotina-manha-cozinha-banana",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "rotina",
+   "manha",
+   "cozinha",
+   "cafe",
+   "homem"
+  ],
+  "serve": true
+ },
+ "0215": {
+  "n": "0215",
+  "drive": "Lifestyle Variado 2.0/Winvibes11.mp4",
+  "duracao": 19.5,
+  "descricao": "homem estudando à luz de vela na mesa",
+  "nome": "homem-estudando-vela-escritorio",
+  "pasta": "Trabalho e Estudo",
+  "clima": "dourado",
+  "tags": [
+   "estudo",
+   "vela",
+   "escritorio",
+   "foco",
+   "livro"
+  ],
+  "serve": true
+ },
+ "0216": {
+  "n": "0216",
+  "drive": "Lifestyle Variado 2.0/WinVibes6.mp4",
+  "duracao": 7.6,
+  "descricao": "carros esportivos na garagem e escapamento soltando chamas",
+  "nome": "carros-esportivos-garagem-chamas",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "esportivo",
+   "garagem",
+   "chamas",
+   "noite",
+   "nissan gtr"
+  ],
+  "serve": true
+ },
+ "0217": {
+  "n": "0217",
+  "drive": "Lifestyle Variado 2.0/WinVibes4.mp4",
+  "duracao": 6.8,
+  "descricao": "mercedes amg preto rodando em rua de cidade",
+  "nome": "mercedes-amg-preto-rua-cidade",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "mercedes",
+   "amg",
+   "rua",
+   "cidade",
+   "preto"
+  ],
+  "serve": true
+ },
+ "0218": {
+  "n": "0218",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3644827374534970235.mp4",
+  "duracao": 15.8,
+  "descricao": "homem de smoking na varanda olhando Mônaco",
+  "nome": "homem-smoking-varanda-monaco",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "smoking",
+   "monaco",
+   "varanda",
+   "luxo",
+   "costas"
+  ],
+  "serve": true
+ },
+ "0219": {
+  "n": "0219",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3646647544075399122.mp4",
+  "duracao": 20.3,
+  "descricao": "mercedes amg na estrada de montanha com neve",
+  "nome": "mercedes-amg-estrada-alpes-neve",
+  "pasta": "Estrada e Viagem",
+  "clima": "frio",
+  "tags": [
+   "amg",
+   "estrada",
+   "alpes",
+   "neve",
+   "viagem"
+  ],
+  "serve": true
+ },
+ "0220": {
+  "n": "0220",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3645460363667029735.mp4",
+  "duracao": 11.3,
+  "descricao": "homem em jato executivo tomando chá e asa do avião sobre as nuvens",
+  "nome": "jato-particular-asa-aviao-nuvens",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "jato",
+   "aviao",
+   "luxo",
+   "nuvens",
+   "viagem"
+  ],
+  "serve": true
+ },
+ "0221": {
+  "n": "0221",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3600458383837606256.mp4",
+  "duracao": 7.8,
+  "descricao": "homem sem camisa posando em piscinas e montanhas",
+  "nome": "homem-sem-camisa-piscina-montanha",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "piscina",
+   "montanha",
+   "homem"
+  ],
+  "serve": false
+ },
+ "0222": {
+  "n": "0222",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3644440487242978975.mp4",
+  "duracao": 9.8,
+  "descricao": "range rover ao lado de iate gigante no porto",
+  "nome": "range-rover-iate-porto-monaco",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "iate",
+   "porto",
+   "range rover",
+   "luxo",
+   "monaco"
+  ],
+  "serve": true
+ },
+ "0223": {
+  "n": "0223",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3642031538032645192.mp4",
+  "duracao": 17.4,
+  "descricao": "casa em forma de avião sobre penhasco com mar e ondas",
+  "nome": "casa-aviao-penhasco-bali-mar",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "aviao",
+   "penhasco",
+   "mar",
+   "bali",
+   "mansao"
+  ],
+  "serve": true
+ },
+ "0224": {
+  "n": "0224",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3643180288232524541.mp4",
+  "duracao": 13.8,
+  "descricao": "homem em piscina infinita à noite com skyline iluminado",
+  "nome": "piscina-infinita-noite-dubai",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "piscina",
+   "noite",
+   "dubai",
+   "skyline",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0225": {
+  "n": "0225",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3596199678086376399.mp4",
+  "duracao": 8.9,
+  "descricao": "homem de casaco fumando em calçada com carros passando",
+  "nome": "homem-fumando-cafe-rua-cidade",
+  "pasta": "Cidade e Noite",
+  "clima": "frio",
+  "tags": [
+   "fumar",
+   "rua",
+   "casaco",
+   "cidade",
+   "cafe"
+  ],
+  "serve": true
+ },
+ "0226": {
+  "n": "0226",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3450577253184916766.mp4",
+  "duracao": 14.4,
+  "descricao": "porsche speedster prata clássico em rua de paralelepípedo",
+  "nome": "porsche-speedster-prata-rua-pedras",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "porsche",
+   "classico",
+   "rua",
+   "prata",
+   "conversivel"
+  ],
+  "serve": true
+ },
+ "0227": {
+  "n": "0227",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3603359150197398224.mp4",
+  "duracao": 9.7,
+  "descricao": "homem de casaco ao lado de mercedes amg e mustang",
+  "nome": "homem-casaco-carros-luxo-moda",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "mercedes",
+   "mustang",
+   "moda",
+   "homem",
+   "casaco"
+  ],
+  "serve": true
+ },
+ "0228": {
+  "n": "0228",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3568566109465649162.mp4",
+  "duracao": 5.4,
+  "descricao": "homens de smoking caminhando ao entardecer com carros ao fundo",
+  "nome": "homens-smoking-caminhando-carros-entardecer",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "escuro",
+  "tags": [
+   "smoking",
+   "festa",
+   "entardecer",
+   "carros",
+   "elegancia"
+  ],
+  "serve": true
+ },
+ "0229": {
+  "n": "0229",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3643050589688956855.mp4",
+  "duracao": 10.3,
+  "descricao": "piscina de cobertura com torres petronas e homem pulando",
+  "nome": "piscina-cobertura-torres-petronas",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "piscina",
+   "cobertura",
+   "torres",
+   "kuala lumpur",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0230": {
+  "n": "0230",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3641997100698314596.mp4",
+  "duracao": 6.8,
+  "descricao": "casal de gala ao lado de helicóptero com montanhas",
+  "nome": "helicoptero-festa-gala-montanhas",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "helicoptero",
+   "gala",
+   "luxo",
+   "montanhas"
+  ],
+  "serve": true
+ },
+ "0231": {
+  "n": "0231",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_DKHqp4uIsnz.mp4",
+  "duracao": 9.2,
+  "descricao": "homem almoçando em mesa com vista para o mar e penhasco",
+  "nome": "homem-almoco-vista-mar-penhasco",
+  "pasta": "Água e Mar",
+  "clima": "dourado",
+  "tags": [
+   "mar",
+   "almoco",
+   "penhasco",
+   "vista",
+   "lifestyle"
+  ],
+  "serve": true
+ },
+ "0232": {
+  "n": "0232",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3642502055910746293.mp4",
+  "duracao": 14.4,
+  "descricao": "volante bentley, gala em cassino e vista aérea de Mônaco",
+  "nome": "bentley-volante-monaco-festa-piscina",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "bentley",
+   "monaco",
+   "gala",
+   "piscina",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0233": {
+  "n": "0233",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3325086170987065786.mp4",
+  "duracao": 9.0,
+  "descricao": "homem em piscina infinita com Burj Khalifa ao fundo",
+  "nome": "piscina-infinita-burj-khalifa-dia",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "burj khalifa",
+   "piscina",
+   "dubai",
+   "cobertura",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0234": {
+  "n": "0234",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3368584142112441334.mp4",
+  "duracao": 12.7,
+  "descricao": "homem de costas em varanda ao pôr do sol em Dubai",
+  "nome": "varanda-por-do-sol-dubai-homem-costas",
+  "pasta": "Cidade e Noite",
+  "clima": "dourado",
+  "tags": [
+   "por do sol",
+   "varanda",
+   "dubai",
+   "costas",
+   "mar"
+  ],
+  "serve": true
+ },
+ "0235": {
+  "n": "0235",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3628898632973346202.mp4",
+  "duracao": 20.2,
+  "descricao": "casa moderna escura à noite com homem nadando em piscina",
+  "nome": "casa-moderna-noite-piscina-silhueta",
+  "pasta": "Silhueta e Solidão",
+  "clima": "escuro",
+  "tags": [
+   "casa",
+   "noite",
+   "piscina",
+   "silhueta",
+   "escuro"
+  ],
+  "serve": true
+ },
+ "0236": {
+  "n": "0236",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3637545561200184065.mp4",
+  "duracao": 8.7,
+  "descricao": "mclaren azul conversível em estrada de floresta",
+  "nome": "mclaren-azul-estrada-floresta",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "mclaren",
+   "floresta",
+   "estrada",
+   "esportivo",
+   "verde"
+  ],
+  "serve": true
+ },
+ "0237": {
+  "n": "0237",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3639658047517986189.mp4",
+  "duracao": 6.9,
+  "descricao": "homem de terno bege ao lado de porsche preto ao entardecer",
+  "nome": "homem-terno-bege-porsche-crepusculo",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "terno",
+   "porsche",
+   "entardecer",
+   "homem",
+   "elegancia"
+  ],
+  "serve": true
+ },
+ "0238": {
+  "n": "0238",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3639520366143266083.mp4",
+  "duracao": 23.5,
+  "descricao": "homem de polo jogando golfe com charuto e montanhas",
+  "nome": "homem-golfe-polo-charuto",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "golfe",
+   "charuto",
+   "polo",
+   "luxo",
+   "montanha"
+  ],
+  "serve": true
+ },
+ "0239": {
+  "n": "0239",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3637943283041264513.mp4",
+  "duracao": 8.1,
+  "descricao": "piscina infinita com skyline de Dubai e Burj Khalifa",
+  "nome": "piscina-infinita-burj-khalifa-manha",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "frio",
+  "tags": [
+   "burj khalifa",
+   "piscina",
+   "dubai",
+   "skyline",
+   "manha"
+  ],
+  "serve": true
+ },
+ "0240": {
+  "n": "0240",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3636025611203935232.mp4",
+  "duracao": 8.4,
+  "descricao": "jovens de preto brindando com vinho no gramado",
+  "nome": "amigos-camisa-preta-vinho-gramado",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "amigos",
+   "vinho",
+   "gramado",
+   "brinde",
+   "lifestyle"
+  ],
+  "serve": true
+ },
+ "0241": {
+  "n": "0241",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3596279175646522450.mp4",
+  "duracao": 10.4,
+  "descricao": "homem de costas em varanda de vidro olhando o mar ao entardecer",
+  "nome": "homem-varanda-vidro-mar-por-do-sol",
+  "pasta": "Silhueta e Solidão",
+  "clima": "dourado",
+  "tags": [
+   "costas",
+   "varanda",
+   "mar",
+   "por do sol",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0242": {
+  "n": "0242",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3638150227886818095.mp4",
+  "duracao": 6.5,
+  "descricao": "homem caminhando em saguão de hotel de luxo com vista do mar",
+  "nome": "homem-silhueta-saguao-hotel-vista-mar",
+  "pasta": "Silhueta e Solidão",
+  "clima": "luz",
+  "tags": [
+   "silhueta",
+   "saguao",
+   "hotel",
+   "mar",
+   "reflexo"
+  ],
+  "serve": true
+ },
+ "0243": {
+  "n": "0243",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3624322826379478758.mp4",
+  "duracao": 9.2,
+  "descricao": "homem sem camisa na janela com torres petronas",
+  "nome": "torres-petronas-janela-homem-sem-camisa",
+  "pasta": "Cidade e Noite",
+  "clima": "neutro",
+  "tags": [
+   "petronas",
+   "janela",
+   "cidade",
+   "kuala lumpur"
+  ],
+  "serve": true
+ },
+ "0244": {
+  "n": "0244",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3633820608727398623.mp4",
+  "duracao": 10.8,
+  "descricao": "homem de camisa branca em varanda com Dubai ao pôr do sol",
+  "nome": "varanda-por-do-sol-burj-khalifa-neblina",
+  "pasta": "Cidade e Noite",
+  "clima": "quente",
+  "tags": [
+   "dubai",
+   "varanda",
+   "por do sol",
+   "neblina",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0245": {
+  "n": "0245",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3632008630032510984.mp4",
+  "duracao": 9.2,
+  "descricao": "homem de costas em piscina privativa com vulcão e palmeiras",
+  "nome": "piscina-vulcao-bali-homem-costas",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "vulcao",
+   "piscina",
+   "palmeiras",
+   "bali",
+   "costas"
+  ],
+  "serve": true
+ },
+ "0246": {
+  "n": "0246",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3605634816976882000.mp4",
+  "duracao": 17.5,
+  "descricao": "vista aérea de piscina nos alpes com montanhas e cascata",
+  "nome": "piscina-alpes-drone-cachoeira",
+  "pasta": "Natureza e Paisagem",
+  "clima": "frio",
+  "tags": [
+   "alpes",
+   "piscina",
+   "drone",
+   "montanha",
+   "cascata"
+  ],
+  "serve": true
+ },
+ "0247": {
+  "n": "0247",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3627910237055073844.mp4",
+  "duracao": 6.7,
+  "descricao": "homem no convés de navio vendo montanhas e mar",
+  "nome": "homem-convés-navio-montanhas",
+  "pasta": "Água e Mar",
+  "clima": "neutro",
+  "tags": [
+   "navio",
+   "convés",
+   "mar",
+   "montanhas",
+   "viagem"
+  ],
+  "serve": true
+ },
+ "0248": {
+  "n": "0248",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3589679345217016004.mp4",
+  "duracao": 6.7,
+  "descricao": "jogador chutando bola na neve com nome na camisa",
+  "nome": "futebol-neve-camisa-numero-sete",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "futebol",
+   "neve",
+   "bola",
+   "texto"
+  ],
+  "serve": false
+ },
+ "0249": {
+  "n": "0249",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3630829125040805835.mp4",
+  "duracao": 9.3,
+  "descricao": "homem em piscina infinita de cobertura com torres petronas",
+  "nome": "piscina-cobertura-petronas-dia",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "piscina",
+   "cobertura",
+   "petronas",
+   "luxo",
+   "skyline"
+  ],
+  "serve": true
+ },
+ "0250": {
+  "n": "0250",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3571814941948659822.mp4",
+  "duracao": 16.0,
+  "descricao": "paraquedistas em queda livre sobre ilhas turquesa",
+  "nome": "paraquedismo-ilhas-turquesa",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "ilhas",
+   "ceu",
+   "queda livre",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0251": {
+  "n": "0251",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3630950111534682873.mp4",
+  "duracao": 13.3,
+  "descricao": "piscina de cobertura com vista das torres petronas e céu nublado",
+  "nome": "piscina-cobertura-petronas-nublado",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "frio",
+  "tags": [
+   "piscina",
+   "petronas",
+   "cobertura",
+   "nuvens"
+  ],
+  "serve": true
+ },
+ "0252": {
+  "n": "0252",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3629523134781431987.mp4",
+  "duracao": 10.2,
+  "descricao": "vista de cima de multidão em show noturno e cidade",
+  "nome": "festival-multidao-noite-vista-alta",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "multidao",
+   "show",
+   "noite",
+   "cidade",
+   "alto"
+  ],
+  "serve": true
+ },
+ "0253": {
+  "n": "0253",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3625946112999431585.mp4",
+  "duracao": 9.5,
+  "descricao": "hotel clássico à noite com homem caminhando e loja",
+  "nome": "hotel-luxo-noite-homem-caminhando",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "hotel",
+   "noite",
+   "luxo",
+   "rua",
+   "loja"
+  ],
+  "serve": true
+ },
+ "0254": {
+  "n": "0254",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3627310748372581236.mp4",
+  "duracao": 12.2,
+  "descricao": "porsche conversível parado na estrada sob céu rosa",
+  "nome": "porsche-conversivel-por-do-sol-rosa",
+  "pasta": "Estrada e Viagem",
+  "clima": "quente",
+  "tags": [
+   "porsche",
+   "por do sol",
+   "estrada",
+   "ceu rosa",
+   "conversivel"
+  ],
+  "serve": true
+ },
+ "0255": {
+  "n": "0255",
+  "drive": "Lifestyle Variado 2.0/Cópia de Snapinsta.app_video_AQP4TV1HrxN22CIDfxFX9Gfe5_zqGysPiEf-w1UWw4TqS9-PJliD19P0NddbsF0sb9eqIQYdXxvcj-HYiSrDW_HIznSfcuucvg_1ky4.mp4",
+  "duracao": 6.3,
+  "descricao": "homens de smoking em barco no lago com nuvens baixas",
+  "nome": "homens-smoking-barco-lago-nuvens",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "frio",
+  "tags": [
+   "smoking",
+   "barco",
+   "lago",
+   "nuvens",
+   "elegancia"
+  ],
+  "serve": true
+ },
+ "0256": {
+  "n": "0256",
+  "drive": "Lifestyle Variado 2.0/Cópia de Snapins.ai_video_AQN5jb5mHw5CN6tqcvhEopSBQz30iYlbVUWo_9s53FAU5XX21e88YA3yGeY0B_KOLeTW-JeZvGk0E8kdUsO4hpY-uv_Nevxm19XNY_s.mp4",
+  "duracao": 20.4,
+  "descricao": "amigos sentados em mirante vendo luzes da cidade à noite",
+  "nome": "amigos-mirante-noite-luzes-cidade",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "mirante",
+   "noite",
+   "amigos",
+   "cidade",
+   "luzes"
+  ],
+  "serve": true
+ },
+ "0257": {
+  "n": "0257",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3620062625551037764.mp4",
+  "duracao": 18.5,
+  "descricao": "homem de terno cinza fumando charuto no terraço",
+  "nome": "homem-terno-cinza-charuto-terraco",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "charuto",
+   "terno",
+   "oculos",
+   "terraco",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0258": {
+  "n": "0258",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3206384541451462017.mp4",
+  "duracao": 22.7,
+  "descricao": "aston martin verde e volante em estrada de montanha",
+  "nome": "aston-martin-verde-volante-estrada",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "aston martin",
+   "verde",
+   "volante",
+   "montanha",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0259": {
+  "n": "0259",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_DFZtcqjRtpu.mp4",
+  "duracao": 6.5,
+  "descricao": "pessoas fazendo acrobacia com aviao passando sobre palmeira",
+  "nome": "pessoa-jogada-ao-ar-aviao-palmeira",
+  "pasta": "Outros",
+  "clima": "neutro",
+  "tags": [
+   "acrobacia",
+   "aviao",
+   "palmeira",
+   "rua"
+  ],
+  "serve": true
+ },
+ "0260": {
+  "n": "0260",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3598863468846281070.mp4",
+  "duracao": 12.3,
+  "descricao": "homem em piscina infinita ao pôr do sol com marca d'água no último quadro",
+  "nome": "piscina-infinita-por-do-sol-dubai",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "piscina",
+   "por do sol",
+   "dubai",
+   "marca dagua"
+  ],
+  "serve": false
+ },
+ "0261": {
+  "n": "0261",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3624564585195127963.mp4",
+  "duracao": 7.4,
+  "descricao": "vista de cima da esfera luminosa de Las Vegas ao anoitecer",
+  "nome": "las-vegas-sphere-vista-aerea-noite",
+  "pasta": "Cidade e Noite",
+  "clima": "escuro",
+  "tags": [
+   "las vegas",
+   "sphere",
+   "noite",
+   "aerea",
+   "luzes"
+  ],
+  "serve": true
+ },
+ "0262": {
+  "n": "0262",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3623763220735168101.mp4",
+  "duracao": 18.0,
+  "descricao": "interior de iate de luxo com bar, mesa de jantar e aquário",
+  "nome": "iate-luxo-interior-bar-jantar",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "iate",
+   "interior",
+   "luxo",
+   "jantar",
+   "bar"
+  ],
+  "serve": true
+ },
+ "0263": {
+  "n": "0263",
+  "drive": "Lifestyle Variado 2.0/Cópia de Pack de videos de luxo @tysonbnss (32).mp4",
+  "duracao": 11.5,
+  "descricao": "spa de luxo com piscina de mármore e sauna dourada",
+  "nome": "spa-marmore-piscina-sauna-dourada",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "spa",
+   "piscina",
+   "sauna",
+   "marmore",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0264": {
+  "n": "0264",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3608964862776616825.mp4",
+  "duracao": 5.9,
+  "descricao": "homem de terno caminhando até range rover dourado",
+  "nome": "range-rover-dourado-homem-terno",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "range rover",
+   "terno",
+   "suv",
+   "luxo",
+   "homem"
+  ],
+  "serve": true
+ },
+ "0265": {
+  "n": "0265",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3571437666063064482.mp4",
+  "duracao": 52.0,
+  "descricao": "homem de terno claro fumando charuto com drinks",
+  "nome": "homem-terno-claro-charuto-drinks",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "quente",
+  "tags": [
+   "charuto",
+   "terno",
+   "drinks",
+   "luxo",
+   "bar"
+  ],
+  "serve": true
+ },
+ "0266": {
+  "n": "0266",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_2540217363105102347.mp4",
+  "duracao": 20.0,
+  "descricao": "relógio amarelo com logotipo grande no final",
+  "nome": "relogio-amarelo-dubai-marca",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "relogio",
+   "dubai",
+   "marca",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0267": {
+  "n": "0267",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_2846134740032128008.mp4",
+  "duracao": 19.3,
+  "descricao": "homem no convés de iate com carro de fórmula 1 ao nascer do sol",
+  "nome": "iate-convés-f1-nascer-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "iate",
+   "formula 1",
+   "sol",
+   "mar",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0268": {
+  "n": "0268",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_2968479379060967837.mp4",
+  "duracao": 18.7,
+  "descricao": "homem de terno de costas em varanda com Nova York ao pôr do sol",
+  "nome": "homem-terno-varanda-nova-york-por-do-sol",
+  "pasta": "Silhueta e Solidão",
+  "clima": "dourado",
+  "tags": [
+   "nova york",
+   "por do sol",
+   "silhueta",
+   "terno",
+   "costas"
+  ],
+  "serve": true
+ },
+ "0269": {
+  "n": "0269",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3612222465708159279.mp4",
+  "duracao": 5.9,
+  "descricao": "paraquedista saltando sobre montanhas nevadas",
+  "nome": "paraquedismo-alpes-neve-helicoptero",
+  "pasta": "Céu e Espaço",
+  "clima": "frio",
+  "tags": [
+   "paraquedas",
+   "neve",
+   "alpes",
+   "salto",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0270": {
+  "n": "0270",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_DHJpCbkoAJy.mp4",
+  "duracao": 21.0,
+  "descricao": "homem de terno xadrez fumando charuto com relógio dourado",
+  "nome": "homem-terno-xadrez-charuto-relogio-dourado",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "quente",
+  "tags": [
+   "charuto",
+   "relogio",
+   "terno",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0271": {
+  "n": "0271",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3615722046870725043.mp4",
+  "duracao": 9.7,
+  "descricao": "homem com tatuagens e mustang conversível entre palmeiras",
+  "nome": "homem-beverly-hills-mustang-palmeiras",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "mustang",
+   "palmeiras",
+   "conversivel",
+   "homem",
+   "rua"
+  ],
+  "serve": true
+ },
+ "0272": {
+  "n": "0272",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3582526728524010574.mp4",
+  "duracao": 14.7,
+  "descricao": "homem de terno em cobertura com janelas e vista de Nova York",
+  "nome": "apartamento-janelas-nova-york-homem-terno",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "cobertura",
+   "nova york",
+   "janelas",
+   "terno",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0273": {
+  "n": "0273",
+  "drive": "Lifestyle Variado 2.0/snapins-ai_3599165054234237321.mp4",
+  "duracao": 37.2,
+  "descricao": "homem de blazer azul fumando charuto com Burj Khalifa ao fundo",
+  "nome": "homem-blazer-azul-charuto-burj-khalifa",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "charuto",
+   "blazer",
+   "burj khalifa",
+   "luxo",
+   "noite"
+  ],
+  "serve": true
+ },
+ "0274": {
+  "n": "0274",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQPDLxnaj0QcPo3l7b1FNH9_k38DzFgoDtfewcwmaBOI-Z-qcJbOWRqKVVa0Egqk6eiqnnwj-kL1HrHXkO9mosEkZ5qiwlMhlBRys_c.mp4",
+  "duracao": 21.2,
+  "descricao": "pessoas dançando em festa com DJ ao pôr do sol em Dubai",
+  "nome": "festa-dj-barco-por-do-sol-dubai",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "dourado",
+  "tags": [
+   "festa",
+   "dj",
+   "por do sol",
+   "dubai",
+   "danca"
+  ],
+  "serve": true
+ },
+ "0275": {
+  "n": "0275",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQMzay-INJzBSiLFmavydQtUwCRpDcMUrz3QkiDcPnAs63tBFUYsQNLmCtSer4EbzGwTrX3DmjFqCHn7Jca34iL1kwC5mY2FEwGntW0.mp4",
+  "duracao": 7.4,
+  "descricao": "homem em Londres com Big Ben e Shard à noite",
+  "nome": "londres-big-ben-noite-homem",
+  "pasta": "Cidade e Noite",
+  "clima": "frio",
+  "tags": [
+   "londres",
+   "big ben",
+   "noite",
+   "rio",
+   "cidade"
+  ],
+  "serve": true
+ },
+ "0276": {
+  "n": "0276",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQP6fYv08p4Vv4qH0Y_qYdj3NUXXGn74vASg_zMfguH9sjZ5GU5DeKg8Juctr6_xw255hRvzKbCpjE1n-DwAaz6k_nWkXR8npXwwIJw.mp4",
+  "duracao": 17.1,
+  "descricao": "homem caminhando com bolsa até jato particular na pista",
+  "nome": "homem-andando-jato-pista-aeroporto",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "jato",
+   "aeroporto",
+   "bolsa",
+   "viagem",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0277": {
+  "n": "0277",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQO_WOgL8dpt3Zb0dQqB6rBPPKLbyWkAQXHgOix14nthro_kbH-pWpTY1tXPYcj4BmKaHqyuGi6e_5-fY5rRNTwJaWonWkU37eUqGno.mp4",
+  "duracao": 11.2,
+  "descricao": "dois homens dançando em restaurante à beira da piscina",
+  "nome": "homens-dancando-piscina-restaurante",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "luz",
+  "tags": [
+   "danca",
+   "piscina",
+   "restaurante",
+   "drinks",
+   "lifestyle"
+  ],
+  "serve": true
+ },
+ "0278": {
+  "n": "0278",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQNFWyC7xAa3TJg48zmMB-BI3OZSLFfgl-zgz0Gh5elNof3WDlYHpwPD6homixyCGnV6WiopLSvSvGxv2smWkc4Zz_y-hAX_GsNHi_Y.mp4",
+  "duracao": 8.4,
+  "descricao": "DJ no deserto ao pôr do sol com camelos ao fundo",
+  "nome": "dj-deserto-camelos-por-do-sol",
+  "pasta": "Natureza e Paisagem",
+  "clima": "dourado",
+  "tags": [
+   "deserto",
+   "camelos",
+   "por do sol",
+   "dj",
+   "lanternas"
+  ],
+  "serve": true
+ },
+ "0279": {
+  "n": "0279",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQOVDtNdishbdroJL8TvuxevWuR4hBoP3QP8GiybAIVQgrBX0zkAt8Wbtsk_p2wTJl5s3AESCclJgGJCE1InfDlK871SIPt5fJLe7gE.mp4",
+  "duracao": 8.0,
+  "descricao": "maybach preto e helicóptero pousando com pessoas elegantes",
+  "nome": "maybach-helicoptero-chegada-gala",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "maybach",
+   "helicoptero",
+   "luxo",
+   "chegada",
+   "elegancia"
+  ],
+  "serve": true
+ },
+ "0280": {
+  "n": "0280",
+  "drive": "Lifestyle Variado 2.0/Snapins.ai_video_AQPkBocxvioQDcAHblhzSYcjk3edlu7RU4Z5WrHv3UaCfiCb4zLbf3i_SQpDJAqkvNmZsSq0EiBv2afTHqRMwmRi6eBzUnNVc9qEs1k.mp4",
+  "duracao": 14.0,
+  "descricao": "homem de terno azul claro fumando charuto com champanhe e relógio dourado",
+  "nome": "homem-terno-azul-claro-charuto-champanhe",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "charuto",
+   "champanhe",
+   "relogio",
+   "terno",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0281": {
+  "n": "0281",
+  "drive": "Lifestyle Variado 2.0/Copy of 42405924_737200864544564_2234572225995332757_n(1).mp4",
+  "duracao": 9.7,
+  "descricao": "silhueta de kitesurfista saltando contra o pôr do sol dourado",
+  "nome": "kitesurf-silhueta-por-do-sol-dourado",
+  "pasta": "Silhueta e Solidão",
+  "clima": "dourado",
+  "tags": [
+   "kitesurf",
+   "silhueta",
+   "por do sol",
+   "salto",
+   "nuvens"
+  ],
+  "serve": true
+ },
+ "0282": {
+  "n": "0282",
+  "drive": "Lifestyle Variado 2.0/Copy of 310775998_807102761099536_1515840630040319067_n.mp4",
+  "duracao": 6.5,
+  "descricao": "homem pendurado em asa vermelha sobre praia e duna",
+  "nome": "wingfoil-asa-vermelha-praia-duna",
+  "pasta": "Outros",
+  "clima": "neutro",
+  "tags": [
+   "asa",
+   "praia",
+   "duna",
+   "esporte",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0283": {
+  "n": "0283",
+  "drive": "Lifestyle Variado 2.0/Copy of 321360833_1526973398120660_1282209906277158749_n.mp4",
+  "duracao": 7.0,
+  "descricao": "convidados caminhando em jardim de casarão com piscina ao entardecer",
+  "nome": "casarao-jardim-convidados-entardecer",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "frio",
+  "tags": [
+   "casarao",
+   "jardim",
+   "festa",
+   "entardecer",
+   "piscina"
+  ],
+  "serve": true
+ },
+ "0284": {
+  "n": "0284",
+  "drive": "Lifestyle Variado 2.0/Copy of 414206131_172183332649936_7394744908621834970_n.mp4",
+  "duracao": 4.4,
+  "descricao": "pessoas saltando de abertura em rocha de arenito para o lago",
+  "nome": "salto-penhasco-arenito-lago",
+  "pasta": "Natureza e Paisagem",
+  "clima": "quente",
+  "tags": [
+   "arenito",
+   "penhasco",
+   "salto",
+   "lago",
+   "canyon"
+  ],
+  "serve": true
+ },
+ "0285": {
+  "n": "0285",
+  "drive": "Lifestyle Variado 2.0/Copy of 119533235_663690839172403_4094121101860243452_n.mp4",
+  "duracao": 17.5,
+  "descricao": "manequim de smoking em loja com logotipo visível",
+  "nome": "manequim-smoking-alfaiataria-loja",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "smoking",
+   "loja",
+   "manequim",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0286": {
+  "n": "0286",
+  "drive": "Lifestyle Variado 2.0/121409043_1570952367034212_4828668801264302547_n.mp4",
+  "duracao": 8.3,
+  "descricao": "homem de costas em mirante de vidro com Nova York",
+  "nome": "homem-silhueta-mirante-vidro-nova-york",
+  "pasta": "Silhueta e Solidão",
+  "clima": "luz",
+  "tags": [
+   "silhueta",
+   "nova york",
+   "mirante",
+   "vidro",
+   "costas"
+  ],
+  "serve": true
+ },
+ "0287": {
+  "n": "0287",
+  "drive": "Lifestyle Variado 2.0/ssstik.io_1731449668244.MP4",
+  "duracao": 14.9,
+  "descricao": "suíte de luxo com café da manhã, banheira e piscina infinita ao pôr do sol",
+  "nome": "suite-luxo-vista-mar-banheira-piscina",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "suite",
+   "banheira",
+   "piscina",
+   "mar",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0288": {
+  "n": "0288",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQMaKg3s5tThtzuofOMDooZZHrelzm4MDSCRRk52S46YeZKEr77pL5igWVSs5UU5P1RvgeA0eI1M3QxmphG0JclVcBko2-U8jJNap8k.mp4",
+  "duracao": 11.1,
+  "descricao": "homem de terno com mercedes preto em frente a castelo e volante",
+  "nome": "mercedes-eqs-preto-castelo-volante",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "mercedes",
+   "castelo",
+   "terno",
+   "volante",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0289": {
+  "n": "0289",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQPB9PuJD0p41wGIfQDA9gfoACIfroodFATcTjwUFSG98frGA1aRd2_j64TDWGzUswUMvo1UmvsSeiA8wvw-w_TwYt3f-9d5Rjmo-8c.mp4",
+  "duracao": 17.3,
+  "descricao": "buggy no deserto com óculos de marca e logotipos em destaque",
+  "nome": "buggy-deserto-dubai-goggles",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "deserto",
+   "buggy",
+   "aventura",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0290": {
+  "n": "0290",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQPvriQFC6doDVaHG5urRURyOmb4AXlLZYkRCUfhNuOyf1TGighQLX9tf2psH92RSqYrF9H_Q18uGONxjdLN3j__4MyKgI5m8VIWGhw.mp4",
+  "duracao": 3.7,
+  "descricao": "homem de costas em varanda de chalé olhando montanha nevada",
+  "nome": "homem-varanda-chale-neve-cafe",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "neve",
+   "chale",
+   "varanda",
+   "montanha",
+   "costas"
+  ],
+  "serve": true
+ },
+ "0291": {
+  "n": "0291",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQNdKcdBVzBWfg-ZPObjdVvJLvwupInMHWFeZomg2GY0dtARzSf7XjXHFKXzKdYPzH2NPFkqwJurWMRD65kPHpRzqEpWSsBX0OnsCuY.mp4",
+  "duracao": 7.3,
+  "descricao": "festa em barco em Dubai com letreiro Techno Chill",
+  "nome": "festa-barco-dubai-skyline-por-do-sol",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "festa",
+   "barco",
+   "dubai",
+   "texto"
+  ],
+  "serve": false
+ },
+ "0292": {
+  "n": "0292",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQMpROcBh5X_PVEct--MXNd_v0tso7_ImuMf_6ElLuSDzIRuCOOG3WZUDdAnJ56RzViHxk6vx631tOvKRz-XADEy-VyBzFESuoppHS8.mp4",
+  "duracao": 8.1,
+  "descricao": "dezenas de parapentes voando sobre vale com nuvens",
+  "nome": "parapente-vale-montanhas-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "frio",
+  "tags": [
+   "parapente",
+   "montanha",
+   "ceu",
+   "vale",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0293": {
+  "n": "0293",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQO_86VLW6k0nsEJb5qFGNYPGCPudH5smYNQsvCBky_1ImiAuQ-OPrgigh21ZxOiiYL2nYKmFXUQUZGmYCqZKJRvqYhBFq0z_mt67C4.mp4",
+  "duracao": 11.6,
+  "descricao": "pessoa caminhando na borda de arranha-céu com vista vertiginosa",
+  "nome": "jovens-borda-arranha-ceu-vista-vertigem",
+  "pasta": "Cidade e Noite",
+  "clima": "dourado",
+  "tags": [
+   "arranha-ceu",
+   "altura",
+   "vertigem",
+   "cidade",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0294": {
+  "n": "0294",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQM3ioT_t3NtCS2xbYP4Y21iPHkbenU_U0GD--xbBEQwiDD4raIHZc_9FgJzMwLXWwyDCf6VKV69g783XcPVkUlVf2Gz5S6_UsYDX7Q.mp4",
+  "duracao": 13.3,
+  "descricao": "vista aérea de casa moderna com piscina em formato de seta",
+  "nome": "casa-moderna-piscina-drone-natureza",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "casa",
+   "piscina",
+   "drone",
+   "mansao",
+   "natureza"
+  ],
+  "serve": true
+ },
+ "0295": {
+  "n": "0295",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQM3ioT_t3NtCS2xbYP4Y21iPHkbenU_U0GD--xbBEQwiDD4raIHZc_9FgJzMwLXWwyDCf6VKV69g783XcPVkUlVf2Gz5S6_UsYDX7Q.mp4",
+  "duracao": 13.3,
+  "descricao": "vista aérea de casa moderna com piscina em formato de seta",
+  "nome": "casa-moderna-piscina-drone-natureza-2",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "casa",
+   "piscina",
+   "drone",
+   "mansao",
+   "natureza"
+  ],
+  "serve": true
+ },
+ "0296": {
+  "n": "0296",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQPbPOkUw5FzuszuaEiG7y5dT90FzSwTBpRDLBVNK-zoXNW63zOxG-09eTLohvPLggNik2iyIp4ycx19d1FPy78POJArqQN09di4rws.mp4",
+  "duracao": 15.5,
+  "descricao": "rolls royce preto na neve e aviões antigos ao fundo",
+  "nome": "rolls-royce-preto-neve-avioes",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "rolls royce",
+   "neve",
+   "aviao",
+   "carro",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0297": {
+  "n": "0297",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQOQeU0qOH6LM3Ydk-ltQXnLJDXaAXoqwl2TpuREmp63cd0G8yM9ibQMqMItzZADejNnl9Az3cGO3aeqywsH0z6X16mORN-nunXMlNY.mp4",
+  "duracao": 14.7,
+  "descricao": "rolls royce preto derrapando em estrada de neve",
+  "nome": "rolls-royce-neve-derrapando-amigos",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "rolls royce",
+   "neve",
+   "derrapagem",
+   "carro",
+   "amigos"
+  ],
+  "serve": true
+ },
+ "0298": {
+  "n": "0298",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQNpZDy-a5xo0cVA5hXkR8yBT8dSFyCcwWK_MC6bxxmQxyor5AN-tGBlSyqTmVPVFdQ8xHn3-pKwE4kHaL3zjwKWmrc4VURNI6AC3tw.mp4",
+  "duracao": 7.8,
+  "descricao": "homem tomando café em mirante envidraçado com vista de Dubai",
+  "nome": "homem-janela-burj-khalifa-vista-cidade",
+  "pasta": "Silhueta e Solidão",
+  "clima": "luz",
+  "tags": [
+   "burj khalifa",
+   "janela",
+   "dubai",
+   "vista",
+   "silhueta"
+  ],
+  "serve": true
+ },
+ "0299": {
+  "n": "0299",
+  "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQPqLD9cgEfujQ-XFsmUANmer-xH6lpjw3wJ6DEX4Sm2SQeywj4-_SK8OLeK9V6p1w2dT8k0XPD2H6QrVt4dhNow3_nUksMwxyZ9WyY.mp4",
+  "duracao": 17.4,
+  "descricao": "homem sem camisa empurrando rolls royce preto na neve",
+  "nome": "rolls-royce-neve-homem-sem-camisa-empurrando",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "rolls royce",
+   "neve",
+   "homem",
+   "carro",
+   "treino"
+  ],
+  "serve": true
  }
 }
