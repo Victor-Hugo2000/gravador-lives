@@ -1,0 +1,106 @@
+{
+ "projeto": "darks-clips",
+ "canal": "mesa-de-milionario",
+ "fase": "teste",
+ "fonte": {
+  "url": "https://www.tiktok.com/@wize.xli/video/7494397599793958199"
+ },
+ "trechos": [
+  {
+   "inicio": 0.24,
+   "fim": 31.85
+  }
+ ],
+ "gancho": "A MAIORIA ACHA QUE SABE | O QUE QUER.",
+ "legendas": "auto",
+ "idioma": "pt",
+ "enfase": [
+  {
+   "palavra": "FELICIDADE",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "POBRE",
+   "tipo": "vermelho"
+  },
+  {
+   "palavra": "PERAMBULANDO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "MAIORIA",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "DESORIENTADO",
+   "tipo": "gigante"
+  },
+  {
+   "palavra": "QUERO",
+   "tipo": "ouro-serifa"
+  },
+  {
+   "palavra": "TILT",
+   "tipo": "gigante"
+  }
+ ],
+ "cenas": [
+  {
+   "em": 2.6,
+   "dur": 1.8,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3643180288232524541.mp4",
+   "de": 0
+  },
+  {
+   "em": 5.0,
+   "dur": 1.6,
+   "drive": "Lifestyle Variado 2.0/Luxury 99.mp4",
+   "de": 0
+  },
+  {
+   "em": 7.6,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3629523134781431987.mp4",
+   "de": 0
+  },
+  {
+   "em": 10.2,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3596199678086376399.mp4",
+   "de": 0
+  },
+  {
+   "em": 14.9,
+   "dur": 2.2,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3625946112999431585.mp4",
+   "de": 0
+  },
+  {
+   "em": 18.9,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3624564585195127963.mp4",
+   "de": 0
+  },
+  {
+   "em": 23.1,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/snapins-ai_3628898632973346202.mp4",
+   "de": 0
+  },
+  {
+   "em": 25.3,
+   "dur": 2.0,
+   "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQPvriQFC6doDVaHG5urRURyOmb4AXlLZYkRCUfhNuOyf1TGighQLX9tf2psH92RSqYrF9H_Q18uGONxjdLN3j__4MyKgI5m8VIWGhw.mp4",
+   "de": 0
+  },
+  {
+   "em": 28.6,
+   "dur": 2.4,
+   "drive": "Lifestyle Variado 2.0/Snapinst.app_video_AQO_86VLW6k0nsEJb5qFGNYPGCPudH5smYNQsvCBky_1ImiAuQ-OPrgigh21ZxOiiYL2nYKmFXUQUZGmYCqZKJRvqYhBFq0z_mt67C4.mp4",
+   "de": 0
+  }
+ ],
+ "titulo": "Você não vê felicidade no olho de ninguém. #reflexão #propósito #mentalidade | Fala: Mano Brown",
+ "saida": "2026-11-23-todo-mundo-desorientado.mp4",
+ "baseId": "tt:7494397599793958199"
+}
