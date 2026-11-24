@@ -13338,5 +13338,1661 @@
    "jogo"
   ],
   "serve": false
+ },
+ "0800": {
+  "n": "0800",
+  "drive": "Lifestyle Variado 2.0/LF (23).mp4",
+  "duracao": 9.1,
+  "descricao": "ciclista de mountain bike pulando trilha na floresta",
+  "nome": "ciclista-mountain-bike-salto-floresta",
+  "pasta": "Treino e Disciplina",
+  "clima": "escuro",
+  "tags": [
+   "mtb",
+   "ciclista",
+   "floresta",
+   "salto",
+   "trilha"
+  ],
+  "serve": true
+ },
+ "0801": {
+  "n": "0801",
+  "drive": "Lifestyle Variado 2.0/LF (25).mp4",
+  "duracao": 16.8,
+  "descricao": "jogador do Kansas City Chiefs erguendo troféu Super Bowl",
+  "nome": "jogador-futebol-americano-trofeu",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "super bowl",
+   "troféu",
+   "famoso",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0802": {
+  "n": "0802",
+  "drive": "Lifestyle Variado 2.0/LF (21).mp4",
+  "duracao": 15.1,
+  "descricao": "homem de jaqueta de couro conduzindo cavalo em picadeiro à noite",
+  "nome": "homem-couro-cavalo-picadeiro-noite",
+  "pasta": "Animais",
+  "clima": "escuro",
+  "tags": [
+   "cavalo",
+   "homem",
+   "noite",
+   "picadeiro",
+   "jaqueta"
+  ],
+  "serve": true
+ },
+ "0803": {
+  "n": "0803",
+  "drive": "Lifestyle Variado 2.0/LF (24).mp4",
+  "duracao": 39.4,
+  "descricao": "jogadores de basquete comemorando com confete",
+  "nome": "basquete-comemoracao-confete-emocao",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "basquete",
+   "comemoração",
+   "confete",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0804": {
+  "n": "0804",
+  "drive": "Lifestyle Variado 2.0/LF (18).mp4",
+  "duracao": 10.5,
+  "descricao": "partida de futebol com marcas e escudos nas placas",
+  "nome": "futebol-partida-estadio-lance",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "futebol",
+   "estádio",
+   "logotipo",
+   "placas"
+  ],
+  "serve": false
+ },
+ "0805": {
+  "n": "0805",
+  "drive": "Lifestyle Variado 2.0/LF (19).mp4",
+  "duracao": 21.7,
+  "descricao": "jogador de futebol americano com camisa 14 estádio luz",
+  "nome": "jogador-futebol-americano-estadio-luz",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "futebol americano",
+   "estádio",
+   "logotipo",
+   "time"
+  ],
+  "serve": false
+ },
+ "0806": {
+  "n": "0806",
+  "drive": "Lifestyle Variado 2.0/LF (20).mp4",
+  "duracao": 9.3,
+  "descricao": "jogador famoso fazendo embaixadinha em treino com logo UEFA",
+  "nome": "jogador-embaixadinha-treino-uefa",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "futebol",
+   "embaixadinha",
+   "uefa",
+   "famoso"
+  ],
+  "serve": false
+ },
+ "0807": {
+  "n": "0807",
+  "drive": "Lifestyle Variado 2.0/LF (17).mp4",
+  "duracao": 5.2,
+  "descricao": "jogo de basquete em quadra com público",
+  "nome": "basquete-quadra-jogo-lance",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "basquete",
+   "quadra",
+   "jogo",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0808": {
+  "n": "0808",
+  "drive": "Lifestyle Variado 2.0/LF (128).mp4",
+  "duracao": 14.5,
+  "descricao": "rua e shopping de luxo em Dubai com Rolls-Royce e Burj Khalifa",
+  "nome": "dubai-mall-rolls-royce-burj-khalifa",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "neutro",
+  "tags": [
+   "dubai",
+   "luxo",
+   "rolls-royce",
+   "burj khalifa",
+   "shopping"
+  ],
+  "serve": true
+ },
+ "0809": {
+  "n": "0809",
+  "drive": "Lifestyle Variado 2.0/LF (14).mp4",
+  "duracao": 10.3,
+  "descricao": "bangalô sobre água azul turquesa com montanha ao fundo",
+  "nome": "bangalo-agua-turquesa-montanha-tropical",
+  "pasta": "Água e Mar",
+  "clima": "luz",
+  "tags": [
+   "bangalô",
+   "tropical",
+   "mar",
+   "turquesa",
+   "luxo",
+   "montanha"
+  ],
+  "serve": true
+ },
+ "0810": {
+  "n": "0810",
+  "drive": "Lifestyle Variado 2.0/LF (15).mp4",
+  "duracao": 11.7,
+  "descricao": "moto com fogos de artifício no por do sol sobre gelo",
+  "nome": "moto-fogos-artificio-por-do-sol",
+  "pasta": "Estrada e Viagem",
+  "clima": "frio",
+  "tags": [
+   "moto",
+   "fogos",
+   "por do sol",
+   "gelo",
+   "rosa"
+  ],
+  "serve": true
+ },
+ "0811": {
+  "n": "0811",
+  "drive": "Lifestyle Variado 2.0/LF (16).mp4",
+  "duracao": 44.9,
+  "descricao": "jogo de basquete NBA lance e enterrada com marcas",
+  "nome": "basquete-nba-enterrada-quadra",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "basquete",
+   "nba",
+   "logotipo",
+   "quadra"
+  ],
+  "serve": false
+ },
+ "0812": {
+  "n": "0812",
+  "drive": "Lifestyle Variado 2.0/LF (11).mp4",
+  "duracao": 21.2,
+  "descricao": "jogo de basquete NBA arremesso de jogadores famosos",
+  "nome": "basquete-nba-arremesso-jogadores",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "basquete",
+   "nba",
+   "famoso",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0813": {
+  "n": "0813",
+  "drive": "Lifestyle Variado 2.0/LF (107).mp4",
+  "duracao": 33.1,
+  "descricao": "jogo de basquete NBA disputa de bola",
+  "nome": "basquete-nba-disputa-bola",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "basquete",
+   "nba",
+   "logotipo",
+   "jogo"
+  ],
+  "serve": false
+ },
+ "0814": {
+  "n": "0814",
+  "drive": "Lifestyle Variado 2.0/LF (45).mp4",
+  "duracao": 18.6,
+  "descricao": "jogadores de basquete universitário e enterrada com texto",
+  "nome": "basquete-universitario-enterrada-torcida",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "basquete",
+   "enterrada",
+   "texto",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0815": {
+  "n": "0815",
+  "drive": "Lifestyle Variado 2.0/LF (105).mp4",
+  "duracao": 7.9,
+  "descricao": "jogador fazendo malabarismo com bola em estádio azul",
+  "nome": "jogador-malabarismo-bola-estadio-azul",
+  "pasta": "Treino e Disciplina",
+  "clima": "neutro",
+  "tags": [
+   "futebol",
+   "treino",
+   "bola",
+   "estádio",
+   "malabarismo"
+  ],
+  "serve": true
+ },
+ "0816": {
+  "n": "0816",
+  "drive": "Lifestyle Variado 2.0/LF (104).mp4",
+  "duracao": 7.8,
+  "descricao": "jogadores de futebol americano uniformizados close",
+  "nome": "jogadores-futebol-americano-uniforme-close",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "futebol americano",
+   "nfl",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0817": {
+  "n": "0817",
+  "drive": "Lifestyle Variado 2.0/LF (46).mp4",
+  "duracao": 10.6,
+  "descricao": "jogador de futebol famoso na chuva em estádio lotado",
+  "nome": "jogador-futebol-chuva-estadio-lotado",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "futebol",
+   "chuva",
+   "famoso",
+   "estádio"
+  ],
+  "serve": false
+ },
+ "0818": {
+  "n": "0818",
+  "drive": "Lifestyle Variado 2.0/LF (47).mp4",
+  "duracao": 14.5,
+  "descricao": "piloto de automobilismo se preparando e carro de corrida 22",
+  "nome": "piloto-carro-corrida-preparacao",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "piloto",
+   "corrida",
+   "carro",
+   "capacete",
+   "pista"
+  ],
+  "serve": true
+ },
+ "0819": {
+  "n": "0819",
+  "drive": "Lifestyle Variado 2.0/LF (70).mp4",
+  "duracao": 18.9,
+  "descricao": "carro derrapando na neve nas montanhas e piloto de capacete",
+  "nome": "carro-derrapando-neve-montanha-piloto",
+  "pasta": "Carros",
+  "clima": "frio",
+  "tags": [
+   "carro",
+   "neve",
+   "drift",
+   "montanha",
+   "piloto"
+  ],
+  "serve": true
+ },
+ "0820": {
+  "n": "0820",
+  "drive": "Lifestyle Variado 2.0/LF (56).mp4",
+  "duracao": 17.3,
+  "descricao": "caminhonete de corrida no deserto em alta velocidade",
+  "nome": "caminhonete-corrida-deserto-velocidade",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "caminhonete",
+   "deserto",
+   "corrida",
+   "poeira",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0821": {
+  "n": "0821",
+  "drive": "Lifestyle Variado 2.0/LF (64).mp4",
+  "duracao": 16.6,
+  "descricao": "piloto de rali e carro com logotipo Red Bull à noite",
+  "nome": "piloto-rali-noite-carro-redbull",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "rali",
+   "noite",
+   "carro",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0822": {
+  "n": "0822",
+  "drive": "Lifestyle Variado 2.0/LF (62).mp4",
+  "duracao": 11.7,
+  "descricao": "buggy de corrida no deserto com poeira",
+  "nome": "buggy-corrida-deserto-poeira",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "buggy",
+   "deserto",
+   "corrida",
+   "poeira",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0823": {
+  "n": "0823",
+  "drive": "Lifestyle Variado 2.0/LF (122).mp4",
+  "duracao": 14.4,
+  "descricao": "homem andando de skate ladeira abaixo em rua ensolarada",
+  "nome": "homem-skate-ladeira-rua-ensolarada",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "skate",
+   "rua",
+   "ladeira",
+   "sol",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0824": {
+  "n": "0824",
+  "drive": "Lifestyle Variado 2.0/LF (61).mp4",
+  "duracao": 12.6,
+  "descricao": "caminhonete de corrida Red Bull no deserto e logo no final",
+  "nome": "caminhonete-redbull-deserto-logotipo",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "caminhonete",
+   "deserto",
+   "logotipo",
+   "corrida"
+  ],
+  "serve": false
+ },
+ "0825": {
+  "n": "0825",
+  "drive": "Lifestyle Variado 2.0/LF (59).mp4",
+  "duracao": 7.5,
+  "descricao": "barco com pessoas e esquiador aquático ao por do sol",
+  "nome": "esquiador-aquatico-barco-por-do-sol",
+  "pasta": "Água e Mar",
+  "clima": "dourado",
+  "tags": [
+   "barco",
+   "por do sol",
+   "esqui aquático",
+   "mar",
+   "lago"
+  ],
+  "serve": true
+ },
+ "0826": {
+  "n": "0826",
+  "drive": "Lifestyle Variado 2.0/LF (129).mp4",
+  "duracao": 10.8,
+  "descricao": "skatista descendo estrada de montanha ensolarada",
+  "nome": "skatista-descendo-estrada-montanha",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "skate",
+   "estrada",
+   "montanha",
+   "velocidade",
+   "liberdade"
+  ],
+  "serve": true
+ },
+ "0827": {
+  "n": "0827",
+  "drive": "Lifestyle Variado 2.0/LF (68).mp4",
+  "duracao": 8.3,
+  "descricao": "buggy off-road levantando poeira no deserto",
+  "nome": "buggy-offroad-poeira-deserto",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "buggy",
+   "deserto",
+   "poeira",
+   "offroad",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "0828": {
+  "n": "0828",
+  "drive": "Lifestyle Variado 2.0/LF (98).mp4",
+  "duracao": 10.5,
+  "descricao": "ciclista de capacete em silhueta ao anoitecer em planície",
+  "nome": "ciclista-silhueta-anoitecer-planicie",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "ciclista",
+   "silhueta",
+   "anoitecer",
+   "solidão",
+   "azul"
+  ],
+  "serve": true
+ },
+ "0829": {
+  "n": "0829",
+  "drive": "Lifestyle Variado 2.0/LF (66).mp4",
+  "duracao": 5.0,
+  "descricao": "piloto de motocross saltando em pista de terra",
+  "nome": "motocross-salto-pista-terra",
+  "pasta": "Treino e Disciplina",
+  "clima": "dourado",
+  "tags": [
+   "motocross",
+   "salto",
+   "terra",
+   "moto",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0830": {
+  "n": "0830",
+  "drive": "Lifestyle Variado 2.0/LF (72).mp4",
+  "duracao": 6.6,
+  "descricao": "ciclistas de mountain bike em saltos na floresta",
+  "nome": "mountain-bike-salto-floresta-verde",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "mountain bike",
+   "salto",
+   "floresta",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0831": {
+  "n": "0831",
+  "drive": "Lifestyle Variado 2.0/LF (92).mp4",
+  "duracao": 10.5,
+  "descricao": "homem tatuado de moto Harley em ilha tropical",
+  "nome": "homem-tatuado-moto-ilha-tropical",
+  "pasta": "Estrada e Viagem",
+  "clima": "neutro",
+  "tags": [
+   "moto",
+   "tatuagem",
+   "tropical",
+   "estrada",
+   "bandana"
+  ],
+  "serve": true
+ },
+ "0832": {
+  "n": "0832",
+  "drive": "Lifestyle Variado 2.0/LF (93).mp4",
+  "duracao": 15.0,
+  "descricao": "ciclistas de downhill em trilha de terra com capacete Red Bull",
+  "nome": "ciclista-downhill-trilha-redbull",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "downhill",
+   "bike",
+   "logotipo",
+   "trilha"
+  ],
+  "serve": false
+ },
+ "0833": {
+  "n": "0833",
+  "drive": "Lifestyle Variado 2.0/LF (94).mp4",
+  "duracao": 9.0,
+  "descricao": "ciclista de downhill com uniforme azul fazendo curva em terra",
+  "nome": "ciclista-downhill-curva-terra-azul",
+  "pasta": "Treino e Disciplina",
+  "clima": "neutro",
+  "tags": [
+   "downhill",
+   "bike",
+   "curva",
+   "terra",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0834": {
+  "n": "0834",
+  "drive": "Lifestyle Variado 2.0/LF (96).mp4",
+  "duracao": 10.5,
+  "descricao": "ciclistas de downhill descendo rampa de terra com poeira",
+  "nome": "ciclista-downhill-rampa-poeira",
+  "pasta": "Treino e Disciplina",
+  "clima": "quente",
+  "tags": [
+   "downhill",
+   "bike",
+   "poeira",
+   "rampa",
+   "adrenalina"
+  ],
+  "serve": true
+ },
+ "0835": {
+  "n": "0835",
+  "drive": "Lifestyle Variado 2.0/LF (78).mp4",
+  "duracao": 13.7,
+  "descricao": "encontro de carros esportivos coloridos em rua de Miami",
+  "nome": "encontro-carros-esportivos-rua-miami",
+  "pasta": "Carros",
+  "clima": "luz",
+  "tags": [
+   "carros",
+   "esportivos",
+   "miami",
+   "multidão",
+   "supercarros"
+  ],
+  "serve": true
+ },
+ "0836": {
+  "n": "0836",
+  "drive": "Lifestyle Variado 2.0/LF (85).mp4",
+  "duracao": 31.5,
+  "descricao": "paraquedista em queda livre sobre ilhas e nuvens",
+  "nome": "paraquedista-queda-livre-ilhas-nuvens",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "queda livre",
+   "ilhas",
+   "nuvens",
+   "céu"
+  ],
+  "serve": true
+ },
+ "0837": {
+  "n": "0837",
+  "drive": "Lifestyle Variado 2.0/LF (87).mp4",
+  "duracao": 11.8,
+  "descricao": "homem de camiseta com texto e carro amarelo visto de cima na estrada",
+  "nome": "homem-camiseta-texto-estrada-drone",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "homem",
+   "texto",
+   "drone",
+   "estrada"
+  ],
+  "serve": false
+ },
+ "0838": {
+  "n": "0838",
+  "drive": "Lifestyle Variado 2.0/LF (83).mp4",
+  "duracao": 8.5,
+  "descricao": "interior de carro clássico Mercedes na estrada com casal",
+  "nome": "interior-carro-classico-mercedes-estrada",
+  "pasta": "Carros",
+  "clima": "dourado",
+  "tags": [
+   "carro clássico",
+   "volante",
+   "estrada",
+   "verão",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0839": {
+  "n": "0839",
+  "drive": "Lifestyle Variado 2.0/LF (82).mp4",
+  "duracao": 10.2,
+  "descricao": "homens de smoking e carro clássico Aston Martin em mansão ao anoitecer",
+  "nome": "homens-smoking-carro-classico-mansao",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "smoking",
+   "luxo",
+   "mansão",
+   "carro clássico",
+   "jantar"
+  ],
+  "serve": true
+ },
+ "0840": {
+  "n": "0840",
+  "drive": "Lifestyle Variado 2.0/LF (75).mp4",
+  "duracao": 8.2,
+  "descricao": "homem de terno branco em desfile de moda sob luz",
+  "nome": "homem-terno-branco-desfile-passarela",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "escuro",
+  "tags": [
+   "terno branco",
+   "desfile",
+   "passarela",
+   "elegância"
+  ],
+  "serve": true
+ },
+ "0841": {
+  "n": "0841",
+  "drive": "Lifestyle Variado 2.0/LF (80).mp4",
+  "duracao": 10.5,
+  "descricao": "mesa de trabalho escura com monitor, caixas de som e luz",
+  "nome": "mesa-trabalho-escura-monitor-caixas-som",
+  "pasta": "Trabalho e Estudo",
+  "clima": "escuro",
+  "tags": [
+   "escritório",
+   "monitor",
+   "setup",
+   "noite",
+   "mesa"
+  ],
+  "serve": true
+ },
+ "0842": {
+  "n": "0842",
+  "drive": "Lifestyle Variado 2.0/LF (84).mp4",
+  "duracao": 4.8,
+  "descricao": "homem de smoking e óculos escuros ao lado de carro clássico verde",
+  "nome": "homem-smoking-oculos-carro-classico",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "smoking",
+   "carro clássico",
+   "luxo",
+   "elegância",
+   "mar"
+  ],
+  "serve": true
+ },
+ "0843": {
+  "n": "0843",
+  "drive": "Lifestyle Variado 2.0/LF (157).mp4",
+  "duracao": 9.2,
+  "descricao": "notebook Apple e mesa escura com luz suave",
+  "nome": "notebook-mesa-escura-luz-suave",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "notebook",
+   "apple",
+   "logotipo",
+   "mesa"
+  ],
+  "serve": false
+ },
+ "0844": {
+  "n": "0844",
+  "drive": "Lifestyle Variado 2.0/LF (79).mp4",
+  "duracao": 8.5,
+  "descricao": "wingsuits voando ao por do sol em silhueta",
+  "nome": "wingsuit-voo-por-do-sol-silhueta",
+  "pasta": "Céu e Espaço",
+  "clima": "dourado",
+  "tags": [
+   "wingsuit",
+   "voo",
+   "por do sol",
+   "silhueta",
+   "céu"
+  ],
+  "serve": true
+ },
+ "0845": {
+  "n": "0845",
+  "drive": "Lifestyle Variado 2.0/LF (17).mov",
+  "duracao": 12.5,
+  "descricao": "ciclistas de downhill saindo da poeira em trilha",
+  "nome": "ciclistas-downhill-poeira-luz",
+  "pasta": "Treino e Disciplina",
+  "clima": "dourado",
+  "tags": [
+   "downhill",
+   "poeira",
+   "luz",
+   "trilha",
+   "bike"
+  ],
+  "serve": true
+ },
+ "0846": {
+  "n": "0846",
+  "drive": "Lifestyle Variado 2.0/LF (158).mp4",
+  "duracao": 20.3,
+  "descricao": "estrada de montanha sinuosa vista de drone com carro laranja",
+  "nome": "estrada-montanha-sinuosa-drone-carro",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "estrada",
+   "curvas",
+   "drone",
+   "montanha",
+   "carro"
+  ],
+  "serve": true
+ },
+ "0847": {
+  "n": "0847",
+  "drive": "Lifestyle Variado 2.0/LF (119).mp4",
+  "duracao": 49.3,
+  "descricao": "multidão lotando plataforma de metrô",
+  "nome": "multidao-plataforma-metro-lotada",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "multidão",
+   "metrô",
+   "cidade",
+   "lotado",
+   "rotina"
+  ],
+  "serve": true
+ },
+ "0848": {
+  "n": "0848",
+  "drive": "Lifestyle Variado 2.0/LF (20).mov",
+  "duracao": 8.8,
+  "descricao": "homem de costas sentado olhando o mar ao entardecer pela janela",
+  "nome": "homem-sentado-janela-mar-entardecer",
+  "pasta": "Silhueta e Solidão",
+  "clima": "escuro",
+  "tags": [
+   "silhueta",
+   "mar",
+   "entardecer",
+   "janela",
+   "solidão",
+   "taça"
+  ],
+  "serve": true
+ },
+ "0849": {
+  "n": "0849",
+  "drive": "Lifestyle Variado 2.0/LF (22).mov",
+  "duracao": 21.5,
+  "descricao": "jogadores de futebol americano em entrada de estádio com torcida e logotipo",
+  "nome": "futebol-americano-entrada-estadio-torcida",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "futebol americano",
+   "estádio",
+   "logotipo",
+   "torcida"
+  ],
+  "serve": false
+ },
+ "0850": {
+  "n": "0850",
+  "drive": "Lifestyle Variado 2.0/LF (7).mov",
+  "duracao": 20.2,
+  "descricao": "líderes de torcida e jogadores em estádio de futebol americano",
+  "nome": "torcida-estadio-futebol-americano-noite",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "torcida",
+   "estádio",
+   "logotipo",
+   "sensual"
+  ],
+  "serve": false
+ },
+ "0851": {
+  "n": "0851",
+  "drive": "Lifestyle Variado 2.0/LF (2).mov",
+  "duracao": 34.8,
+  "descricao": "Ferraris vermelhas estacionadas e homem de óculos sorrindo",
+  "nome": "ferraris-vermelhas-encontro-rua",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "ferrari",
+   "vermelho",
+   "supercarros",
+   "luxo",
+   "rua"
+  ],
+  "serve": true
+ },
+ "0852": {
+  "n": "0852",
+  "drive": "Lifestyle Variado 2.0/LF (28).mov",
+  "duracao": 7.8,
+  "descricao": "grupo de paraquedistas em queda livre sobre ilha tropical",
+  "nome": "paraquedistas-queda-livre-ilha-tropical",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "ilha",
+   "nuvens",
+   "mar",
+   "queda livre"
+  ],
+  "serve": true
+ },
+ "0853": {
+  "n": "0853",
+  "drive": "Lifestyle Variado 2.0/LF (33).mov",
+  "duracao": 34.9,
+  "descricao": "iate de luxo com Ferrari vermelha no convés no Mediterrâneo",
+  "nome": "iate-luxo-ferrari-convés-mediterraneo",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "luz",
+  "tags": [
+   "iate",
+   "ferrari",
+   "luxo",
+   "mar",
+   "mônaco"
+  ],
+  "serve": true
+ },
+ "0854": {
+  "n": "0854",
+  "drive": "Lifestyle Variado 2.0/LF (3).mov",
+  "duracao": 40.7,
+  "descricao": "paraquedistas com fogos de artifício em formação no pôr do sol",
+  "nome": "paraquedistas-fogos-formacao-por-do-sol",
+  "pasta": "Céu e Espaço",
+  "clima": "escuro",
+  "tags": [
+   "paraquedas",
+   "fogos",
+   "formação",
+   "por do sol"
+  ],
+  "serve": true
+ },
+ "0855": {
+  "n": "0855",
+  "drive": "Lifestyle Variado 2.0/LF (24).mov",
+  "duracao": 27.9,
+  "descricao": "paraquedista com boia verde saltando de avião e boias em tobogã",
+  "nome": "paraquedista-boia-aviao-tobogam",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "avião",
+   "boia",
+   "diversão",
+   "céu"
+  ],
+  "serve": true
+ },
+ "0856": {
+  "n": "0856",
+  "drive": "Lifestyle Variado 2.0/LF (4).mov",
+  "duracao": 7.3,
+  "descricao": "homem de terno em cobertura olhando a cidade ao entardecer",
+  "nome": "homem-terno-cobertura-cidade-entardecer",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "terno",
+   "cobertura",
+   "luxo",
+   "cidade",
+   "silhueta",
+   "entardecer"
+  ],
+  "serve": true
+ },
+ "0857": {
+  "n": "0857",
+  "drive": "Lifestyle Variado 2.0/LF (141).mp4",
+  "duracao": 10.4,
+  "descricao": "jovens em lancha ao entardecer brindando com garrafa",
+  "nome": "jovens-lancha-entardecer-brinde",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "dourado",
+  "tags": [
+   "lancha",
+   "entardecer",
+   "amigos",
+   "mar",
+   "festa"
+  ],
+  "serve": true
+ },
+ "0858": {
+  "n": "0858",
+  "drive": "Lifestyle Variado 2.0/LF (120).mp4",
+  "duracao": 11.2,
+  "descricao": "homem em piscina de cobertura de hotel de luxo ao pôr do sol",
+  "nome": "homem-piscina-hotel-luxo-por-do-sol",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "dourado",
+  "tags": [
+   "piscina",
+   "hotel",
+   "luxo",
+   "por do sol",
+   "dubai"
+  ],
+  "serve": true
+ },
+ "0859": {
+  "n": "0859",
+  "drive": "Lifestyle Variado 2.0/LF (21).mov",
+  "duracao": 15.1,
+  "descricao": "villa de bambu com piscina e jacuzzi entre arrozais",
+  "nome": "villa-bambu-piscina-arrozal",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "villa",
+   "bambu",
+   "piscina",
+   "arrozal",
+   "bali"
+  ],
+  "serve": true
+ },
+ "0860": {
+  "n": "0860",
+  "drive": "Lifestyle Variado 2.0/LF (15).mov",
+  "duracao": 11.1,
+  "descricao": "paraquedista saindo de avião sobre nuvens e montanhas",
+  "nome": "paraquedista-saindo-aviao-nuvens-montanhas",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "avião",
+   "nuvens",
+   "montanhas",
+   "salto"
+  ],
+  "serve": true
+ },
+ "0861": {
+  "n": "0861",
+  "drive": "Lifestyle Variado 2.0/LF (139).mp4",
+  "duracao": 6.7,
+  "descricao": "conversível dirigindo em estrada deserta com vulcão",
+  "nome": "conversivel-estrada-vulcao-ceu-azul",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "conversível",
+   "estrada",
+   "vulcão",
+   "céu azul",
+   "viagem"
+  ],
+  "serve": true
+ },
+ "0862": {
+  "n": "0862",
+  "drive": "Lifestyle Variado 2.0/LF (35).mov",
+  "duracao": 36.1,
+  "descricao": "castelo à beira de lago nas colinas e homem observando",
+  "nome": "castelo-lago-colinas-homem-observando",
+  "pasta": "Natureza e Paisagem",
+  "clima": "frio",
+  "tags": [
+   "castelo",
+   "lago",
+   "colinas",
+   "escócia",
+   "homem"
+  ],
+  "serve": true
+ },
+ "0863": {
+  "n": "0863",
+  "drive": "Lifestyle Variado 2.0/LF (27).mov",
+  "duracao": 7.0,
+  "descricao": "mesa preta com MacBook, iPhone e Mac Studio da Apple",
+  "nome": "mesa-preta-macbook-iphone-setup",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "macbook",
+   "apple",
+   "logotipo",
+   "setup"
+  ],
+  "serve": false
+ },
+ "0864": {
+  "n": "0864",
+  "drive": "Lifestyle Variado 2.0/LF (123).mp4",
+  "duracao": 17.7,
+  "descricao": "visão de dentro do carro em estrada arborizada e Land Rover verde",
+  "nome": "estrada-arborizada-land-rover-verde",
+  "pasta": "Estrada e Viagem",
+  "clima": "frio",
+  "tags": [
+   "estrada",
+   "árvores",
+   "land rover",
+   "painel",
+   "nublado"
+  ],
+  "serve": true
+ },
+ "0865": {
+  "n": "0865",
+  "drive": "Lifestyle Variado 2.0/LF (29).mov",
+  "duracao": 16.9,
+  "descricao": "superesportivo verde em posto de gasolina com placas visíveis",
+  "nome": "superesportivo-verde-posto-gasolina",
+  "pasta": "Carros",
+  "clima": "dourado",
+  "tags": [
+   "superesportivo",
+   "verde",
+   "posto",
+   "carro",
+   "luxo"
+  ],
+  "serve": true
+ },
+ "0866": {
+  "n": "0866",
+  "drive": "Lifestyle Variado 2.0/LF (130).mp4",
+  "duracao": 15.6,
+  "descricao": "buggies correndo em trilha de terra ao pôr do sol com poeira",
+  "nome": "buggies-trilha-poeira-por-do-sol",
+  "pasta": "Carros",
+  "clima": "dourado",
+  "tags": [
+   "buggy",
+   "poeira",
+   "por do sol",
+   "trilha",
+   "offroad"
+  ],
+  "serve": true
+ },
+ "0867": {
+  "n": "0867",
+  "drive": "Lifestyle Variado 2.0/LF (26).mov",
+  "duracao": 13.1,
+  "descricao": "carros de corrida à noite em pista com luzes",
+  "nome": "carros-corrida-noite-pista-luzes",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "corrida",
+   "noite",
+   "pista",
+   "amg",
+   "velocidade"
+  ],
+  "serve": true
+ },
+ "0868": {
+  "n": "0868",
+  "drive": "Lifestyle Variado 2.0/LF (126).mp4",
+  "duracao": 11.5,
+  "descricao": "mansão moderna com piscina comprida e palmeiras",
+  "nome": "mansao-moderna-piscina-palmeiras",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "frio",
+  "tags": [
+   "mansão",
+   "piscina",
+   "luxo",
+   "palmeiras",
+   "arquitetura"
+  ],
+  "serve": true
+ },
+ "0869": {
+  "n": "0869",
+  "drive": "Lifestyle Variado 2.0/LF (121).mp4",
+  "duracao": 11.3,
+  "descricao": "Lamborghini, Mercedes G-Wagon e volante de Rolls-Royce",
+  "nome": "lamborghini-gwagon-rolls-royce-garagem",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "lamborghini",
+   "g-wagon",
+   "rolls-royce",
+   "luxo",
+   "garagem"
+  ],
+  "serve": true
+ },
+ "0870": {
+  "n": "0870",
+  "drive": "Lifestyle Variado 2.0/LF (9).mov",
+  "duracao": 7.7,
+  "descricao": "câmera filmando e carros de corrida com marcas e texto na tela",
+  "nome": "corrida-bastidores-camera-marcas",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "corrida",
+   "câmera",
+   "texto",
+   "logotipo"
+  ],
+  "serve": false
+ },
+ "0871": {
+  "n": "0871",
+  "drive": "Lifestyle Variado 2.0/LF (111).mp4",
+  "duracao": 6.7,
+  "descricao": "mansão iluminada à noite com Rolls-Royce e carros de luxo",
+  "nome": "mansao-noite-rolls-royce-carros-luxo",
+  "pasta": "Dinheiro e Luxo",
+  "clima": "escuro",
+  "tags": [
+   "mansão",
+   "rolls-royce",
+   "noite",
+   "luxo",
+   "carros"
+  ],
+  "serve": true
+ },
+ "0872": {
+  "n": "0872",
+  "drive": "Lifestyle Variado 2.0/LF (134).mp4",
+  "duracao": 12.1,
+  "descricao": "Lamborghini amarelo, BMW preto e Lamborghini azul em posto",
+  "nome": "lamborghinis-bmw-m5-posto-luxo",
+  "pasta": "Carros",
+  "clima": "neutro",
+  "tags": [
+   "lamborghini",
+   "bmw",
+   "carros de luxo",
+   "relógio"
+  ],
+  "serve": true
+ },
+ "0873": {
+  "n": "0873",
+  "drive": "Lifestyle Variado 2.0/LF (32).mov",
+  "duracao": 6.6,
+  "descricao": "BMW M4 preto em estrada de floresta com luz do sol",
+  "nome": "bmw-m4-estrada-floresta-luz-sol",
+  "pasta": "Carros",
+  "clima": "dourado",
+  "tags": [
+   "bmw",
+   "estrada",
+   "floresta",
+   "sol",
+   "carro esportivo"
+  ],
+  "serve": true
+ },
+ "0874": {
+  "n": "0874",
+  "drive": "Lifestyle Variado 2.0/LF (18).mov",
+  "duracao": 7.8,
+  "descricao": "silhueta de homem sentado em poltrona olhando carro de corrida em galpão",
+  "nome": "homem-poltrona-carro-corrida-galpao",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "silhueta",
+   "poltrona",
+   "galpão",
+   "carro de corrida",
+   "solidão"
+  ],
+  "serve": true
+ },
+ "0875": {
+  "n": "0875",
+  "drive": "Lifestyle Variado 2.0/LF (10).mov",
+  "duracao": 8.6,
+  "descricao": "celular mostrando notificações de vendas com valores e texto",
+  "nome": "celular-notificacoes-vendas-pix",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "celular",
+   "vendas",
+   "texto",
+   "dinheiro"
+  ],
+  "serve": false
+ },
+ "0876": {
+  "n": "0876",
+  "drive": "Lifestyle Variado 2.0/LF (13).mov",
+  "duracao": 20.2,
+  "descricao": "líderes de torcida e jogadores em estádio de futebol americano",
+  "nome": "torcida-estadio-futebol-americano-noite",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "torcida",
+   "estádio",
+   "logotipo",
+   "sensual"
+  ],
+  "serve": false
+ },
+ "0877": {
+  "n": "0877",
+  "drive": "Lifestyle Variado 2.0/LF (14).mov",
+  "duracao": 40.7,
+  "descricao": "paraquedistas com fogos de artifício em formação no pôr do sol",
+  "nome": "paraquedistas-fogos-formacao-por-do-sol",
+  "pasta": "Céu e Espaço",
+  "clima": "escuro",
+  "tags": [
+   "paraquedas",
+   "fogos",
+   "formação",
+   "por do sol"
+  ],
+  "serve": true
+ },
+ "0878": {
+  "n": "0878",
+  "drive": "Lifestyle Variado 2.0/LF (12).mov",
+  "duracao": 27.9,
+  "descricao": "paraquedista com boia verde saltando de avião e boias em tobogã",
+  "nome": "paraquedista-boia-aviao-tobogam",
+  "pasta": "Céu e Espaço",
+  "clima": "luz",
+  "tags": [
+   "paraquedas",
+   "avião",
+   "boia",
+   "diversão",
+   "céu"
+  ],
+  "serve": true
+ },
+ "0879": {
+  "n": "0879",
+  "drive": "Filmes 2.0/Copy of 49.mp4",
+  "duracao": 24.0,
+  "descricao": "cena de filme com idoso de chapéu em ônibus e ator famoso",
+  "nome": "filme-idoso-chapeu-onibus-ator",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "ônibus",
+   "ator famoso",
+   "drama"
+  ],
+  "serve": false
+ },
+ "0880": {
+  "n": "0880",
+  "drive": "Filmes 2.0/Copy of 87.mp4",
+  "duracao": 22.9,
+  "descricao": "close de rosto suado de ator e parede de post-its",
+  "nome": "filme-rosto-suado-post-its-ator",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "close",
+   "ator",
+   "drama"
+  ],
+  "serve": false
+ },
+ "0881": {
+  "n": "0881",
+  "drive": "Filmes 2.0/Copy of 67.mp4",
+  "duracao": 24.3,
+  "descricao": "ator famoso de smoking em cena de filme de festa",
+  "nome": "filme-ator-famoso-smoking-festa",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "filme",
+   "smoking",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0882": {
+  "n": "0882",
+  "drive": "Filmes 2.0/Copy of 284.mp4",
+  "duracao": 46.7,
+  "descricao": "cena de filme com cachorro Scooby-Doo e personagens de verde",
+  "nome": "filme-scooby-doo-personagens-verde",
+  "pasta": "Cinema e Drama",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "cachorro",
+   "desenho",
+   "comédia",
+   "verde"
+  ],
+  "serve": true
+ },
+ "0883": {
+  "n": "0883",
+  "drive": "Filmes 2.0/Copy of 396.mp4",
+  "duracao": 40.2,
+  "descricao": "cena escura de rua à noite com homem junto à parede de tijolos",
+  "nome": "cena-escura-rua-noite-parede-tijolos",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "noite",
+   "rua",
+   "parede",
+   "filme",
+   "suspense"
+  ],
+  "serve": true
+ },
+ "0884": {
+  "n": "0884",
+  "drive": "Filmes 2.0/Copy of 313.mp4",
+  "duracao": 29.0,
+  "descricao": "cena de filme de super-heróis com robô em chamas na cidade",
+  "nome": "filme-herois-robo-chamas-cidade",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme",
+   "cidade",
+   "fogo",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0885": {
+  "n": "0885",
+  "drive": "Filmes 2.0/Copy of 138.mp4",
+  "duracao": 17.4,
+  "descricao": "cena de filme de guerra antiga com ator famoso de capacete",
+  "nome": "filme-guerra-antiga-ator-capacete",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme",
+   "guerreiro",
+   "capacete",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0886": {
+  "n": "0886",
+  "drive": "Filmes 2.0/Copy of 243.mp4",
+  "duracao": 85.9,
+  "descricao": "menino animado em 3D assustado no quarto à noite",
+  "nome": "animacao-menino-quarto-noite-assustado",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "animação",
+   "menino",
+   "noite",
+   "medo",
+   "quarto"
+  ],
+  "serve": true
+ },
+ "0887": {
+  "n": "0887",
+  "drive": "Filmes 2.0/Copy of 164.mp4",
+  "duracao": 29.3,
+  "descricao": "close de ator famoso de perfil em cena sombria",
+  "nome": "filme-close-ator-perfil-sombrio",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "filme",
+   "close",
+   "drama",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0888": {
+  "n": "0888",
+  "drive": "Filmes 2.0/Copy of 350.mp4",
+  "duracao": 38.7,
+  "descricao": "soldados e tanque em cena de filme de guerra escura",
+  "nome": "filme-guerra-soldados-tanque-escuro",
+  "pasta": "Cinema e Drama",
+  "clima": "frio",
+  "tags": [
+   "guerra",
+   "soldados",
+   "tanque",
+   "escuro",
+   "filme"
+  ],
+  "serve": true
+ },
+ "0889": {
+  "n": "0889",
+  "drive": "Filmes 2.0/Copy of 297.mp4",
+  "duracao": 12.1,
+  "descricao": "cena de filme de super-herói com ator famoso e grafite",
+  "nome": "filme-ator-famoso-grafite-heroi",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "ator famoso",
+   "grafite"
+  ],
+  "serve": false
+ },
+ "0890": {
+  "n": "0890",
+  "drive": "Filmes 2.0/Copy of 260.mp4",
+  "duracao": 42.9,
+  "descricao": "homens em restaurante em cena de comédia romântica",
+  "nome": "filme-homens-restaurante-comedia",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme",
+   "restaurante",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0891": {
+  "n": "0891",
+  "drive": "Filmes 2.0/Copy of 367.mp4",
+  "duracao": 22.2,
+  "descricao": "cena de filme com vilão de capa verde em cobertura",
+  "nome": "filme-vilao-capa-verde-cobertura",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "vilão",
+   "ator famoso",
+   "cidade"
+  ],
+  "serve": false
+ },
+ "0892": {
+  "n": "0892",
+  "drive": "Filmes 2.0/Copy of 56.mp4",
+  "duracao": 20.3,
+  "descricao": "animação de menino com livros e boneco de massinha",
+  "nome": "animacao-menino-livros-boneco-massinha",
+  "pasta": "Cinema e Drama",
+  "clima": "neutro",
+  "tags": [
+   "animação",
+   "livros",
+   "desenho",
+   "infantil"
+  ],
+  "serve": true
+ },
+ "0893": {
+  "n": "0893",
+  "drive": "Filmes 2.0/Copy of 25.mp4",
+  "duracao": 38.4,
+  "descricao": "jovens em cena de filme na natureza com atores famosos",
+  "nome": "filme-jovens-natureza-close",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "filme",
+   "jovens",
+   "natureza",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0894": {
+  "n": "0894",
+  "drive": "Filmes 2.0/Copy of 268.mp4",
+  "duracao": 51.5,
+  "descricao": "cena de desenho Aladdin comendo pão em rua vermelha",
+  "nome": "desenho-aladdin-pao-rua-vermelha",
+  "pasta": "Cinema e Drama",
+  "clima": "quente",
+  "tags": [
+   "desenho",
+   "aladdin",
+   "pão",
+   "rua",
+   "infância"
+  ],
+  "serve": true
+ },
+ "0895": {
+  "n": "0895",
+  "drive": "Filmes 2.0/Copy of 128.mp4",
+  "duracao": 39.8,
+  "descricao": "close de jovens de perfil em cena de filme escura",
+  "nome": "filme-close-jovens-perfil-escuro",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "close",
+   "perfil",
+   "drama",
+   "escuro"
+  ],
+  "serve": true
+ },
+ "0896": {
+  "n": "0896",
+  "drive": "Filmes 2.0/Copy of 384.mp4",
+  "duracao": 53.5,
+  "descricao": "cena de filme natalino com ator e atriz famosos",
+  "nome": "filme-natal-luzes-atores-famosos",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "natal",
+   "luzes",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0897": {
+  "n": "0897",
+  "drive": "Filmes 2.0/Copy of 177.mp4",
+  "duracao": 32.3,
+  "descricao": "close de atores famosos feridos em cena de filme de guerra",
+  "nome": "filme-guerra-close-atores-famosos",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "guerra",
+   "ator famoso",
+   "close"
+  ],
+  "serve": false
+ },
+ "0898": {
+  "n": "0898",
+  "drive": "Filmes 2.0/Copy of 167.mp4",
+  "duracao": 56.5,
+  "descricao": "cena de filme de ônibus com homem rindo e cartão com texto",
+  "nome": "filme-onibus-homem-rindo-cartao",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "ônibus",
+   "texto",
+   "ator famoso"
+  ],
+  "serve": false
+ },
+ "0899": {
+  "n": "0899",
+  "drive": "Filmes 2.0/Copy of 262.mp4",
+  "duracao": 36.8,
+  "descricao": "cena de filme dentro de caminhonete com garota assustada e céu azul",
+  "nome": "filme-caminhonete-garota-assustada-ceu",
+  "pasta": "Cinema e Drama",
+  "clima": "luz",
+  "tags": [
+   "filme",
+   "caminhonete",
+   "céu azul",
+   "susto"
+  ],
+  "serve": true
  }
 }
