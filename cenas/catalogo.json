@@ -17782,5 +17782,1461 @@
    "silhueta"
   ],
   "serve": false
+ },
+ "1080": {
+  "n": "1080",
+  "drive": "Filmes 2.0/Copy of 357.mp4",
+  "duracao": 79.1,
+  "descricao": "rosto de soldados em close, cena de filme",
+  "nome": "soldados-closes-cena-filme",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "soldado",
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1081": {
+  "n": "1081",
+  "drive": "Filmes 2.0/Copy of 349.mp4",
+  "duracao": 70.4,
+  "descricao": "homens barbados em bar escuro, cena de filme",
+  "nome": "homens-barbados-bar-escuro",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "homens",
+   "bar",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1082": {
+  "n": "1082",
+  "drive": "Filmes 2.0/Copy of 381.mp4",
+  "duracao": 59.5,
+  "descricao": "mulher de vestido prateado em casa, cena sensual",
+  "nome": "mulher-vestido-prateado-casa",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "mulher",
+   "vestido"
+  ],
+  "serve": false
+ },
+ "1083": {
+  "n": "1083",
+  "drive": "Filmes 2.0/Copy of 312.mp4",
+  "duracao": 42.4,
+  "descricao": "mulher assustada em ambiente de fogo",
+  "nome": "mulher-assustada-luz-fogo",
+  "pasta": "Fogo e Tempestade",
+  "clima": "quente",
+  "tags": [
+   "fogo",
+   "medo",
+   "drama",
+   "mulher"
+  ],
+  "serve": true
+ },
+ "1084": {
+  "n": "1084",
+  "drive": "Filmes 2.0/Copy of 139.mp4",
+  "duracao": 55.5,
+  "descricao": "jovens com cânula de oxigênio sorrindo, drama",
+  "nome": "casal-jovem-cena-drama-oxigenio",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "drama",
+   "jovens",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1085": {
+  "n": "1085",
+  "drive": "Filmes 2.0/Copy of 12.mp4",
+  "duracao": 79.8,
+  "descricao": "homem careca de camiseta cinza segurando objeto",
+  "nome": "homem-careca-camiseta-cinza",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "homem",
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1086": {
+  "n": "1086",
+  "drive": "Filmes 2.0/Copy of 161.mp4",
+  "duracao": 43.5,
+  "descricao": "três rostos em close, filme colorido",
+  "nome": "tres-rostos-close-filme",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "rostos",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1087": {
+  "n": "1087",
+  "drive": "Filmes 2.0/Copy of 111.mp4",
+  "duracao": 72.6,
+  "descricao": "animação de homem de terno azul sentado em escada",
+  "nome": "animacao-homem-terno-azul-sentado",
+  "pasta": "Cinema e Drama",
+  "clima": "quente",
+  "tags": [
+   "animação",
+   "homem",
+   "terno",
+   "solidão"
+  ],
+  "serve": true
+ },
+ "1088": {
+  "n": "1088",
+  "drive": "Filmes 2.0/Copy of 76.mp4",
+  "duracao": 32.9,
+  "descricao": "cena bíblica com homem de barba e mulheres de manto",
+  "nome": "cena-biblica-homem-barba-mulheres",
+  "pasta": "Cinema e Drama",
+  "clima": "dourado",
+  "tags": [
+   "bíblico",
+   "deserto",
+   "homem",
+   "mulher"
+  ],
+  "serve": true
+ },
+ "1089": {
+  "n": "1089",
+  "drive": "Filmes 2.0/Copy of 388.mp4",
+  "duracao": 22.2,
+  "descricao": "jovens em festa na piscina à noite",
+  "nome": "jovens-festa-piscina-noite",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "frio",
+  "tags": [
+   "piscina",
+   "festa",
+   "noite",
+   "jovens"
+  ],
+  "serve": true
+ },
+ "1090": {
+  "n": "1090",
+  "drive": "Filmes 2.0/Copy of 300.mp4",
+  "duracao": 43.8,
+  "descricao": "close de ator em cena de série, sangue no chão",
+  "nome": "ator-cabelo-longo-cena-serie",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "ator",
+   "série"
+  ],
+  "serve": false
+ },
+ "1091": {
+  "n": "1091",
+  "drive": "Filmes 2.0/Copy of 292.mp4",
+  "duracao": 37.6,
+  "descricao": "guerreiros espartanos em batalha, cena de filme",
+  "nome": "guerreiros-espartanos-batalha-deserto",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "guerreiro",
+   "batalha",
+   "escudo",
+   "épico"
+  ],
+  "serve": true
+ },
+ "1092": {
+  "n": "1092",
+  "drive": "Filmes 2.0/Copy of 226.mp4",
+  "duracao": 71.5,
+  "descricao": "animação de peixes palhaço e peixe azul no mar",
+  "nome": "animacao-peixes-recife-mar",
+  "pasta": "Água e Mar",
+  "clima": "luz",
+  "tags": [
+   "peixe",
+   "animação",
+   "mar",
+   "recife"
+  ],
+  "serve": true
+ },
+ "1093": {
+  "n": "1093",
+  "drive": "Filmes 2.0/Copy of 263.mp4",
+  "duracao": 32.8,
+  "descricao": "rosto de mulher chorando e homem de barba, tela escura azulada",
+  "nome": "mulher-chorando-homem-barba-escuro",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "choro",
+   "drama",
+   "escuro"
+  ],
+  "serve": true
+ },
+ "1094": {
+  "n": "1094",
+  "drive": "Filmes 2.0/Copy of 13.mp4",
+  "duracao": 56.3,
+  "descricao": "homem idoso de terno e mulher sorrindo, cena de filme",
+  "nome": "homem-idoso-terno-mulher-sorrindo",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "close"
+  ],
+  "serve": false
+ },
+ "1095": {
+  "n": "1095",
+  "drive": "Filmes 2.0/Copy of 200.mp4",
+  "duracao": 25.6,
+  "descricao": "homem sorrindo de colete verde caminhando em casa",
+  "nome": "homem-colete-verde-varanda",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "filme",
+   "homem"
+  ],
+  "serve": false
+ },
+ "1096": {
+  "n": "1096",
+  "drive": "Filmes 2.0/Copy of 71.mp4",
+  "duracao": 27.7,
+  "descricao": "close de homem sorrindo e beijo na praia",
+  "nome": "homem-sorrindo-beijo-praia",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "filme",
+   "beijo"
+  ],
+  "serve": false
+ },
+ "1097": {
+  "n": "1097",
+  "drive": "Filmes 2.0/Copy of 31.mp4",
+  "duracao": 22.3,
+  "descricao": "mulher chorando no escuro e fagulhas laranja",
+  "nome": "mulher-chorando-escuro-fagulhas",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "choro",
+   "escuro",
+   "fagulhas",
+   "drama"
+  ],
+  "serve": true
+ },
+ "1098": {
+  "n": "1098",
+  "drive": "Filmes 2.0/Copy of 333.mp4",
+  "duracao": 45.8,
+  "descricao": "super-heróis de série com uniforme de estrelas",
+  "nome": "super-heroi-uniforme-estrelas",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "herói",
+   "série"
+  ],
+  "serve": false
+ },
+ "1099": {
+  "n": "1099",
+  "drive": "Filmes 2.0/Copy of 93.mp4",
+  "duracao": 45.2,
+  "descricao": "close de rosto de ator famoso",
+  "nome": "tres-closes-rosto-ator",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "close",
+   "ator"
+  ],
+  "serve": false
+ },
+ "1100": {
+  "n": "1100",
+  "drive": "Filmes 2.0/Copy of 298.mp4",
+  "duracao": 36.0,
+  "descricao": "homem de camisa e mulher de cabelo roxo, cena de filme",
+  "nome": "homem-camisa-mulher-cabelo-roxo",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "close"
+  ],
+  "serve": false
+ },
+ "1101": {
+  "n": "1101",
+  "drive": "Filmes 2.0/Copy of 68.mp4",
+  "duracao": 52.1,
+  "descricao": "mulher de blusa preta, homem andando na rua e homem sentado vendo fogos",
+  "nome": "homem-sentado-banco-fogos-noite",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "fogos"
+  ],
+  "serve": false
+ },
+ "1102": {
+  "n": "1102",
+  "drive": "Filmes 2.0/Copy of 39.mp4",
+  "duracao": 61.7,
+  "descricao": "cena de filme com arma e mulher de roupão azul",
+  "nome": "cena-arma-mulher-roupao-azul",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme",
+   "arma"
+  ],
+  "serve": false
+ },
+ "1103": {
+  "n": "1103",
+  "drive": "Filmes 2.0/Copy of 339.mp4",
+  "duracao": 26.1,
+  "descricao": "jovens em construção de tijolos na favela, filme",
+  "nome": "jovens-favela-tijolos-filme",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "favela",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1104": {
+  "n": "1104",
+  "drive": "Filmes 2.0/Copy of 383.mp4",
+  "duracao": 15.6,
+  "descricao": "dois homens em carro esportivo na cidade, filme",
+  "nome": "homens-carro-esportivo-cidade",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "carro",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1105": {
+  "n": "1105",
+  "drive": "Filmes 2.0/Copy of 52.mp4",
+  "duracao": 35.9,
+  "descricao": "super-herói de capa vermelha e homem em close",
+  "nome": "super-heroi-capa-vermelha-close",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "herói",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1106": {
+  "n": "1106",
+  "drive": "Filmes 2.0/Copy of 199.mp4",
+  "duracao": 12.6,
+  "descricao": "personagens de série de super-heróis em close",
+  "nome": "personagens-serie-herois-close",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "série",
+   "herói"
+  ],
+  "serve": false
+ },
+ "1107": {
+  "n": "1107",
+  "drive": "Filmes 2.0/Copy of 209.mp4",
+  "duracao": 86.5,
+  "descricao": "animação de trolls coloridos com óculos amarelos",
+  "nome": "animacao-trolls-oculos-amarelos",
+  "pasta": "Outros",
+  "clima": "quente",
+  "tags": [
+   "animação",
+   "trolls",
+   "colorido"
+  ],
+  "serve": true
+ },
+ "1108": {
+  "n": "1108",
+  "drive": "Filmes 2.0/Copy of 26.mp4",
+  "duracao": 63.2,
+  "descricao": "homem de moto em penhasco nas montanhas",
+  "nome": "motoqueiro-penhasco-montanha",
+  "pasta": "Estrada e Viagem",
+  "clima": "luz",
+  "tags": [
+   "moto",
+   "montanha",
+   "penhasco",
+   "aventura"
+  ],
+  "serve": true
+ },
+ "1109": {
+  "n": "1109",
+  "drive": "Filmes 2.0/Copy of 21.mp4",
+  "duracao": 67.7,
+  "descricao": "cenas de filme com grávida, homem e casal",
+  "nome": "cena-filme-gravida-homem-casal",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1110": {
+  "n": "1110",
+  "drive": "Filmes 2.0/Copy of 219.mp4",
+  "duracao": 86.2,
+  "descricao": "closes de homens de barba, cena de série",
+  "nome": "closes-homens-barba-serie",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "close",
+   "homem",
+   "série"
+  ],
+  "serve": false
+ },
+ "1111": {
+  "n": "1111",
+  "drive": "Filmes 2.0/Copy of 168.mp4",
+  "duracao": 35.5,
+  "descricao": "astronauta, homem com espada na pedra e jovem em carro",
+  "nome": "astronauta-espada-pedra-jovem-carro",
+  "pasta": "Cinema e Drama",
+  "clima": "quente",
+  "tags": [
+   "astronauta",
+   "espada",
+   "carro"
+  ],
+  "serve": true
+ },
+ "1112": {
+  "n": "1112",
+  "drive": "Filmes 2.0/Copy of 311.mp4",
+  "duracao": 72.4,
+  "descricao": "homem de barba grisalha deitado em cama de hospital",
+  "nome": "homem-deitado-cama-hospital",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "hospital",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1113": {
+  "n": "1113",
+  "drive": "Filmes 2.0/Copy of 250.mp4",
+  "duracao": 28.8,
+  "descricao": "closes de homens suados em tela escura alaranjada",
+  "nome": "homens-suados-closes-escuro",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1114": {
+  "n": "1114",
+  "drive": "Filmes 2.0/Copy of 264.mp4",
+  "duracao": 34.8,
+  "descricao": "três jovens mulheres tristes em close",
+  "nome": "tres-mulheres-tristes-close",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "tristeza",
+   "mulher",
+   "praia"
+  ],
+  "serve": true
+ },
+ "1115": {
+  "n": "1115",
+  "drive": "Filmes 2.0/Copy of 208.mp4",
+  "duracao": 78.8,
+  "descricao": "animação de princesa ruiva e pai viking",
+  "nome": "animacao-princesa-ruiva-viking",
+  "pasta": "Outros",
+  "clima": "escuro",
+  "tags": [
+   "animação",
+   "ruiva",
+   "viking"
+  ],
+  "serve": true
+ },
+ "1116": {
+  "n": "1116",
+  "drive": "Filmes 2.0/Copy of 203.mp4",
+  "duracao": 56.2,
+  "descricao": "animação de gigante com garota pequena em cenário roxo",
+  "nome": "animacao-gigante-garota-cenario-roxo",
+  "pasta": "Outros",
+  "clima": "quente",
+  "tags": [
+   "animação",
+   "gigante",
+   "roxo"
+  ],
+  "serve": true
+ },
+ "1117": {
+  "n": "1117",
+  "drive": "Filmes 2.0/Copy of 372.mp4",
+  "duracao": 44.3,
+  "descricao": "televisões antigas em ambiente verde, homem olhando",
+  "nome": "tvs-antigas-homem-ambiente-verde",
+  "pasta": "Cinema e Drama",
+  "clima": "frio",
+  "tags": [
+   "tv",
+   "verde",
+   "homem",
+   "solidão"
+  ],
+  "serve": true
+ },
+ "1118": {
+  "n": "1118",
+  "drive": "Filmes 2.0/Copy of 125.mp4",
+  "duracao": 24.2,
+  "descricao": "homem sério, rosto desfocado e casa com varanda",
+  "nome": "homem-serio-casa-varanda",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "casa"
+  ],
+  "serve": false
+ },
+ "1119": {
+  "n": "1119",
+  "drive": "Filmes 2.0/Copy of 181.mp4",
+  "duracao": 44.7,
+  "descricao": "mulher, criança caída no gramado e menino assustado",
+  "nome": "crianca-gramado-menino-assustado",
+  "pasta": "Cinema e Drama",
+  "clima": "neutro",
+  "tags": [
+   "criança",
+   "drama",
+   "gramado"
+  ],
+  "serve": true
+ },
+ "1120": {
+  "n": "1120",
+  "drive": "Filmes 2.0/Copy of 19.mp4",
+  "duracao": 21.4,
+  "descricao": "closes de rostos tensos em tela escura",
+  "nome": "closes-rostos-tensos-escuro",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1121": {
+  "n": "1121",
+  "drive": "Filmes 2.0/Copy of 294.mp4",
+  "duracao": 61.0,
+  "descricao": "escultura de fogo espiral e casal de perfil testa a testa",
+  "nome": "escultura-fogo-espiral-casal-perfil",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "fogo",
+   "casal",
+   "épico"
+  ],
+  "serve": true
+ },
+ "1122": {
+  "n": "1122",
+  "drive": "Filmes 2.0/Copy of 399.mp4",
+  "duracao": 68.3,
+  "descricao": "três homens de série de zumbis ao ar livre",
+  "nome": "tres-homens-serie-ar-livre",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "série",
+   "homem"
+  ],
+  "serve": false
+ },
+ "1123": {
+  "n": "1123",
+  "drive": "Filmes 2.0/Copy of 247.mp4",
+  "duracao": 82.7,
+  "descricao": "animação de lagarto verde com crianças",
+  "nome": "animacao-lagarto-verde-criancas",
+  "pasta": "Animais",
+  "clima": "luz",
+  "tags": [
+   "animação",
+   "lagarto",
+   "crianças"
+  ],
+  "serve": true
+ },
+ "1124": {
+  "n": "1124",
+  "drive": "Filmes 2.0/Copy of 328.mp4",
+  "duracao": 44.0,
+  "descricao": "homem de boné em close, cena de filme",
+  "nome": "homem-bone-close-filme",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "close"
+  ],
+  "serve": false
+ },
+ "1125": {
+  "n": "1125",
+  "drive": "Filmes 2.0/Copy of 50.mp4",
+  "duracao": 13.1,
+  "descricao": "homem de jaqueta bege de costas e mão acendendo cigarro",
+  "nome": "homem-jaqueta-acendendo-isqueiro",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "isqueiro",
+   "cigarro",
+   "mão",
+   "escuro"
+  ],
+  "serve": true
+ },
+ "1126": {
+  "n": "1126",
+  "drive": "Filmes 2.0/Copy of 176.mp4",
+  "duracao": 121.2,
+  "descricao": "homens de terno em estádio, cena de filme",
+  "nome": "homens-terno-estadio-filme",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "terno",
+   "estádio"
+  ],
+  "serve": false
+ },
+ "1127": {
+  "n": "1127",
+  "drive": "Filmes 2.0/Copy of 221.mp4",
+  "duracao": 84.9,
+  "descricao": "cachorros em cena noturna, cão preto e branco e terrier",
+  "nome": "cachorros-terrier-noite-gramado",
+  "pasta": "Animais",
+  "clima": "escuro",
+  "tags": [
+   "cachorro",
+   "terrier",
+   "noite"
+  ],
+  "serve": true
+ },
+ "1128": {
+  "n": "1128",
+  "drive": "Filmes 2.0/Copy of 110.mp4",
+  "duracao": 20.3,
+  "descricao": "closes de atores de filme de ação",
+  "nome": "closes-atores-filme-acao",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "ação",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1129": {
+  "n": "1129",
+  "drive": "Filmes 2.0/Copy of 40.mp4",
+  "duracao": 62.7,
+  "descricao": "atores de filme de comédia em churrasco ao ar livre",
+  "nome": "atores-comedia-churrasco-arvores",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "comédia"
+  ],
+  "serve": false
+ },
+ "1130": {
+  "n": "1130",
+  "drive": "Filmes 2.0/Copy of 143.mp4",
+  "duracao": 45.7,
+  "descricao": "idosa de perfil em luz azulada, ambiente escuro",
+  "nome": "idosa-perfil-luz-azulada",
+  "pasta": "Cinema e Drama",
+  "clima": "frio",
+  "tags": [
+   "idosa",
+   "perfil",
+   "azul",
+   "escuro"
+  ],
+  "serve": true
+ },
+ "1131": {
+  "n": "1131",
+  "drive": "Filmes 2.0/Copy of 04.mp4",
+  "duracao": 30.9,
+  "descricao": "dois homens de camisa e gravata em escritório, filme",
+  "nome": "homens-camisa-gravata-escritorio",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "escritório",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1132": {
+  "n": "1132",
+  "drive": "Filmes 2.0/Copy of 240.mp4",
+  "duracao": 47.8,
+  "descricao": "animação de iaque peludo na neve com trenó",
+  "nome": "animacao-iaque-neve-trenó",
+  "pasta": "Animais",
+  "clima": "luz",
+  "tags": [
+   "animação",
+   "neve",
+   "natal"
+  ],
+  "serve": true
+ },
+ "1133": {
+  "n": "1133",
+  "drive": "Filmes 2.0/Copy of 230.mp4",
+  "duracao": 88.4,
+  "descricao": "animação de patos em lago e parque",
+  "nome": "animacao-patos-lago-parque",
+  "pasta": "Animais",
+  "clima": "neutro",
+  "tags": [
+   "animação",
+   "patos",
+   "lago"
+  ],
+  "serve": true
+ },
+ "1134": {
+  "n": "1134",
+  "drive": "Filmes 2.0/Copy of 310.mp4",
+  "duracao": 61.4,
+  "descricao": "homem barbudo de jaqueta de treino em ginásio",
+  "nome": "homem-barba-jaqueta-ginasio",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "filme",
+   "ginásio"
+  ],
+  "serve": false
+ },
+ "1135": {
+  "n": "1135",
+  "drive": "Filmes 2.0/Copy of 291.mp4",
+  "duracao": 31.8,
+  "descricao": "guerreiros espartanos gritando em batalha",
+  "nome": "espartanos-gritando-batalha",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "guerreiro",
+   "batalha",
+   "grito",
+   "épico"
+  ],
+  "serve": true
+ },
+ "1136": {
+  "n": "1136",
+  "drive": "Filmes 2.0/Copy of 33.mp4",
+  "duracao": 47.4,
+  "descricao": "mulher no carro, homem de camisa xadrez e formatura",
+  "nome": "mulher-carro-homem-xadrez-formatura",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "formatura"
+  ],
+  "serve": false
+ },
+ "1137": {
+  "n": "1137",
+  "drive": "Filmes 2.0/Copy of 355.mp4",
+  "duracao": 23.5,
+  "descricao": "homem armado com cão de pastor em beco e grama",
+  "nome": "homem-cao-pastor-grama-beco",
+  "pasta": "Animais",
+  "clima": "escuro",
+  "tags": [
+   "cão",
+   "grama",
+   "beco"
+  ],
+  "serve": true
+ },
+ "1138": {
+  "n": "1138",
+  "drive": "Filmes 2.0/Copy of 28.mp4",
+  "duracao": 39.5,
+  "descricao": "abraço escuro e homem sem camisa em pé em quarto escuro",
+  "nome": "abraco-escuro-homem-quarto",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "abraço",
+   "escuro",
+   "solidão"
+  ],
+  "serve": true
+ },
+ "1139": {
+  "n": "1139",
+  "drive": "Filmes 2.0/Copy of 73.mp4",
+  "duracao": 42.0,
+  "descricao": "homem chorando e senhor de óculos, cena de filme",
+  "nome": "homem-chorando-senhor-oculos",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "choro",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1140": {
+  "n": "1140",
+  "drive": "Filmes 2.0/Copy of 216.mp4",
+  "duracao": 77.4,
+  "descricao": "homens com arma em corredor de trem futurista",
+  "nome": "homens-arma-corredor-trem",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "arma",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1141": {
+  "n": "1141",
+  "drive": "Filmes 2.0/Copy of 330.mp4",
+  "duracao": 23.0,
+  "descricao": "homem loiro de cabelo longo com túnica e guardas",
+  "nome": "homem-loiro-tunica-guardas",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "filme",
+   "herói"
+  ],
+  "serve": false
+ },
+ "1142": {
+  "n": "1142",
+  "drive": "Filmes 2.0/Copy of 252.mp4",
+  "duracao": 78.1,
+  "descricao": "animação de rei coroado chorando e família em sacada",
+  "nome": "animacao-rei-familia-sacada",
+  "pasta": "Outros",
+  "clima": "luz",
+  "tags": [
+   "animação",
+   "rei",
+   "família"
+  ],
+  "serve": true
+ },
+ "1143": {
+  "n": "1143",
+  "drive": "Filmes 2.0/Copy of 36.mp4",
+  "duracao": 42.3,
+  "descricao": "homem de barba grisalha, close escuro e casal de costas",
+  "nome": "homem-grisalho-close-escuro-casal",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1144": {
+  "n": "1144",
+  "drive": "Filmes 2.0/Copy of 364.mp4",
+  "duracao": 49.1,
+  "descricao": "gorila e homem na vegetação de zoológico",
+  "nome": "gorila-homem-vegetacao-zoo",
+  "pasta": "Animais",
+  "clima": "luz",
+  "tags": [
+   "gorila",
+   "selva",
+   "zoológico"
+  ],
+  "serve": true
+ },
+ "1145": {
+  "n": "1145",
+  "drive": "Filmes 2.0/Copy of 376.mp4",
+  "duracao": 26.5,
+  "descricao": "mulher rindo, homem de terno de costas e homem de smoking",
+  "nome": "homem-terno-costas-smoking-mulher",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1146": {
+  "n": "1146",
+  "drive": "Filmes 2.0/Copy of 94.mp4",
+  "duracao": 91.9,
+  "descricao": "homem de terno em cemitério e idosos em cena",
+  "nome": "homem-terno-cemiterio-idosos",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "cemitério",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1147": {
+  "n": "1147",
+  "drive": "Filmes 2.0/Copy of 308.mp4",
+  "duracao": 50.0,
+  "descricao": "closes de homem triste de uniforme vermelho",
+  "nome": "closes-homem-triste-uniforme",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "close",
+   "tristeza"
+  ],
+  "serve": false
+ },
+ "1148": {
+  "n": "1148",
+  "drive": "Filmes 2.0/Copy of 137.mp4",
+  "duracao": 31.4,
+  "descricao": "homem de jaqueta verde em fundo escuro, fala olhando para baixo",
+  "nome": "homem-jaqueta-verde-fundo-escuro",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1149": {
+  "n": "1149",
+  "drive": "Filmes 2.0/Copy of 158.mp4",
+  "duracao": 28.6,
+  "descricao": "homem de barba andando em aeroporto e closes escuros",
+  "nome": "homem-barba-aeroporto-closes",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "aeroporto",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1150": {
+  "n": "1150",
+  "drive": "Filmes 2.0/Copy of 386.mp4",
+  "duracao": 28.7,
+  "descricao": "racha noturno, carros e multidão em rua escura",
+  "nome": "racha-noturno-carros-multidao",
+  "pasta": "Carros",
+  "clima": "escuro",
+  "tags": [
+   "carro",
+   "racha",
+   "noite",
+   "multidão"
+  ],
+  "serve": true
+ },
+ "1151": {
+  "n": "1151",
+  "drive": "Filmes 2.0/Copy of 173.mp4",
+  "duracao": 82.8,
+  "descricao": "jovens em refeitório de escola",
+  "nome": "jovens-refeitorio-escola",
+  "pasta": "Pessoas e Lifestyle",
+  "clima": "neutro",
+  "tags": [
+   "escola",
+   "jovens",
+   "refeitório"
+  ],
+  "serve": true
+ },
+ "1152": {
+  "n": "1152",
+  "drive": "Filmes 2.0/Copy of 63.mp4",
+  "duracao": 25.0,
+  "descricao": "animação de garota com gato preto e boneco cowboy triste",
+  "nome": "animacao-garota-gato-cowboy-triste",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "animação",
+   "tristeza",
+   "gato",
+   "solidão"
+  ],
+  "serve": true
+ },
+ "1153": {
+  "n": "1153",
+  "drive": "Filmes 2.0/Copy of 103.mp4",
+  "duracao": 13.8,
+  "descricao": "animação de personagem laranja peludo em floresta colorida",
+  "nome": "animacao-bigodudo-laranja-floresta",
+  "pasta": "Natureza e Paisagem",
+  "clima": "luz",
+  "tags": [
+   "animação",
+   "floresta",
+   "colorido"
+  ],
+  "serve": true
+ },
+ "1154": {
+  "n": "1154",
+  "drive": "Filmes 2.0/Copy of 121.mp4",
+  "duracao": 80.2,
+  "descricao": "rosto de apresentador famoso em preto e branco",
+  "nome": "apresentador-famoso-preto-branco",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "close",
+   "famoso"
+  ],
+  "serve": false
+ },
+ "1155": {
+  "n": "1155",
+  "drive": "Filmes 2.0/Copy of 289.mp4",
+  "duracao": 16.5,
+  "descricao": "homem barbudo em close e na neve com capa de pele",
+  "nome": "homem-barbudo-neve-capa-pele",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "viking",
+   "neve",
+   "close"
+  ],
+  "serve": false
+ },
+ "1156": {
+  "n": "1156",
+  "drive": "Filmes 2.0/Copy of 147.mp4",
+  "duracao": 33.7,
+  "descricao": "apresentador famoso com microfone em palco azul, texto na tela",
+  "nome": "apresentador-microfone-palco-azul",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "palco",
+   "microfone"
+  ],
+  "serve": false
+ },
+ "1157": {
+  "n": "1157",
+  "drive": "Filmes 2.0/Copy of 362.mp4",
+  "duracao": 23.1,
+  "descricao": "carteira de motorista e closes de ator famoso",
+  "nome": "carteira-motorista-closes-ator",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1158": {
+  "n": "1158",
+  "drive": "Filmes 2.0/Copy of 142.mp4",
+  "duracao": 52.0,
+  "descricao": "closes de homens em ambiente escuro",
+  "nome": "closes-homens-ambiente-escuro",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "close",
+   "série"
+  ],
+  "serve": false
+ },
+ "1159": {
+  "n": "1159",
+  "drive": "Filmes 2.0/Copy of 130.mp4",
+  "duracao": 31.9,
+  "descricao": "homem de gorro, homem de terno veludo e animação de ave laranja",
+  "nome": "homem-gorro-terno-veludo-ave",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "animação"
+  ],
+  "serve": false
+ },
+ "1160": {
+  "n": "1160",
+  "drive": "Filmes 2.0/Copy of 318.mp4",
+  "duracao": 59.0,
+  "descricao": "homem de camisa azul, close e juíza em tribunal",
+  "nome": "homem-close-juiza-tribunal",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "tribunal",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1161": {
+  "n": "1161",
+  "drive": "Filmes 2.0/Copy of 239.mp4",
+  "duracao": 78.8,
+  "descricao": "animação natalina com lareira, garota loira e Grinch",
+  "nome": "animacao-natal-lareira-grinch",
+  "pasta": "Outros",
+  "clima": "quente",
+  "tags": [
+   "natal",
+   "animação",
+   "lareira"
+  ],
+  "serve": true
+ },
+ "1162": {
+  "n": "1162",
+  "drive": "Filmes 2.0/Copy of 114.mp4",
+  "duracao": 14.0,
+  "descricao": "closes de homem careca com colar e mulher",
+  "nome": "homem-careca-colar-mulher-close",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1163": {
+  "n": "1163",
+  "drive": "Filmes 2.0/Copy of 397.mp4",
+  "duracao": 26.1,
+  "descricao": "homens em pomar, um com braço na tipoia",
+  "nome": "homens-pomar-tipoia",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "filme",
+   "pomar"
+  ],
+  "serve": false
+ },
+ "1164": {
+  "n": "1164",
+  "drive": "Filmes 2.0/Copy of 183.mp4",
+  "duracao": 40.2,
+  "descricao": "homem de óculos em tribunal com bandeira",
+  "nome": "homem-oculos-tribunal-bandeira",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "tribunal",
+   "bandeira"
+  ],
+  "serve": false
+ },
+ "1165": {
+  "n": "1165",
+  "drive": "Filmes 2.0/Copy of 18.mp4",
+  "duracao": 41.7,
+  "descricao": "animação de carros em garagem, carro roxo e carro vermelho",
+  "nome": "animacao-carros-garagem-roxo-vermelho",
+  "pasta": "Carros",
+  "clima": "quente",
+  "tags": [
+   "carro",
+   "animação",
+   "garagem"
+  ],
+  "serve": true
+ },
+ "1166": {
+  "n": "1166",
+  "drive": "Filmes 2.0/Copy of 368.mp4",
+  "duracao": 36.7,
+  "descricao": "closes de homem de colar de contas gritando",
+  "nome": "closes-homem-colar-contas",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1167": {
+  "n": "1167",
+  "drive": "Filmes 2.0/Copy of 211.mp4",
+  "duracao": 50.6,
+  "descricao": "animação de trolls coloridos tristes e felizes",
+  "nome": "animacao-trolls-tristes-felizes",
+  "pasta": "Outros",
+  "clima": "quente",
+  "tags": [
+   "animação",
+   "trolls"
+  ],
+  "serve": true
+ },
+ "1168": {
+  "n": "1168",
+  "drive": "Filmes 2.0/Copy of 194.mp4",
+  "duracao": 13.4,
+  "descricao": "closes de homem loiro e mulher morena em cena de filme",
+  "nome": "homem-loiro-mulher-morena-close",
+  "pasta": "Não serve",
+  "clima": "luz",
+  "tags": [
+   "close",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1169": {
+  "n": "1169",
+  "drive": "Filmes 2.0/Copy of 213.mp4",
+  "duracao": 51.1,
+  "descricao": "animação de bebê troll azul e princesa rosa",
+  "nome": "animacao-troll-azul-princesa-rosa",
+  "pasta": "Outros",
+  "clima": "luz",
+  "tags": [
+   "animação",
+   "trolls",
+   "colorido"
+  ],
+  "serve": true
+ },
+ "1170": {
+  "n": "1170",
+  "drive": "Filmes 2.0/Copy of 374.mp4",
+  "duracao": 42.0,
+  "descricao": "soldados de capacete em veículo no deserto, câmera fotográfica",
+  "nome": "soldados-capacete-veiculo-deserto",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "soldado",
+   "deserto"
+  ],
+  "serve": false
+ },
+ "1171": {
+  "n": "1171",
+  "drive": "Filmes 2.0/Copy of 361.mp4",
+  "duracao": 53.1,
+  "descricao": "jovem de terno preto em corredor escuro e homem de barba",
+  "nome": "jovem-terno-corredor-escuro",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "corredor",
+   "filme"
+  ],
+  "serve": false
+ },
+ "1172": {
+  "n": "1172",
+  "drive": "Filmes 2.0/Copy of 332.mp4",
+  "duracao": 42.1,
+  "descricao": "closes sérios de homens em cena de série",
+  "nome": "closes-homens-serios-serie",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "close",
+   "série"
+  ],
+  "serve": false
+ },
+ "1173": {
+  "n": "1173",
+  "drive": "Filmes 2.0/Copy of 265.mp4",
+  "duracao": 62.3,
+  "descricao": "animação de galinhas de massinha com lenços",
+  "nome": "animacao-galinhas-massinha-lencos",
+  "pasta": "Animais",
+  "clima": "neutro",
+  "tags": [
+   "animação",
+   "galinha"
+  ],
+  "serve": true
+ },
+ "1174": {
+  "n": "1174",
+  "drive": "Filmes 2.0/Copy of 53.mp4",
+  "duracao": 21.5,
+  "descricao": "homem chorando e lápide com texto de personagem de filme",
+  "nome": "homem-chorando-lapide-texto",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "choro",
+   "lápide"
+  ],
+  "serve": false
+ },
+ "1175": {
+  "n": "1175",
+  "drive": "Filmes 2.0/Copy of 195.mp4",
+  "duracao": 25.0,
+  "descricao": "multidão na rua à noite, homem careca e parede azul",
+  "nome": "multidao-rua-noite-homem-careca",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "noite",
+   "multidão"
+  ],
+  "serve": false
+ },
+ "1176": {
+  "n": "1176",
+  "drive": "Filmes 2.0/Copy of 360.mp4",
+  "duracao": 59.0,
+  "descricao": "homem de terno em tribunal, closes",
+  "nome": "homem-terno-tribunal-closes",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "tribunal",
+   "terno"
+  ],
+  "serve": false
+ },
+ "1177": {
+  "n": "1177",
+  "drive": "Filmes 2.0/Copy of 27.mp4",
+  "duracao": 34.2,
+  "descricao": "homens de época com chapéu, barba e bigode",
+  "nome": "homens-epoca-chapeu-bigode",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "época",
+   "chapéu"
+  ],
+  "serve": false
+ },
+ "1178": {
+  "n": "1178",
+  "drive": "Filmes 2.0/Copy of 282.mp4",
+  "duracao": 66.8,
+  "descricao": "robô dourado, guerreiro de barba e explosão de luz azul",
+  "nome": "robo-guerreiro-explosao-luz-azul",
+  "pasta": "Cinema e Drama",
+  "clima": "frio",
+  "tags": [
+   "robô",
+   "guerreiro",
+   "luz",
+   "épico"
+  ],
+  "serve": true
+ },
+ "1179": {
+  "n": "1179",
+  "drive": "Filmes 2.0/Copy of 91.mp4",
+  "duracao": 88.0,
+  "descricao": "beco de pedra, homem de barba em close escuro, cena bíblica",
+  "nome": "homem-barba-beco-pedra-cena",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "pedra",
+   "barba",
+   "época",
+   "escuro"
+  ],
+  "serve": true
  }
 }
