@@ -17487,5 +17487,300 @@
    "azul"
   ],
   "serve": true
+ },
+ "1060": {
+  "n": "1060",
+  "drive": "Filmes 2.0/Copy of 34.mp4",
+  "duracao": 21.1,
+  "descricao": "Três homens emocionados em close, estilo filme",
+  "nome": "homens-emocionados-filme-close",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "choro"
+  ],
+  "serve": false
+ },
+ "1061": {
+  "n": "1061",
+  "drive": "Filmes 2.0/Copy of 129.mp4",
+  "duracao": 45.4,
+  "descricao": "Ator famoso em bar, cena de comédia",
+  "nome": "ator-famoso-bar",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1062": {
+  "n": "1062",
+  "drive": "Filmes 2.0/Copy of 395.mp4",
+  "duracao": 31.9,
+  "descricao": "Mulheres jovens em close, cena de filme",
+  "nome": "mulheres-close-filme",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1063": {
+  "n": "1063",
+  "drive": "Filmes 2.0/Copy of 274.mp4",
+  "duracao": 59.2,
+  "descricao": "Animação: rainha de vestido verde e peça de xadrez em ambiente escuro",
+  "nome": "animacao-rainha-peca-xadrez",
+  "pasta": "Cinema e Drama",
+  "clima": "escuro",
+  "tags": [
+   "animação",
+   "rainha",
+   "xadrez",
+   "mistério",
+   "madeira"
+  ],
+  "serve": true
+ },
+ "1064": {
+  "n": "1064",
+  "drive": "Filmes 2.0/Copy of 170.mp4",
+  "duracao": 50.2,
+  "descricao": "Rosto sombrio em close, cena de série dramática",
+  "nome": "rosto-sombrio-serie",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "série",
+   "drama"
+  ],
+  "serve": false
+ },
+ "1065": {
+  "n": "1065",
+  "drive": "Filmes 2.0/Copy of 382.mp4",
+  "duracao": 20.2,
+  "descricao": "Homem de camisa em cena de filme",
+  "nome": "homens-camisa-escritorio",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1066": {
+  "n": "1066",
+  "drive": "Filmes 2.0/Copy of 271.mp4",
+  "duracao": 65.6,
+  "descricao": "Tartaruga sábia animada sob céu estrelado e flores de cerejeira",
+  "nome": "tartaruga-sabia-noite-estrelada",
+  "pasta": "Cinema e Drama",
+  "clima": "frio",
+  "tags": [
+   "animação",
+   "tartaruga",
+   "noite",
+   "estrelas",
+   "sabedoria",
+   "cerejeira"
+  ],
+  "serve": true
+ },
+ "1067": {
+  "n": "1067",
+  "drive": "Filmes 2.0/Copy of 163.mp4",
+  "duracao": 35.5,
+  "descricao": "Personagem animado peludo laranja de bigode e menino de gravata",
+  "nome": "animacao-personagem-laranja-bigode",
+  "pasta": "Cinema e Drama",
+  "clima": "quente",
+  "tags": [
+   "animação",
+   "personagem",
+   "entardecer",
+   "montanhas"
+  ],
+  "serve": true
+ },
+ "1068": {
+  "n": "1068",
+  "drive": "Filmes 2.0/Copy of 280.mp4",
+  "duracao": 33.7,
+  "descricao": "Cena noir azulada com homem de chapéu contra farol e close de ator",
+  "nome": "noir-homem-chapeu-farol",
+  "pasta": "Não serve",
+  "clima": "frio",
+  "tags": [
+   "filme",
+   "noir"
+  ],
+  "serve": false
+ },
+ "1069": {
+  "n": "1069",
+  "drive": "Filmes 2.0/Copy of 42.mp4",
+  "duracao": 34.6,
+  "descricao": "Soldados caminhando em rua de cidade, homem com maleta na chuva",
+  "nome": "soldados-rua-homem-maleta-chuva",
+  "pasta": "Cinema e Drama",
+  "clima": "neutro",
+  "tags": [
+   "guerra",
+   "rua",
+   "chuva",
+   "maleta",
+   "soldados"
+  ],
+  "serve": true
+ },
+ "1070": {
+  "n": "1070",
+  "drive": "Filmes 2.0/Copy of 359.mp4",
+  "duracao": 49.6,
+  "descricao": "Ator famoso de uniforme militar em close",
+  "nome": "ator-uniforme-militar",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "guerra"
+  ],
+  "serve": false
+ },
+ "1071": {
+  "n": "1071",
+  "drive": "Filmes 2.0/Copy of 118.mp4",
+  "duracao": 36.4,
+  "descricao": "Batman e Coringa em close",
+  "nome": "batman-coringa-close",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "herói",
+   "vilão"
+  ],
+  "serve": false
+ },
+ "1072": {
+  "n": "1072",
+  "drive": "Filmes 2.0/Copy of 02.mp4",
+  "duracao": 50.7,
+  "descricao": "Casal em cena romântica sensual",
+  "nome": "casal-cena-romantica",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme",
+   "romance"
+  ],
+  "serve": false
+ },
+ "1073": {
+  "n": "1073",
+  "drive": "Filmes 2.0/Copy of 60.mp4",
+  "duracao": 20.8,
+  "descricao": "Animações tristes: personagem peludo, garota abraçando joelhos, figura encolhida",
+  "nome": "animacao-tristeza-solidao",
+  "pasta": "Silhueta e Solidão",
+  "clima": "frio",
+  "tags": [
+   "animação",
+   "tristeza",
+   "solidão",
+   "noite"
+  ],
+  "serve": true
+ },
+ "1074": {
+  "n": "1074",
+  "drive": "Filmes 2.0/Copy of 74.mp4",
+  "duracao": 67.7,
+  "descricao": "Cena de super-herói com mulher desfalecida e choro",
+  "nome": "heroi-cena-dramatica-morte",
+  "pasta": "Não serve",
+  "clima": "escuro",
+  "tags": [
+   "filme",
+   "violência"
+  ],
+  "serve": false
+ },
+ "1075": {
+  "n": "1075",
+  "drive": "Filmes 2.0/Copy of 394.mp4",
+  "duracao": 86.7,
+  "descricao": "Homem de barba e palhaço sinistro de terno laranja em mercado",
+  "nome": "palhaco-sinistro-terno-laranja",
+  "pasta": "Cinema e Drama",
+  "clima": "quente",
+  "tags": [
+   "palhaço",
+   "terror",
+   "máscara",
+   "mercado",
+   "laranja"
+  ],
+  "serve": true
+ },
+ "1076": {
+  "n": "1076",
+  "drive": "Filmes 2.0/Copy of 152.mp4",
+  "duracao": 47.8,
+  "descricao": "Homem conversando em sala de aula com alunos, vídeo caseiro",
+  "nome": "homem-sala-aula-alunos",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "sala de aula",
+   "vídeo caseiro"
+  ],
+  "serve": false
+ },
+ "1077": {
+  "n": "1077",
+  "drive": "Filmes 2.0/Copy of 101.mp4",
+  "duracao": 12.4,
+  "descricao": "Coringa de perfil, close",
+  "nome": "coringa-perfil-close",
+  "pasta": "Não serve",
+  "clima": "neutro",
+  "tags": [
+   "filme",
+   "vilão"
+  ],
+  "serve": false
+ },
+ "1078": {
+  "n": "1078",
+  "drive": "Filmes 2.0/Copy of 144.mp4",
+  "duracao": 53.6,
+  "descricao": "Homem de camisa xadrez em close, cena de filme",
+  "nome": "homem-camisa-xadrez-filme",
+  "pasta": "Não serve",
+  "clima": "quente",
+  "tags": [
+   "filme"
+  ],
+  "serve": false
+ },
+ "1079": {
+  "n": "1079",
+  "drive": "Filmes 2.0/Copy of 54.mp4",
+  "duracao": 18.7,
+  "descricao": "Silhuetas ao pôr do sol, praia e ator famoso de perfil",
+  "nome": "silhuetas-por-do-sol-praia",
+  "pasta": "Não serve",
+  "clima": "dourado",
+  "tags": [
+   "pôr do sol",
+   "praia",
+   "silhueta"
+  ],
+  "serve": false
  }
 }
